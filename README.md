@@ -59,3 +59,15 @@ Add a `Strategy` to `ddsim/strategies.py`: a party (rank 1 first), four
 skills per hero, and optional `PolicyParams` (targeting focus
 `threat|stress_first|backline|lowest_hp`, heal thresholds, stun weight).
 The test suite validates every registered strategy automatically.
+
+## Broad composition search
+
+`ddsim/search.py` searches the full configuration space (~10⁹: all 1,680
+ordered parties × ~1M loadouts each × policy knobs) with a staged
+screen-and-refine design — see `docs/COVERAGE_GAPS.md` for the coverage
+critique that motivated it and the statistical design (common random
+numbers, hill-climbed loadouts, fresh-seed validation of finalists):
+
+```bash
+python -m ddsim.search --out results/search   # ~2M dungeons, checkpointed
+```
