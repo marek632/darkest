@@ -41,3 +41,36 @@ A run is a fixed 4-encounter dungeon (random draws from the encounter table); **
 - **blight_party** — Hellion / Grave Robber / Plague Doctor / Occultist. Blight-heavy comp: strong into skeletons' low blight resist.
 - **stun_wall** — Hellion / Bounty Hunter / Plague Doctor / Vestal. Maximum stun coverage across all four ranks.
 - **all_damage_no_healer** — Hellion / Highwayman / Bounty Hunter / Grave Robber. Deliberate baseline: zero sustain, pure damage.
+
+## Findings
+
+1. **Three statistically indistinguishable winners.** `bleed_party` (82.0%),
+   `classic_balanced` (81.8%) and `shuffle_bruisers` (80.8%) form a top tier;
+   pairwise differences are not significant at α=0.05. Every other strategy is
+   significantly worse than the leader (p<0.001).
+2. **If you care about hero survival, `classic_balanced` is the pick.** It wins
+   as often as `bleed_party` but is deathless in 69.5% of runs vs 52.5%, with
+   0.87 vs 1.08 deaths per run — the Crusader/Vestal core absorbs and heals
+   back the climax fights that kill the bruiser comps' heroes.
+3. **The "bleed party" wins by not bleeding.** Instrumented battles show 0% of
+   its actions are bleed skills against bleed-immune skeletons (vs ~30%
+   against brigands): the policy adapts, and the comp's raw stats — highest
+   weapon damage plus Wyrd Reconstruction sustain — carry it. DoT identity is
+   a loadout option, not a win condition.
+4. **Sustain is mandatory.** The zero-healer baseline collapses (34.8% win,
+   4.2% deathless, 3.17 deaths/run) despite ending fights fastest (18.8
+   rounds). Racing the damage clock does not work over a 4-encounter run.
+5. **Slow control underperforms.** `stun_wall` (57.4%) and
+   `double_healer_turtle` (63.8%) trade damage for control/sustain and drag
+   fights out (32-34 rounds), which feeds enemy stress output — their
+   affliction counts (1.8, 1.3 per run) are among the worst.
+6. **Blight ≠ bleed, economically.** `blight_party` (62.5%) has the right
+   idea against skeletons but the blight carriers (Plague Doctor, Grave
+   Robber darts) have weak direct damage, so fights last 33.7 rounds and
+   stress snowballs (95 avg survivor stress, 1.64 afflictions/run).
+
+**Recommendation:** `classic_balanced` — Crusader / Highwayman / Plague
+Doctor / Vestal with balanced loadouts — as the best overall strategy: top-tier
+win rate, the best deathless rate (69.5%), and the fewest deaths per run.
+Statistical basis: 2000 runs/strategy; win-rate ties broken by hero survival,
+on which it beats the other top-tier comps by 7-17 points of deathless rate.
