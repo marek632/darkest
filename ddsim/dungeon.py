@@ -82,10 +82,15 @@ def rest_phase(heroes, log=None):
             log.append(f"camp: {best.name} recovers {best_kind}")
 
 
-def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False):
+def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False,
+                policy=None, on_event=None):
+    """``policy`` overrides the heuristic hero AI (signature: (battle, hero)
+    -> Action). ``on_event`` receives ("room_cleared", slot) and
+    ("run_end", RunResult) callbacks — used by RL reward shaping."""
     rng = random.Random(seed)
     heroes = build_party(party_spec)
-    policy = make_policy(policy_params)
+    if policy is None:
+        policy = make_policy(policy_params)
     result = RunResult()
     log = [] if keep_log else None
     light = LIGHT_START
@@ -127,6 +132,8 @@ def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False):
         if not cleared:
             break
         result.encounters_cleared += 1
+        if on_event is not None:
+            on_event("room_cleared", slot)
         if slot < len(ENCOUNTER_TABLE) - 1:
             rest_phase(heroes, log=log)
 
@@ -140,4 +147,6 @@ def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False):
     )
     if log is not None:
         result.log = log
+    if on_event is not None:
+        on_event("run_end", result)
     return result
