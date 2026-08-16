@@ -250,3 +250,41 @@ symulacji kampanii).
    wszystkich stron albo informacja właściciela).
 4. **Karty komnat** (efekty specjalne, rozmieszczenie skrzyń/obszarów).
 5. Podział talii inicjatywy w zwykłej bitwie (przyjmujemy 4+4).
+
+---
+
+# Karty potworów (zdjęcia od właściciela) + kość Progu Śmierci
+
+**Kość Progu Śmierci: K10 z 3 czaszkami → 30% zgonu na paczkę ran**
+(potwierdzone przez właściciela).
+
+Format kart: typ (Człowiek/Plugawy/Bestia · Front/Tył · Mały/Duży),
+poziom, Szybkość, Odporności/Niewrażliwości, Wytrzymałość; umiejętności
+1/2/(3) z regułą celowania, zasięgiem, liczbą celów, progami
+Krytyk/Dok i obrażeniami (czerwone liczby: przy krycie / przy trafieniu);
+na dole mapowanie postawa → numer umiejętności (czasem tabela K10).
+
+| Potwór | Typ | Wytrz. | Szyb. | Odporn./Niewrażl. | Umiejętności |
+|---|---|---|---|---|---|
+| Strzelec bandytów | Człowiek·Tył I | 8 | 1 | odp. Krwotok | 1: Chmura śrutu — Zatłoczony, 4 cele, Kryt 0 [4], Dok 7 [2], Osłabienie 2t · 2: Pośpieszny strzał — Najbliższy, 1 cel, Kryt 1 [5], Dok 6 [3], na siebie Odepchnięcie 1 |
+| Pluwacz (pająk) | Bestia·Tył·Mały I | 5 | 1 | odp. Zaraza | 1: Splunięcie — Naznaczony→Najdalszy, zasięg 2, Kryt 1 [6], Dok 9 [4], Osłabienie 2t + Zaraza 1/3t, +2 kontra naznaczonym · 2: Ugryzienie — Naznaczony→Najbliższy, zasięg 0, Kryt 0 [4], Dok 8 [2], Zaraza 1/3t, +2 kontra naznaczonym |
+| Kościany Kapitan | Plugawy·Front·**Duży** II | **33** | 1 | odp. Przesuwanie; niewrażl. Krwotok+Zaraza | 1: Dewastujące uderzenie — Najbliższy, zasięg 1, Kryt 2 [**17**], Dok 9 [**11**], Odepchnięcie 1 · 2: Wbicie w ziemię — Zatłoczony, zasięg 0, 4 cele, Kryt 1 [7], Dok 9 [5], Ogłuszenie 2t; postawa agresywna: K10 1–6→um.1, 7–10→um.2 |
+| Akolita Kultystów | Człowiek·Tył I | 9 | 1 | odp. Osłabienie | 1: Koszmarna inkantacja — **Najbardziej zestresowany**, Kryt 0 [2], Dok 9 [1], stres +1 i **światło −1** · 2: Wezwanie przedwiecznych — Najdalszy, 2 cele, Kryt 1 [2], Dok 9 [1], Odepchnięcie 2 · 3: Odprawa przedwiecznych — Najbliższy, Kryt 1 [2], Dok 9 [1], Odepchnięcie 2; tabele K10 per postawa |
+| Kościany Dworzanin | Plugawy·Tył I | 7 | 1 | niewrażl. Krwotok | 1: Kielich pokuszenia — Najbardziej zestresowany, zasięg 2, 2 cele, Kryt 0 [5], Dok 10 [3], stres +1 · 2: Ostrze w mroku — Najbliższy, Kryt 1 [5], Dok 7 [3] |
+| Kościany Kusznik | Plugawy·Tył I | 11 | 1 | niewrażl. Krwotok | 1: Bełt — Naznaczony→Najdalszy, zasięg 2, Kryt 1 [8], Dok 9 [5], +1 kontra naznaczonym · 2: Pchnięcie bagnetem — Najbliższy, zasięg 0, Kryt 0 [5], Dok 8 [3], na siebie Odepchnięcie 1 |
+| Gladiator Kultystów | Człowiek·Front I | 11 | **0** | odp. Ogłuszenie | 1: Szrama dawnych bogów — Najbliższy, Kryt 0 [5], Dok 8 [3], Krwotok 1/3t + Osłabienie 2t + stres +1, na siebie Przyciągnięcie 1 · 2: Cięcie z wyskoku — Najbliższy, Kryt 1 [5], Dok 5 [3], +1 kontra naznaczonym, na siebie Przyciągnięcie 1 |
+
+Słownik reguł celowania z kart: **Najbliższy / Najdalszy / Naznaczony→X
+(najpierw naznaczony, inaczej X) / Najbardziej zestresowany / Zatłoczony
+(najbardziej zatłoczony obszar, do 4 celów)**.
+
+Obserwacje systemowe: potwory „Tył" mają ataki dystansowe i słabe wręcz z
+samo-odepchnięciem; stress-dealerzy celują w najbardziej zestresowanego
+(sprzężenie zwrotne stresu!); Akolita obniża światło atakiem; duży potwór
+poziomu II (Kapitan) to 33 Wytrzymałości i 11–17 ran na cios; kontra-
+naznaczonym premie są małe (+1/+2 ran).
+
+**Nadal brakuje:** kart umiejętności bohaterów (najważniejsze), paneli
+bohaterów (Wytrzymałość/Szybkość/Unik czwórki), Uniku potworów (gdzie
+jest nadrukowany? na zdjęciach nieczytelny — instrukcja podaje „Kusznik
+ma Unik 1"), przykładowej karty komnaty.
