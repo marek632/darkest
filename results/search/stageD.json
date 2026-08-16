@@ -1,0 +1,649 @@
+[
+ {
+  "comp": [
+   "Crusader",
+   "Vestal",
+   "Highwayman",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Holy Lance",
+    "Stunning Blow",
+    "Zealous Accusation"
+   ],
+   [
+    "Hand of Light",
+    "Dazzling Light",
+    "Mace Bash"
+   ],
+   [
+    "Duelist's Advance",
+    "Grapeshot Blast",
+    "Point Blank Shot"
+   ],
+   [
+    "Noxious Blast",
+    "Plague Grenade",
+    "Blinding Gas"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 386,
+  "n": 400,
+  "val_wins": 2905,
+  "val_n": 3000,
+  "avg_deaths": 0.20466666666666666
+ },
+ {
+  "comp": [
+   "Crusader",
+   "Hellion",
+   "Highwayman",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Holy Lance",
+    "Smite",
+    "Zealous Accusation"
+   ],
+   [
+    "Barbaric YAWP",
+    "Breakthrough",
+    "Wicked Hack"
+   ],
+   [
+    "Duelist's Advance",
+    "Grapeshot Blast",
+    "Point Blank Shot"
+   ],
+   [
+    "Battlefield Medicine",
+    "Noxious Blast",
+    "Plague Grenade"
+   ]
+  ],
+  "focus": "lowest_hp",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 387,
+  "n": 400,
+  "val_wins": 2897,
+  "val_n": 3000,
+  "avg_deaths": 0.16933333333333334
+ },
+ {
+  "comp": [
+   "Crusader",
+   "Hellion",
+   "Highwayman",
+   "Grave Robber"
+  ],
+  "loadout": [
+   [
+    "Zealous Accusation",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Bleed Out",
+    "Breakthrough",
+    "Wicked Hack"
+   ],
+   [
+    "Duelist's Advance",
+    "Grapeshot Blast",
+    "Point Blank Shot"
+   ],
+   [
+    "Lunge",
+    "Pick to the Face",
+    "Poison Dart"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 1.0,
+  "heal": 0.45,
+  "wins": 390,
+  "n": 400,
+  "val_wins": 2883,
+  "val_n": 3000,
+  "avg_deaths": 0.235
+ },
+ {
+  "comp": [
+   "Crusader",
+   "Highwayman",
+   "Hellion",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Holy Lance",
+    "Smite",
+    "Zealous Accusation"
+   ],
+   [
+    "Duelist's Advance",
+    "Pistol Shot",
+    "Point Blank Shot"
+   ],
+   [
+    "Barbaric YAWP",
+    "Iron Swan",
+    "Wicked Hack"
+   ],
+   [
+    "Noxious Blast",
+    "Plague Grenade",
+    "Blinding Gas"
+   ]
+  ],
+  "focus": "backline",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 389,
+  "n": 400,
+  "val_wins": 2876,
+  "val_n": 3000,
+  "avg_deaths": 0.22766666666666666
+ },
+ {
+  "comp": [
+   "Crusader",
+   "Highwayman",
+   "Plague Doctor",
+   "Hellion"
+  ],
+  "loadout": [
+   [
+    "Holy Lance",
+    "Smite",
+    "Zealous Accusation"
+   ],
+   [
+    "Open Vein",
+    "Point Blank Shot",
+    "Wicked Slice"
+   ],
+   [
+    "Blinding Gas",
+    "Emboldening Vapours",
+    "Noxious Blast"
+   ],
+   [
+    "Barbaric YAWP",
+    "Breakthrough",
+    "Wicked Hack"
+   ]
+  ],
+  "focus": "backline",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 388,
+  "n": 400,
+  "val_wins": 2875,
+  "val_n": 3000,
+  "avg_deaths": 0.218
+ },
+ {
+  "comp": [
+   "Highwayman",
+   "Crusader",
+   "Vestal",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Grapeshot Blast",
+    "Pistol Shot",
+    "Point Blank Shot"
+   ],
+   [
+    "Bulwark of Faith",
+    "Smite",
+    "Zealous Accusation"
+   ],
+   [
+    "Dazzling Light",
+    "Hand of Light",
+    "Mace Bash"
+   ],
+   [
+    "Noxious Blast",
+    "Plague Grenade",
+    "Blinding Gas"
+   ]
+  ],
+  "focus": "threat",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 391,
+  "n": 400,
+  "val_wins": 2872,
+  "val_n": 3000,
+  "avg_deaths": 0.23533333333333334
+ },
+ {
+  "comp": [
+   "Vestal",
+   "Crusader",
+   "Highwayman",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Dazzling Light",
+    "Hand of Light",
+    "Illumination"
+   ],
+   [
+    "Zealous Accusation",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Duelist's Advance",
+    "Grapeshot Blast",
+    "Point Blank Shot"
+   ],
+   [
+    "Noxious Blast",
+    "Plague Grenade",
+    "Blinding Gas"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 1.0,
+  "heal": 0.45,
+  "wins": 375,
+  "n": 400,
+  "val_wins": 2871,
+  "val_n": 3000,
+  "avg_deaths": 0.24066666666666667
+ },
+ {
+  "comp": [
+   "Highwayman",
+   "Crusader",
+   "Hellion",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Grapeshot Blast",
+    "Point Blank Shot",
+    "Tracking Shot"
+   ],
+   [
+    "Zealous Accusation",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Adrenaline Rush",
+    "Barbaric YAWP",
+    "Wicked Hack"
+   ],
+   [
+    "Blinding Gas",
+    "Disorienting Blast",
+    "Noxious Blast"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 384,
+  "n": 400,
+  "val_wins": 2868,
+  "val_n": 3000,
+  "avg_deaths": 0.23866666666666667
+ },
+ {
+  "comp": [
+   "Grave Robber",
+   "Vestal",
+   "Highwayman",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Flashing Daggers",
+    "Lunge",
+    "Shadow Fade"
+   ],
+   [
+    "Hand of Light",
+    "Dazzling Light",
+    "Mace Bash"
+   ],
+   [
+    "Duelist's Advance",
+    "Point Blank Shot",
+    "Tracking Shot"
+   ],
+   [
+    "Incision",
+    "Noxious Blast",
+    "Plague Grenade"
+   ]
+  ],
+  "focus": "threat",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 385,
+  "n": 400,
+  "val_wins": 2863,
+  "val_n": 3000,
+  "avg_deaths": 0.29333333333333333
+ },
+ {
+  "comp": [
+   "Vestal",
+   "Crusader",
+   "Highwayman",
+   "Grave Robber"
+  ],
+  "loadout": [
+   [
+    "Divine Comfort",
+    "Hand of Light",
+    "Mace Bash"
+   ],
+   [
+    "Holy Lance",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Duelist's Advance",
+    "Grapeshot Blast",
+    "Point Blank Shot"
+   ],
+   [
+    "Lunge",
+    "Poison Dart",
+    "Thrown Dagger"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 1.6,
+  "heal": 0.75,
+  "wins": 385,
+  "n": 400,
+  "val_wins": 2844,
+  "val_n": 3000,
+  "avg_deaths": 0.302
+ },
+ {
+  "comp": [
+   "Bounty Hunter",
+   "Crusader",
+   "Highwayman",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Collect Bounty",
+    "Finish Him",
+    "Uppercut"
+   ],
+   [
+    "Zealous Accusation",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Duelist's Advance",
+    "Grapeshot Blast",
+    "Point Blank Shot"
+   ],
+   [
+    "Noxious Blast",
+    "Plague Grenade",
+    "Blinding Gas"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 386,
+  "n": 400,
+  "val_wins": 2840,
+  "val_n": 3000,
+  "avg_deaths": 0.28633333333333333
+ },
+ {
+  "comp": [
+   "Crusader",
+   "Bounty Hunter",
+   "Highwayman",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Zealous Accusation",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Caltrops",
+    "Finish Him",
+    "Uppercut"
+   ],
+   [
+    "Duelist's Advance",
+    "Grapeshot Blast",
+    "Point Blank Shot"
+   ],
+   [
+    "Noxious Blast",
+    "Plague Grenade",
+    "Blinding Gas"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 0.6,
+  "heal": 0.45,
+  "wins": 382,
+  "n": 400,
+  "val_wins": 2831,
+  "val_n": 3000,
+  "avg_deaths": 0.29233333333333333
+ },
+ {
+  "comp": [
+   "Grave Robber",
+   "Crusader",
+   "Plague Doctor",
+   "Highwayman"
+  ],
+  "loadout": [
+   [
+    "Flashing Daggers",
+    "Lunge",
+    "Thrown Dagger"
+   ],
+   [
+    "Zealous Accusation",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Noxious Blast",
+    "Plague Grenade",
+    "Blinding Gas"
+   ],
+   [
+    "Duelist's Advance",
+    "Point Blank Shot",
+    "Tracking Shot"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 1.6,
+  "heal": 0.45,
+  "wins": 379,
+  "n": 400,
+  "val_wins": 2831,
+  "val_n": 3000,
+  "avg_deaths": 0.315
+ },
+ {
+  "comp": [
+   "Highwayman",
+   "Crusader",
+   "Grave Robber",
+   "Vestal"
+  ],
+  "loadout": [
+   [
+    "Duelist's Advance",
+    "Point Blank Shot",
+    "Tracking Shot"
+   ],
+   [
+    "Bulwark of Faith",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Flashing Daggers",
+    "Lunge",
+    "Pick to the Face"
+   ],
+   [
+    "Dazzling Light",
+    "Divine Grace",
+    "Judgement"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 0.6,
+  "heal": 0.75,
+  "wins": 383,
+  "n": 400,
+  "val_wins": 2826,
+  "val_n": 3000,
+  "avg_deaths": 0.2793333333333333
+ },
+ {
+  "comp": [
+   "Highwayman",
+   "Crusader",
+   "Grave Robber",
+   "Plague Doctor"
+  ],
+  "loadout": [
+   [
+    "Duelist's Advance",
+    "Point Blank Shot",
+    "Wicked Slice"
+   ],
+   [
+    "Zealous Accusation",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Lunge",
+    "Poison Dart",
+    "Flashing Daggers"
+   ],
+   [
+    "Blinding Gas",
+    "Disorienting Blast",
+    "Noxious Blast"
+   ]
+  ],
+  "focus": "threat",
+  "stun": 1.0,
+  "heal": 0.45,
+  "wins": 376,
+  "n": 400,
+  "val_wins": 2826,
+  "val_n": 3000,
+  "avg_deaths": 0.29833333333333334
+ },
+ {
+  "comp": [
+   "Crusader",
+   "Vestal",
+   "Highwayman",
+   "Grave Robber"
+  ],
+  "loadout": [
+   [
+    "Zealous Accusation",
+    "Smite",
+    "Stunning Blow"
+   ],
+   [
+    "Dazzling Light",
+    "Hand of Light",
+    "Judgement"
+   ],
+   [
+    "Duelist's Advance",
+    "Grapeshot Blast",
+    "Point Blank Shot"
+   ],
+   [
+    "Lunge",
+    "Pick to the Face",
+    "Poison Dart"
+   ]
+  ],
+  "focus": "stress_first",
+  "stun": 1.6,
+  "heal": 0.45,
+  "wins": 386,
+  "n": 400,
+  "val_wins": 2818,
+  "val_n": 3000,
+  "avg_deaths": 0.3526666666666667
+ },
+ {
+  "comp": [
+   "Hellion",
+   "Highwayman",
+   "Bounty Hunter",
+   "Grave Robber"
+  ],
+  "loadout": [
+   [
+    "Wicked Hack",
+    "Iron Swan",
+    "Bleed Out"
+   ],
+   [
+    "Wicked Slice",
+    "Pistol Shot",
+    "Open Vein"
+   ],
+   [
+    "Collect Bounty",
+    "Mark for Death",
+    "Caltrops"
+   ],
+   [
+    "Thrown Dagger",
+    "Poison Dart",
+    "Lunge"
+   ]
+  ],
+  "focus": "lowest_hp",
+  "stun": 1.0,
+  "heal": 0.3,
+  "wins": -1,
+  "n": 0,
+  "label": "baseline:all_damage_no_healer",
+  "val_wins": 2274,
+  "val_n": 3000,
+  "avg_deaths": 1.1346666666666667
+ }
+]
