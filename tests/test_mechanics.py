@@ -280,3 +280,68 @@ def test_two_proportion_z():
     assert z > 0 and p < 0.001
     z2, p2 = two_proportion_z(50, 100, 50, 100)
     assert abs(z2) < 1e-9 and p2 > 0.99
+
+
+# ------------------------------------------------- grounded-stats mechanics
+def test_per_battle_skill_limit():
+    pd = hero("Plague Doctor", ("Blinding Gas", "Noxious Blast", "Battlefield Medicine"))
+    filler1 = hero()
+    filler2 = hero("Highwayman", ("Wicked Slice", "Pistol Shot", "Open Vein"))
+    b = battle([filler1, filler2, pd], [enemy("Bone Defender"), enemy("Bone Defender"),
+                                        enemy("Bone Defender"), enemy("Bone Defender")])
+    gas = next(s for s in pd.skills if s.name == "Blinding Gas")
+    assert gas.limit == 3
+    for _ in range(3):
+        b.execute(pd, type(b).legal_actions.__get__(b)(pd)[0]
+                  if False else __import__("ddsim.combat", fromlist=["Action"]).Action(
+                      "skill", skill=gas, targets=b.legal_targets(pd, gas)[0]))
+    legal_names = {a.skill.name for a in b.legal_actions(pd)}
+    assert "Blinding Gas" not in legal_names  # 3 uses spent
+
+
+def test_necromancer_summons():
+    from ddsim.combat import Action
+    nec = enemy("Necromancer")
+    h = hero()
+    b = battle([h], [nec])
+    flesh = nec.etype.skills[0]
+    assert flesh.summon == "Bone Soldier"
+    b.execute(nec, Action("skill", skill=flesh, targets=[h]))
+    assert len(b.alive_enemies()) == 2  # a skeleton joined the fight
+
+
+def test_armor_piercing_ignores_prot():
+    from ddsim.combat import Action
+    gr = hero("Grave Robber", ("Pick to the Face", "Thrown Dagger", "Poison Dart"))
+    wall = enemy("Bone Defender")  # PROT 25
+    dmgs_pierce, dmgs_normal = [], []
+    for seed in range(300):
+        w1, w2 = enemy("Bone Defender"), enemy("Bone Defender")
+        b1 = battle([gr], [w1], seed=seed)
+        pick = next(s for s in gr.skills if s.name == "Pick to the Face")
+        hp0 = w1.hp
+        b1.resolve_attack(gr, pick, w1)
+        dmgs_pierce.append(hp0 - w1.hp)
+        b2 = battle([gr], [w2], seed=seed + 1000)
+        dagger = next(s for s in gr.skills if s.name == "Thrown Dagger")
+        hp0 = w2.hp
+        b2.resolve_attack(gr, dagger, w2)
+        dmgs_normal.append(hp0 - w2.hp)
+    # piercing (0.85 mod, no prot) should out-damage normal (0.9 mod, -25% prot)
+    assert sum(dmgs_pierce) > sum(dmgs_normal)
+
+
+def test_riposte_counters():
+    from ddsim.combat import Action
+    hm = hero("Highwayman", ("Duelist's Advance", "Wicked Slice", "Pistol Shot"))
+    hm.riposte = [3, 0.6]
+    countered = 0
+    for seed in range(200):
+        e = enemy("Cultist Brawler")
+        b = battle([hm], [e], seed=seed)
+        hm.hp = hm.max_hp
+        hp0 = e.hp
+        b.resolve_attack(e, e.etype.skills[0], hm)
+        if e.hp < hp0:
+            countered += 1
+    assert countered > 30  # counters land on a meaningful share of hits

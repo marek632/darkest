@@ -183,6 +183,11 @@ class Battle:
             mult += skill.vs_marked
         if target.stunned:
             mult += skill.vs_stunned
+        if skill.vs_family and not target.is_hero \
+                and target.etype.family == skill.vs_family[0]:
+            mult += skill.vs_family[1]
+        if skill.vs_blighted and any(d[0] == "blight" for d in target.dots):
+            mult += skill.vs_blighted
         dmg *= max(0.0, mult)
         return dmg, hi * max(0.0, mult)
 
@@ -205,7 +210,8 @@ class Battle:
                 crit = True
                 result = "crit"
                 dmg = max_dmg * 1.5
-            dmg *= 1.0 - clamp(target.stat("prot"), 0, 90) / 100.0
+            if not skill.ignore_prot:
+                dmg *= 1.0 - clamp(target.stat("prot"), 0, 90) / 100.0
             dmg = max(1, round(dmg))
             self.apply_damage(target, dmg, cause=skill.name)
             if crit and target.is_hero and target.alive:
@@ -249,6 +255,20 @@ class Battle:
         if skill.target_move and target.alive:
             self.move_combatant(target, skill.target_move)
 
+        # riposte: the defender counters the attacker once per hit taken
+        if (target.alive and target.riposte and result in ("hit", "crit")
+                and actor.alive):
+            rounds_left, rmult = target.riposte
+            tn = clamp(8 + target.stat("acc") - actor.stat("dodge"), 1, 9)
+            if self.rng.randrange(10) < tn:
+                lo, hi = target.dmg
+                cdmg = self.rng.uniform(lo, hi) * rmult * max(
+                    0.0, target.stat("dmg_mult"))
+                cdmg *= 1.0 - clamp(actor.stat("prot"), 0, 90) / 100.0
+                cdmg = max(1, round(cdmg))
+                self.say(f"{target.name} ripostes {actor.name} for {cdmg}")
+                self.apply_damage(actor, cdmg, cause="riposte")
+
         return result
 
     def resolve_support(self, actor, skill: Skill, target):
@@ -289,6 +309,17 @@ class Battle:
             actor.add_buff(b.stat, b.amount, b.duration)
         if skill.mark and skill.target_type == "self":
             actor.marked = max(actor.marked, skill.mark)
+        if skill.self_heal is not None and actor.alive:
+            actor.hp = min(actor.max_hp, actor.hp + self.rng.randint(*skill.self_heal))
+        if skill.riposte is not None:
+            actor.riposte = [skill.riposte[0], skill.riposte[1]]
+        if skill.summon is not None and not actor.is_hero:
+            from .data import ENEMY_TYPES
+            from .models import Enemy
+
+            if len(self.alive_enemies()) < 4:
+                self.enemies.insert(0, Enemy(ENEMY_TYPES[skill.summon]))
+                self.say(f"{actor.name} summons a {skill.summon}")
         if skill.self_move:
             self.move_combatant(actor, skill.self_move)
 
@@ -438,6 +469,10 @@ class Battle:
             c.buffs = [b for b in c.buffs if b[2] > 0]
             if c.marked > 0:
                 c.marked -= 1
+            if c.riposte:
+                c.riposte[0] -= 1
+                if c.riposte[0] <= 0:
+                    c.riposte = None
 
     def run(self):
         """Fight until one side falls or the room clock runs out.

@@ -51,8 +51,13 @@ def _expected_attack_value(battle: Battle, hero, skill, targets, params: PolicyP
                 mult += skill.vs_marked
             if t.stunned:
                 mult += skill.vs_stunned
+            if skill.vs_family and t.etype.family == skill.vs_family[0]:
+                mult += skill.vs_family[1]
+            if skill.vs_blighted and any(d[0] == "blight" for d in t.dots):
+                mult += skill.vs_blighted
             avg *= max(0.0, mult)
-            avg *= 1.0 - clamp(t.stat("prot"), 0, 90) / 100.0
+            if not skill.ignore_prot:
+                avg *= 1.0 - clamp(t.stat("prot"), 0, 90) / 100.0
         else:
             avg = 0.0
         if skill.dot is not None:

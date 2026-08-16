@@ -129,7 +129,7 @@ STRATEGIES = [
         (
             ("Hellion", ("Wicked Hack", "Iron Swan", "Bleed Out")),
             ("Highwayman", ("Wicked Slice", "Pistol Shot", "Open Vein")),
-            ("Bounty Hunter", ("Collect Bounty", "Mark for Death", "Hook and Slice")),
+            ("Bounty Hunter", ("Collect Bounty", "Mark for Death", "Caltrops")),
             ("Grave Robber", ("Thrown Dagger", "Poison Dart", "Lunge")),
         ),
         PolicyParams(focus="lowest_hp", heal_threshold=0.3),

@@ -58,6 +58,12 @@ class Skill:
     target_move: int = 0
     vs_marked: float = 0.0  # extra dmg multiplier vs marked targets
     vs_stunned: float = 0.0  # extra dmg multiplier vs stunned targets
+    vs_family: Optional[tuple] = None  # (family, bonus) e.g. ("unholy", 0.15)
+    vs_blighted: float = 0.0  # extra dmg multiplier vs blighted targets
+    ignore_prot: bool = False  # armor piercing
+    self_heal: Optional[tuple] = None  # hp restored to the user on cast
+    riposte: Optional[tuple] = None  # (rounds, dmg_mult): counter when hit
+    summon: Optional[str] = None  # enemy type spawned on use (monsters)
     self_buffs: tuple = ()
     target_buffs: tuple = ()  # beneficial, applied to allies (no resist)
     target_debuffs: tuple = ()  # hostile, resisted by debuff resist
@@ -101,6 +107,7 @@ class EnemyType:
     weights: tuple  # selection weight per skill
     prefer: str = "random"  # random | back | front | stress | weak | marked
     tags: tuple = ()  # e.g. ('stress',), ('tank',), ('ranged',)
+    family: str = "human"  # unholy | human | eldritch | beast (vs_family bonuses)
     is_boss: bool = False
 
 
@@ -121,6 +128,7 @@ class Combatant:
         self.alive = True
         self.stunned = False
         self.marked = 0  # rounds remaining
+        self.riposte = None  # [rounds_left, dmg_mult] while active
         self.buffs = []  # list of [stat, amount, rounds_left]
         self.dots = []  # list of [kind, dpr, rounds_left]
         self.skill_uses = {}
@@ -152,6 +160,7 @@ class Combatant:
         virtue/affliction modifiers, which use duration >= 900)."""
         self.stunned = False
         self.marked = 0
+        self.riposte = None
         self.buffs = [b for b in self.buffs if b[2] >= 900]
         self.dots = []
         self.skill_uses = {}

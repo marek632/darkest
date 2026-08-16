@@ -51,7 +51,7 @@ BASELINE = {  # hand-crafted v2 champion, for reference in stage D
     "party": (
         ("Hellion", ("Wicked Hack", "Iron Swan", "Bleed Out")),
         ("Highwayman", ("Wicked Slice", "Pistol Shot", "Open Vein")),
-        ("Bounty Hunter", ("Collect Bounty", "Mark for Death", "Hook and Slice")),
+        ("Bounty Hunter", ("Collect Bounty", "Mark for Death", "Caltrops")),
         ("Grave Robber", ("Thrown Dagger", "Poison Dart", "Lunge")),
     ),
     "focus": "lowest_hp", "stun": 1.0, "heal": 0.3,
