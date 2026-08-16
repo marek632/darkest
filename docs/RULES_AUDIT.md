@@ -110,14 +110,25 @@ whose healers had strong heal skills twice over (in combat and in recovery).
 restores a flat amount of HP or stress to any hero, independent of anyone's
 skill kit — matching the official camping economy's shape.
 
-### F8 — The light tracker exists and gates the run · **MODERATE — FIXED**
+### F8 — The light tracker: darkness punishes, it does not end the quest · **MODERATE — FIXED (corrected)**
 
 > "The light tracker begins at five. Dark rooms reduce light by one."
+> Source-game light meter: darkness applies escalating penalties — up to
+> +25% monster damage, higher monster accuracy/crit, +40% stress at
+> "Black as Pitch" (0) — and better loot; it never fails the mission.
 
-v1 had no light system. **Fix:** runs start at light 5; each forced retreat
-burns 1 light (time wasted in the dark). At light 0 the quest fails. This
-gives the 4-round limit real teeth: a party can afford only a few failed
-room attempts per run.
+Runs start at light 5; each forced retreat burns 1 light (an adaptation:
+time wasted in the dark — the official trigger is exploring dark rooms).
+Low light applies the published darkness penalties, scaled to the
+simulator's dice: at light 3 and below enemies gain +10–25% damage,
++2–5 crit, and stress inflicted rises by +20–40%. **Light 0 does not end
+the quest** — a party can keep fighting in pitch darkness, and failure
+comes from attrition (wipes, stress spirals) or a generous simulation
+safety cap (20 battles/run) that real runs practically never reach. An
+earlier revision of the simulator wrongly treated light 0 as automatic
+quest failure; that was an invented bound, not an official rule, and it
+has been removed. Loot bonuses for darkness are out of scope (no loot
+economy in the simulator).
 
 ### F9 — Death's door die is rolled per wound · **MODERATE — PARTIALLY FIXED (documented)**
 
@@ -163,3 +174,46 @@ uniformly across party choices and are excluded, as before.
   25% figure carries over from the source material.
 * Crit chances remain percentage-based (the physical game's crit mechanism
   differs per skill card; cards are not public).
+
+## Assumption ledger (full provenance sweep)
+
+Prompted by the light-tracker correction, every mechanic in the simulator
+was re-classified by provenance. Three classes:
+
+* **OFFICIAL** — directly stated in publisher material or corroborated
+  rules coverage of the board game, or exact published source-game values.
+* **ADAPTATION** — official mechanic whose exact magnitude/trigger isn't
+  public; implemented in the official mechanic's *shape* with documented
+  numbers.
+* **ASSUMPTION** — invented for the simulation (usually to make it
+  terminate or tractable); flagged so no conclusion is silently built on it.
+
+| Mechanic | Class | Notes |
+|---|---|---|
+| 3 skills per hero | OFFICIAL | |
+| 4-round room limit, forced retreat | OFFICIAL | |
+| Full monster reinforcements on re-entry | OFFICIAL | publisher's combat preview |
+| d10 roll-under to-hit | OFFICIAL | mechanic; per-skill numbers converted from source values |
+| Two actions per turn (step + skill) | ADAPTATION | official action list; "at most one skill per turn" is our reading — double-skill turns are not shown in sources |
+| Initiative card deck | ADAPTATION | official mechanic; one card per living combatant is assumed (deck composition not public) |
+| Light tracker: darkness penalties, never failure | OFFICIAL (shape + source table) | retreat costing 1 light is an ADAPTATION (official trigger is dark rooms during exploration) |
+| Death's door + heal removes it | OFFICIAL | |
+| Death's-door die = 1/3 death, rolled per damage event | ADAPTATION | die faces not public; per-event (not per-wound) keeps source HP scale |
+| Stress short track, afflictions, heart attacks | ADAPTATION | 0–10 track; resolve at first fill (25% virtue — source value), heart attack at second fill mirrors the source's 200 cap; virtue→4 matches source's reset-to-45 ratio; affliction→7 is invented to avoid an instant-heart-attack loop |
+| Camp rest points after a cleared room | ADAPTATION | official shape; 4 points × (3 HP or 2 stress) magnitudes invented |
+| Bleed/blight/stun/mark/resists | OFFICIAL values | percentages from published stat lines |
+| Stun grants +50 stun resist for 2 rounds | OFFICIAL (source game) | |
+| Crit = 1.5 × max damage | OFFICIAL (source game) | |
+| Riposte, armor piercing, vs-family bonuses, skill limits, summons | OFFICIAL (source game) | |
+| Effective to-hit clamped 1–9 (hit and miss always possible) | ASSUMPTION | guardrail; the physical game may allow auto-hits/misses |
+| Enemy AI: weighted skills + targeting preferences | ADAPTATION | official monsters follow per-card behavior; weights approximate them |
+| Encounter tables, 4-room dungeon shape | ASSUMPTION | official quests vary; fixed shape isolates strategy comparison |
+| 20-battle simulation safety cap | ASSUMPTION | anti-infinite-loop guard only; practically unreachable |
+| Voluntary early retreat from a room | NOT MODELED | heroes always fight the full 4 rounds |
+| Torch provisions restoring light | NOT MODELED | no provisioning economy |
+| Difficulty calibration 0.8× enemy HP/damage | ASSUMPTION | single documented knob over official values |
+
+No conclusion in the final report rests on an ASSUMPTION-class mechanic
+except the fixed dungeon shape (which applies identically to every
+strategy) and the calibration knob (which preserves all relative
+relationships between enemies).

@@ -75,12 +75,14 @@ def write_report(summaries, out_dir, runs, elapsed):
     lines.append(f"*{len(summaries)} strategies x {runs} runs each "
                  f"({len(summaries) * runs:,} simulated dungeons, {elapsed:.0f}s).*\n")
     lines.append("A run is a 4-room dungeon (random draws from the encounter "
-                 "table) under board-game rules: rooms last at most 4 rounds, "
+                 "table) under board-game rules: rooms last at most 4 rounds; "
                  "an uncleared room forces a retreat (stress, -1 light, full "
-                 "monster reinforcements), and the quest fails when the light "
-                 "tracker (start 5) hits 0. **Win** = clear all 4 rooms with "
-                 "at least one hero alive. Seeds are deterministic, so every "
-                 "strategy faces the same distribution of dungeons.\n")
+                 "monster reinforcements). Low light never ends the quest — "
+                 "it strengthens monsters (damage/crit/stress per the source "
+                 "game's light-meter table), so failure comes from attrition. "
+                 "**Win** = clear all 4 rooms with at least one hero alive. "
+                 "Seeds are deterministic, so every strategy faces the same "
+                 "distribution of dungeons.\n")
     lines.append("## Ranking\n")
     lines.append("| # | Strategy | Win rate | 95% CI | Deathless | Avg deaths "
                  "| Avg rounds | Retreats | Avg afflictions | Survivor stress | vs best (p) |")

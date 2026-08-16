@@ -20,6 +20,19 @@ from .models import Combatant, Enemy, Hero, Skill
 
 ROOM_ROUNDS = 4  # official: after four rounds the heroes must retreat
 STRESS_CAP = 10
+
+# Darkness penalties by light level (0-5), scaled from the source game's
+# published light-meter table (Radiant -> Black as Pitch). Darkness makes
+# monsters stronger and scarier — it never ends the quest.
+# light level -> (enemy dmg mult, stress mult, enemy crit bonus)
+DARKNESS = {
+    5: (1.00, 1.0, 0),
+    4: (1.00, 1.1, 0),
+    3: (1.10, 1.2, 2),
+    2: (1.15, 1.3, 3),
+    1: (1.25, 1.4, 5),
+    0: (1.25, 1.4, 5),
+}
 STRESS_VIRTUE_CHANCE = 25  # % on resolve test (source-material carry-over)
 CRIT_STRESS_ON_VICTIM = 1
 DEATHS_DOOR_STRESS = 1
@@ -41,13 +54,15 @@ class Action:
 
 
 class Battle:
-    def __init__(self, heroes, enemies, rng: random.Random, hero_policy, log=None):
+    def __init__(self, heroes, enemies, rng: random.Random, hero_policy, log=None,
+                 light=5):
         self.heroes = [h for h in heroes if h.alive]
         self.enemies = enemies
         self.rng = rng
         self.hero_policy = hero_policy
         self.log = log
         self.round = 0
+        self.dark_dmg, self.dark_stress, self.dark_crit = DARKNESS[clamp(light, 0, 5)]
         self.stats = {"crits_taken": 0, "afflictions": 0, "heart_attacks": 0}
 
     # -- helpers -----------------------------------------------------------
@@ -172,8 +187,8 @@ class Battle:
         if skill.dmg_range is not None:  # enemy attack
             from .tuning import ENEMY_DMG_MULT
 
-            lo = skill.dmg_range[0] * ENEMY_DMG_MULT
-            hi = skill.dmg_range[1] * ENEMY_DMG_MULT
+            lo = skill.dmg_range[0] * ENEMY_DMG_MULT * self.dark_dmg
+            hi = skill.dmg_range[1] * ENEMY_DMG_MULT * self.dark_dmg
         else:
             lo = actor.dmg[0] * skill.dmg_mod
             hi = actor.dmg[1] * skill.dmg_mod
@@ -206,6 +221,8 @@ class Battle:
         if deals_damage:
             dmg, max_dmg = self.roll_damage(actor, skill, target)
             crit_chance = actor.stat("crit") + skill.crit_mod
+            if not actor.is_hero:
+                crit_chance += self.dark_crit
             if self.rng.uniform(0, 100) < crit_chance:
                 crit = True
                 result = "crit"
@@ -226,7 +243,8 @@ class Battle:
         if skill.stress_dmg is not None and target.is_hero:
             from .tuning import ENEMY_STRESS_MULT
 
-            amt = max(1, round(self.rng.randint(*skill.stress_dmg) * ENEMY_STRESS_MULT))
+            amt = max(1, round(self.rng.randint(*skill.stress_dmg)
+                               * ENEMY_STRESS_MULT * self.dark_stress))
             if crit:
                 amt += 1
             self.add_stress(target, amt)

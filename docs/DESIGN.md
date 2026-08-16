@@ -21,10 +21,13 @@ clear.
 Per the official rules, a room's battle lasts **at most 4 rounds**. If
 the room isn't cleared, the party retreats: heroes keep their wounds,
 each gains 1 stress, the **light tracker** (start 5) drops 1, and the
-room refills to a full monster group for the next attempt. At light 0
-the quest fails. After clearing a room (except the last), the party
-camps: a pool of 4 **rest points**, each restoring 3 HP or clearing 2
-stress on any hero — a fixed economy independent of anyone's skill kit.
+room refills to a full monster group for the next attempt. Darkness
+never ends the quest — as the light dies, monsters grow stronger
+(+10–25% damage, +2–5 crit, +20–40% stress, per the source game's
+light-meter table), so failure comes from attrition, not a timer.
+After clearing a room (except the last), the party camps: a pool of 4
+**rest points**, each restoring 3 HP or clearing 2 stress on any hero —
+a fixed economy independent of anyone's skill kit.
 
 **Win** = all 4 rooms cleared with at least one hero alive.
 

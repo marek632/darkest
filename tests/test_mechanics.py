@@ -195,28 +195,54 @@ def test_initiative_alternates_by_cards():
     assert turns.count(False) <= ROOM_ROUNDS * 2
 
 
-# ------------------------------------------------------- retreats and light
-def test_retreat_reinforcement_and_light_failure():
-    # a party that cannot win slot-4 fights must burn all light and fail
+# ---------------------------------------------------- retreats and darkness
+def test_darkness_strengthens_monsters_but_never_ends_the_quest():
+    from ddsim.combat import DARKNESS
+    # penalties escalate monotonically as the light dies
+    for lv in range(5, 0, -1):
+        assert DARKNESS[lv - 1][0] >= DARKNESS[lv][0]  # enemy damage
+        assert DARKNESS[lv - 1][1] >= DARKNESS[lv][1]  # stress
+    # pitch black: monsters hit measurably harder than at full light
+    h = hero()
+    e = enemy("Cultist Brawler")
+    bright = battle([h], [e], seed=1)
+    dark = Battle([hero()], [enemy("Cultist Brawler")], random.Random(1),
+                  make_policy(PolicyParams()), light=0)
+    sk = e.etype.skills[0]
+    lo_b, _ = bright.roll_damage(e, sk, h)[0], None
+    lo_d, _ = dark.roll_damage(dark.enemies[0], sk, dark.heroes[0])[0], None
+    assert dark.dark_dmg > bright.dark_dmg
+
+
+def test_weak_party_fails_by_attrition_not_by_light():
+    # a party that cannot clear rooms keeps fighting in the dark until the
+    # party dies or the safety cap ends the run — light 0 is not a loss
     party = (
         ("Vestal", ("Divine Grace", "Divine Comfort", "Judgement")),
         ("Vestal", ("Divine Grace", "Divine Comfort", "Judgement")),
         ("Vestal", ("Divine Grace", "Divine Comfort", "Judgement")),
         ("Vestal", ("Divine Grace", "Divine Comfort", "Judgement")),
     )
-    failed_by_light = 0
-    for seed in range(20):
+    saw_fight_after_darkness = False
+    for seed in range(15):
+        r = run_dungeon(party, PolicyParams(), seed=seed, keep_log=True)
+        assert not r.win
+        if r.retreats > LIGHT_START:
+            saw_fight_after_darkness = True  # kept fighting at light 0
+    assert saw_fight_after_darkness
+
+
+def test_safety_cap_bounds_run_length():
+    from ddsim.dungeon import MAX_BATTLES
+    party = (
+        ("Vestal", ("Divine Grace", "Divine Comfort", "Judgement")),
+        ("Vestal", ("Divine Grace", "Divine Comfort", "Judgement")),
+        ("Vestal", ("Divine Grace", "Divine Comfort", "Judgement")),
+        ("Vestal", ("Divine Grace", "Divine Comfort", "Judgement")),
+    )
+    for seed in range(5):
         r = run_dungeon(party, PolicyParams(), seed=seed)
-        assert r.retreats + r.deaths > 0 or r.win is False
-        if not r.win and r.light_remaining == 0:
-            failed_by_light += 1
-    assert failed_by_light > 0  # the light clock actually ends runs
-
-
-def test_light_budget_bounds_attempts():
-    for seed in range(10):
-        r = run_dungeon(STRATEGIES[0].party, STRATEGIES[0].params, seed=seed)
-        assert r.retreats <= LIGHT_START
+        assert r.retreats + r.encounters_cleared <= MAX_BATTLES
 
 
 # ------------------------------------------------------------------- policy

@@ -2,7 +2,7 @@
 
 Official monster stat cards are not public, so enemy numbers are
 approximations calibrated here so that strategy win rates spread across
-roughly 30-85%, which maximizes the statistical power of strategy
+a wide range, which maximizes the statistical power of strategy
 comparisons (see docs/DESIGN.md and docs/RULES_AUDIT.md).
 """
 

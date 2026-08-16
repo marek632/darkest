@@ -4,7 +4,10 @@ Board-game structure (see docs/RULES_AUDIT.md):
 * Each room's battle lasts at most 4 rounds. An uncleared room forces a
   retreat: heroes keep their wounds, gain stress, the light tracker drops,
   and the room refills to a full monster group for the next attempt.
-* The light tracker starts at 5; at light 0 the quest fails.
+* The light tracker starts at 5 and never ends the quest: low light makes
+  monsters stronger (damage/crit/stress per the source game's light-meter
+  table). Failure comes from attrition — party wipes, stress spirals — or
+  a generous simulation safety cap on total battles.
 * Clearing a room grants a fixed pool of rest points, each restoring a flat
   amount of HP or stress — independent of anyone's skill kit.
 """
@@ -24,6 +27,7 @@ REST_POINTS = 4       # per cleared room (not after the final room)
 REST_HEAL_HP = 3      # hp restored by one rest point
 REST_HEAL_STRESS = 2  # stress removed by one rest point
 RETREAT_STRESS = 1    # per hero, on a forced retreat
+MAX_BATTLES = 20      # simulation safety cap only; darkness never ends a quest
 
 
 @dataclass
@@ -85,10 +89,11 @@ def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False):
     result = RunResult()
     log = [] if keep_log else None
     light = LIGHT_START
+    battles = 0
 
     for slot in range(len(ENCOUNTER_TABLE)):
         cleared = False
-        while not cleared:
+        while not cleared and battles < MAX_BATTLES:
             alive = [h for h in heroes if h.alive]
             if not alive:
                 break
@@ -96,9 +101,12 @@ def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False):
                 h.battle_reset()
             if log is not None:
                 log.append(f"--- Room {slot + 1} (light {light}) ---")
-            # each attempt faces a full monster group (reinforcements)
+            # each attempt faces a full monster group (reinforcements);
+            # low light makes them hit harder and stress more (never ends
+            # the quest — official light rules are penalties, not failure)
             enemies = build_encounter(rng, slot)
-            battle = Battle(alive, enemies, rng, policy, log=log)
+            battle = Battle(alive, enemies, rng, policy, log=log, light=light)
+            battles += 1
             cleared = battle.run()
             result.rounds += battle.round
             result.afflictions += battle.stats["afflictions"]
@@ -107,16 +115,15 @@ def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False):
             if not cleared:
                 if not battle.alive_heroes():
                     break  # party wiped
-                # forced retreat after 4 rounds: stress + light cost
+                # forced retreat after 4 rounds: stress, and the wasted time
+                # burns light (adaptation — see docs/RULES_AUDIT.md ledger)
                 result.retreats += 1
-                light -= 1
+                light = max(0, light - 1)
                 if log is not None:
                     log.append("retreat! the room refills with monsters")
                 for h in battle.alive_heroes():
                     battle.add_stress(h, RETREAT_STRESS)
                 heroes = [h for h in heroes if h.alive]
-                if light <= 0:
-                    break  # the light is gone; quest fails
         if not cleared:
             break
         result.encounters_cleared += 1
