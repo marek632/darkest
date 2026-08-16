@@ -2,75 +2,93 @@
 
 *14 strategies x 2000 runs each (28,000 simulated dungeons, 50s).*
 
-A run is a fixed 4-encounter dungeon (random draws from the encounter table); **win** = clear all 4 encounters with at least one hero alive. Seeds are deterministic, so every strategy faces the same distribution of dungeons.
+A run is a 4-room dungeon (random draws from the encounter table) under board-game rules: rooms last at most 4 rounds, an uncleared room forces a retreat (stress, -1 light, full monster reinforcements), and the quest fails when the light tracker (start 5) hits 0. **Win** = clear all 4 rooms with at least one hero alive. Seeds are deterministic, so every strategy faces the same distribution of dungeons.
 
 ## Ranking
 
-| # | Strategy | Win rate | 95% CI | Deathless | Avg deaths | Avg rounds | Avg afflictions | Survivor stress | vs best (p) |
-|---|----------|----------|--------|-----------|------------|------------|-----------------|-----------------|-------------|
-| 1 | bleed_party | **82.0%** | 80.2%–83.6% | 52.5% | 1.08 | 24.0 | 0.56 | 65 | — |
-| 2 | classic_balanced | **81.8%** | 80.1%–83.5% | 69.5% | 0.87 | 25.6 | 0.70 | 67 | p=0.935 |
-| 3 | shuffle_bruisers | **80.8%** | 79.0%–82.4% | 62.9% | 0.99 | 24.0 | 0.61 | 64 | p=0.330 |
-| 4 | mark_backline_purge | **77.1%** | 75.3%–78.9% | 65.0% | 1.04 | 30.4 | 0.96 | 73 | p<0.001 * |
-| 5 | classic_stunlock | **77.0%** | 75.1%–78.8% | 68.3% | 1.02 | 28.3 | 0.75 | 63 | p<0.001 * |
-| 6 | classic_stress_first | **76.8%** | 74.9%–78.6% | 65.9% | 1.06 | 26.0 | 0.71 | 65 | p<0.001 * |
-| 7 | classic_aoe | **76.1%** | 74.2%–78.0% | 60.6% | 1.15 | 21.5 | 0.64 | 66 | p<0.001 * |
-| 8 | glass_cannon_rush | **72.5%** | 70.5%–74.4% | 45.1% | 1.44 | 25.1 | 1.12 | 88 | p<0.001 * |
-| 9 | backline_artillery | **70.2%** | 68.1%–72.1% | 61.6% | 1.28 | 29.8 | 1.48 | 82 | p<0.001 * |
-| 10 | mark_execute | **63.9%** | 61.8%–66.0% | 51.7% | 1.59 | 31.8 | 1.50 | 88 | p<0.001 * |
-| 11 | double_healer_turtle | **63.8%** | 61.7%–65.9% | 53.0% | 1.58 | 32.8 | 1.26 | 73 | p<0.001 * |
-| 12 | blight_party | **62.5%** | 60.3%–64.5% | 49.2% | 1.65 | 33.7 | 1.64 | 95 | p<0.001 * |
-| 13 | stun_wall | **57.4%** | 55.2%–59.5% | 46.2% | 1.84 | 32.2 | 1.82 | 94 | p<0.001 * |
-| 14 | all_damage_no_healer | **34.8%** | 32.7%–36.9% | 4.2% | 3.17 | 18.8 | 0.11 | 56 | p<0.001 * |
+| # | Strategy | Win rate | 95% CI | Deathless | Avg deaths | Avg rounds | Retreats | Avg afflictions | Survivor stress | vs best (p) |
+|---|----------|----------|--------|-----------|------------|------------|----------|-----------------|-----------------|-------------|
+| 1 | all_damage_no_healer | **93.9%** | 92.8%–94.9% | 81.3% | 0.38 | 12.2 | 0.32 | 0.03 | 1.2 | — |
+| 2 | glass_cannon_rush | **90.5%** | 89.1%–91.7% | 87.9% | 0.37 | 14.8 | 0.84 | 0.16 | 2.1 | p<0.001 * |
+| 3 | shuffle_bruisers | **84.5%** | 82.8%–86.0% | 82.6% | 0.40 | 15.8 | 1.23 | 0.28 | 2.6 | p<0.001 * |
+| 4 | classic_aoe | **77.6%** | 75.7%–79.4% | 76.4% | 0.47 | 18.4 | 1.65 | 0.37 | 3.2 | p<0.001 * |
+| 5 | classic_stress_first | **65.7%** | 63.6%–67.7% | 65.0% | 0.34 | 20.7 | 2.35 | 0.17 | 3.4 | p<0.001 * |
+| 6 | bleed_party | **60.7%** | 58.5%–62.8% | 59.7% | 0.79 | 22.3 | 2.59 | 0.51 | 4.2 | p<0.001 * |
+| 7 | classic_balanced | **47.4%** | 45.2%–49.6% | 47.3% | 0.35 | 22.8 | 3.02 | 0.20 | 4.1 | p<0.001 * |
+| 8 | classic_stunlock | **34.1%** | 32.1%–36.2% | 34.0% | 0.52 | 25.0 | 3.60 | 0.32 | 4.9 | p<0.001 * |
+| 9 | backline_artillery | **30.0%** | 28.1%–32.1% | 30.0% | 0.80 | 26.1 | 3.78 | 0.90 | 6.0 | p<0.001 * |
+| 10 | mark_backline_purge | **27.3%** | 25.3%–29.2% | 27.3% | 0.39 | 25.6 | 3.89 | 0.34 | 5.7 | p<0.001 * |
+| 11 | double_healer_turtle | **18.1%** | 16.5%–19.9% | 18.1% | 0.19 | 26.6 | 4.30 | 0.22 | 5.8 | p<0.001 * |
+| 12 | mark_execute | **16.2%** | 14.6%–17.8% | 16.1% | 0.79 | 26.1 | 4.32 | 1.00 | 6.7 | p<0.001 * |
+| 13 | blight_party | **1.9%** | 1.4%–2.6% | 1.8% | 0.79 | 28.4 | 4.84 | 0.69 | 6.7 | p<0.001 * |
+| 14 | stun_wall | **0.1%** | 0.0%–0.3% | 0.1% | 1.13 | 25.4 | 4.87 | 1.18 | 7.3 | p<0.001 * |
 
 `*` = significantly worse than the top strategy (two-proportion z-test, α=0.05).
 
 ## Strategy descriptions
 
+- **all_damage_no_healer** — Hellion / Highwayman / Bounty Hunter / Grave Robber. Deliberate baseline: zero sustain, pure damage.
+- **glass_cannon_rush** — Hellion / Highwayman / Grave Robber / Plague Doctor. No dedicated healer; race the damage clock, snipe the backline.
+- **shuffle_bruisers** — Crusader / Highwayman / Grave Robber / Vestal. Movement-skill bruisers over a Vestal anchor.
+- **classic_aoe** — Crusader / Highwayman / Plague Doctor / Vestal. Classic comp leaning on AOE clears and group healing.
+- **classic_stress_first** — Crusader / Highwayman / Plague Doctor / Vestal. Classic comp; kill stress dealers before anything else.
 - **bleed_party** — Hellion / Highwayman / Grave Robber / Occultist. Bleed-heavy comp. Expected to struggle vs bleed-immune skeletons.
 - **classic_balanced** — Crusader / Highwayman / Plague Doctor / Vestal. The tutorial party: tank/dps/support/healer, balanced loadouts.
-- **shuffle_bruisers** — Crusader / Highwayman / Grave Robber / Vestal. Movement-skill bruisers over a Vestal anchor.
-- **mark_backline_purge** — Crusader / Bounty Hunter / Occultist / Vestal. Drag the backline forward and beat it to death at the front.
 - **classic_stunlock** — Crusader / Highwayman / Plague Doctor / Vestal. Classic comp, but every stun in the kit and a policy that loves them.
-- **classic_stress_first** — Crusader / Highwayman / Plague Doctor / Vestal. Classic comp; kill stress dealers before anything else.
-- **classic_aoe** — Crusader / Highwayman / Plague Doctor / Vestal. Classic comp leaning on AOE clears and group healing.
-- **glass_cannon_rush** — Hellion / Highwayman / Grave Robber / Plague Doctor. No dedicated healer; race the damage clock, snipe the backline.
 - **backline_artillery** — Crusader / Hellion / Plague Doctor / Occultist. Two frontliners hold while the back rains AOE on the enemy rear.
-- **mark_execute** — Crusader / Bounty Hunter / Occultist / Vestal. Mark synergy: Occultist hexes, Bounty Hunter collects.
+- **mark_backline_purge** — Crusader / Bounty Hunter / Occultist / Vestal. Drag the backline forward and beat it to death at the front.
 - **double_healer_turtle** — Crusader / Bounty Hunter / Occultist / Vestal. Two healers, a marked tank, and patience.
+- **mark_execute** — Crusader / Bounty Hunter / Occultist / Vestal. Mark synergy: Occultist hexes, Bounty Hunter collects.
 - **blight_party** — Hellion / Grave Robber / Plague Doctor / Occultist. Blight-heavy comp: strong into skeletons' low blight resist.
 - **stun_wall** — Hellion / Bounty Hunter / Plague Doctor / Vestal. Maximum stun coverage across all four ranks.
-- **all_damage_no_healer** — Hellion / Highwayman / Bounty Hunter / Grave Robber. Deliberate baseline: zero sustain, pure damage.
 
-## Findings
+## Findings (v2 — corrected board-game rules)
 
-1. **Three statistically indistinguishable winners.** `bleed_party` (82.0%),
-   `classic_balanced` (81.8%) and `shuffle_bruisers` (80.8%) form a top tier;
-   pairwise differences are not significant at α=0.05. Every other strategy is
-   significantly worse than the leader (p<0.001).
-2. **If you care about hero survival, `classic_balanced` is the pick.** It wins
-   as often as `bleed_party` but is deathless in 69.5% of runs vs 52.5%, with
-   0.87 vs 1.08 deaths per run — the Crusader/Vestal core absorbs and heals
-   back the climax fights that kill the bruiser comps' heroes.
-3. **The "bleed party" wins by not bleeding.** Instrumented battles show 0% of
-   its actions are bleed skills against bleed-immune skeletons (vs ~30%
-   against brigands): the policy adapts, and the comp's raw stats — highest
-   weapon damage plus Wyrd Reconstruction sustain — carry it. DoT identity is
-   a loadout option, not a win condition.
-4. **Sustain is mandatory.** The zero-healer baseline collapses (34.8% win,
-   4.2% deathless, 3.17 deaths/run) despite ending fights fastest (18.8
-   rounds). Racing the damage clock does not work over a 4-encounter run.
-5. **Slow control underperforms.** `stun_wall` (57.4%) and
-   `double_healer_turtle` (63.8%) trade damage for control/sustain and drag
-   fights out (32-34 rounds), which feeds enemy stress output — their
-   affliction counts (1.8, 1.3 per run) are among the worst.
-6. **Blight ≠ bleed, economically.** `blight_party` (62.5%) has the right
-   idea against skeletons but the blight carriers (Plague Doctor, Grave
-   Robber darts) have weak direct damage, so fights last 33.7 rounds and
-   stress snowballs (95 avg survivor stress, 1.64 afflictions/run).
+The rules audit (docs/RULES_AUDIT.md) led to seven fixes: 3-skill loadouts,
+the 4-round room limit with forced retreat and monster reinforcement,
+initiative cards, d10 roll-under accuracy, move-then-strike turns, the 0-10
+stress track, the light tracker, and rationed camp rest. They **inverted the
+meta**:
 
-**Recommendation:** `classic_balanced` — Crusader / Highwayman / Plague
-Doctor / Vestal with balanced loadouts — as the best overall strategy: top-tier
-win rate, the best deathless rate (69.5%), and the fewest deaths per run.
-Statistical basis: 2000 runs/strategy; win-rate ties broken by hero survival,
-on which it beats the other top-tier comps by 7-17 points of deathless rate.
+1. **Tempo is everything under the official rules.** v1's champion,
+   classic_balanced, fell from 81.8% (tied 1st) to 47.4% (7th). v1's worst
+   strategy — all_damage_no_healer, the zero-sustain baseline — is now the
+   best (93.9%). The 4-round room limit turns every fight into a race, and
+   every non-damage activation costs a fraction of a room.
+2. **The light tracker, not the monsters, is what kills parties.** Strategies
+   above 84% average under 1.3 retreats per run; every strategy below 31%
+   averages ~4-5 and dies to darkness. Hero deaths are uniformly low
+   (0.19-1.13 per run) — the dominant failure mode is the quest clock, not
+   the party wipe.
+3. **In-fight healing no longer pays.** A heal spends a scarce activation on
+   HP the clock doesn't refund, and the official camp system (rationed rest
+   points between rooms) covers recovery anyway. double_healer_turtle keeps
+   its heroes safest (0.19 deaths/run) and still loses 82% of its quests.
+4. **Stalling is dead, exactly as the rules intend.** stun_wall — 57.4% in
+   v1's unlimited-round battles — wins 0.1% now. Instrumented runs show it
+   spending activations on zero-damage stuns and group heals, clearing rooms
+   1-2, then burning all five light on room 3. v1's 40-round battles were
+   quietly legitimizing an illegal strategy.
+5. **DOT ramp doesn't fit a 4-round clock.** blight_party collapsed to 1.9%:
+   a blight lands at most ~3 ticks before the room ends or refills — and a
+   retreat resets enemy HP, wasting every stacked DOT.
+6. **The adaptive-policy result still holds.** bleed_party still uses 0%
+   bleed skills against bleed-immune skeletons (~35% vs brigands), but its
+   flexibility only carries it to 6th (60.7%): its Occultist's healing
+   actions now cost tempo the comp can't spare.
+
+**Recommendation:** under official rules, **all_damage_no_healer** — Hellion /
+Highwayman / Bounty Hunter / Grave Robber, pure damage loadouts — is the best
+quest-completion strategy (93.9%, CI 92.8-94.9%, significantly ahead of every
+alternative at p<0.001). If minimizing hero deaths matters more than the
+extra win margin, **glass_cannon_rush** trades 3.4 points of win rate for the
+best deathless rate (87.9% vs 81.3%). The general law the tournament
+supports: bring damage, clear rooms on schedule, and let the official camp
+system do the healing.
+
+*Caveats:* official monster stat cards are not public (enemy numbers are
+calibrated approximations), and the hero AI is heuristic — results rank
+strategy+policy pairs, not perfect play. The magnitude of the reordering
+(rank correlation with v1 is strongly negative at the extremes) is the
+robust conclusion: the official action-economy rules punish sustain and
+control far harder than video-game-style simulations suggest.

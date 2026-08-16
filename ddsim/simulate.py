@@ -32,6 +32,7 @@ def simulate_strategy(args):
         rows.append((
             int(r.win), r.encounters_cleared, r.deaths, r.rounds,
             r.afflictions, r.heart_attacks, r.end_stress, r.survivors,
+            r.retreats, r.light_remaining,
         ))
     return strat.name, rows
 
@@ -46,6 +47,7 @@ def summarize(name, rows):
     affl_m, _ = mean_std([r[4] for r in rows])
     stress_m, _ = mean_std([r[6] for r in rows if r[7] > 0])
     deathless = sum(1 for r in rows if r[0] and r[2] == 0)
+    retreats_m, _ = mean_std([r[8] for r in rows])
     return {
         "strategy": name, "runs": n, "wins": wins,
         "win_rate": wins / n if n else 0.0,
@@ -53,6 +55,7 @@ def summarize(name, rows):
         "deathless_rate": deathless / n if n else 0.0,
         "avg_deaths": deaths_m, "sd_deaths": deaths_s,
         "avg_encounters": enc_m, "avg_rounds": rounds_m,
+        "avg_retreats": retreats_m,
         "avg_afflictions": affl_m, "avg_survivor_stress": stress_m,
     }
 
@@ -71,15 +74,18 @@ def write_report(summaries, out_dir, runs, elapsed):
     lines.append("# Darkest Dungeon Simulator — Strategy Report\n")
     lines.append(f"*{len(summaries)} strategies x {runs} runs each "
                  f"({len(summaries) * runs:,} simulated dungeons, {elapsed:.0f}s).*\n")
-    lines.append("A run is a fixed 4-encounter dungeon (random draws from the "
-                 "encounter table); **win** = clear all 4 encounters with at "
-                 "least one hero alive. Seeds are deterministic, so every "
+    lines.append("A run is a 4-room dungeon (random draws from the encounter "
+                 "table) under board-game rules: rooms last at most 4 rounds, "
+                 "an uncleared room forces a retreat (stress, -1 light, full "
+                 "monster reinforcements), and the quest fails when the light "
+                 "tracker (start 5) hits 0. **Win** = clear all 4 rooms with "
+                 "at least one hero alive. Seeds are deterministic, so every "
                  "strategy faces the same distribution of dungeons.\n")
     lines.append("## Ranking\n")
     lines.append("| # | Strategy | Win rate | 95% CI | Deathless | Avg deaths "
-                 "| Avg rounds | Avg afflictions | Survivor stress | vs best (p) |")
+                 "| Avg rounds | Retreats | Avg afflictions | Survivor stress | vs best (p) |")
     lines.append("|---|----------|----------|--------|-----------|------------"
-                 "|------------|-----------------|-----------------|-------------|")
+                 "|------------|----------|-----------------|-----------------|-------------|")
     for i, s in enumerate(summaries, 1):
         _, p = two_proportion_z(best["wins"], best["runs"], s["wins"], s["runs"])
         if s is best:
@@ -94,7 +100,8 @@ def write_report(summaries, out_dir, runs, elapsed):
             f"| {i} | {s['strategy']} | **{s['win_rate']:.1%}** "
             f"| {s['ci_lo']:.1%}–{s['ci_hi']:.1%} | {s['deathless_rate']:.1%} "
             f"| {s['avg_deaths']:.2f} | {s['avg_rounds']:.1f} "
-            f"| {s['avg_afflictions']:.2f} | {s['avg_survivor_stress']:.0f} | {pcell} |"
+            f"| {s['avg_retreats']:.2f} "
+            f"| {s['avg_afflictions']:.2f} | {s['avg_survivor_stress']:.1f} | {pcell} |"
         )
     lines.append("\n`*` = significantly worse than the top strategy "
                  "(two-proportion z-test, α=0.05).\n")
@@ -125,7 +132,7 @@ def main():
         r = run_dungeon(strat.party, strat.params, seed=BASE_SEED + 7, keep_log=True)
         print("\n".join(r.log))
         print(f"\nwin={r.win} cleared={r.encounters_cleared} deaths={r.deaths} "
-              f"stress={r.end_stress:.0f}")
+              f"retreats={r.retreats} light={r.light_remaining} stress={r.end_stress:.1f}")
         return
 
     chosen = (

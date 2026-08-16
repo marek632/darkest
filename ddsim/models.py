@@ -171,8 +171,9 @@ class Hero(Combatant):
         unknown = [s for s in skill_names if s not in cls.skills]
         if unknown:
             raise ValueError(f"{cls.name} has no skill(s) {unknown}")
-        if len(skill_names) != 4:
-            raise ValueError(f"{cls.name}: exactly 4 skills required, got {len(skill_names)}")
+        if len(skill_names) != 3:
+            # official rules: "pick three level one skills from the hero's deck"
+            raise ValueError(f"{cls.name}: exactly 3 skills required, got {len(skill_names)}")
         self.skills = [cls.skills[s] for s in skill_names]
         self.stress = 0
         self.resolve_tested = False
@@ -201,9 +202,11 @@ class Enemy(Combatant):
         for sk, w in zip(self.etype.skills, self.etype.weights):
             v = 0.0
             if sk.dmg_range:
-                v += (sk.dmg_range[0] + sk.dmg_range[1]) / 2 * (sk.acc / 100.0)
+                v += (sk.dmg_range[0] + sk.dmg_range[1]) / 2 * (min(sk.acc, 9) / 10.0)
             if sk.stress_dmg:
-                v += (sk.stress_dmg[0] + sk.stress_dmg[1]) / 2 * 1.3
+                # stress is on the short 0-10 track: a point of stress is worth
+                # roughly a point of hp x9 in threat terms
+                v += (sk.stress_dmg[0] + sk.stress_dmg[1]) / 2 * 9.0
             if sk.stun is not None:
                 v += 2.0
             total += v * w

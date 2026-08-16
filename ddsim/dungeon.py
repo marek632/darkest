@@ -1,4 +1,13 @@
-"""A full dungeon run: 4 encounters drawn from the encounter table."""
+"""A full dungeon run: 4 rooms drawn from the encounter table.
+
+Board-game structure (see docs/RULES_AUDIT.md):
+* Each room's battle lasts at most 4 rounds. An uncleared room forces a
+  retreat: heroes keep their wounds, gain stress, the light tracker drops,
+  and the room refills to a full monster group for the next attempt.
+* The light tracker starts at 5; at light 0 the quest fails.
+* Clearing a room grants a fixed pool of rest points, each restoring a flat
+  amount of HP or stress — independent of anyone's skill kit.
+"""
 
 from __future__ import annotations
 
@@ -10,7 +19,11 @@ from .data import ENCOUNTER_TABLE, ENEMY_TYPES, HERO_CLASSES
 from .models import Enemy, Hero
 from .policy import PolicyParams, make_policy
 
-RECOVERY_CASTS = 3  # free support casts after each victorious encounter
+LIGHT_START = 5
+REST_POINTS = 4       # per cleared room (not after the final room)
+REST_HEAL_HP = 3      # hp restored by one rest point
+REST_HEAL_STRESS = 2  # stress removed by one rest point
+RETREAT_STRESS = 1    # per hero, on a forced retreat
 
 
 @dataclass
@@ -19,6 +32,8 @@ class RunResult:
     encounters_cleared: int = 0
     deaths: int = 0
     rounds: int = 0
+    retreats: int = 0
+    light_remaining: int = 0
     afflictions: int = 0
     heart_attacks: int = 0
     end_stress: float = 0.0  # mean stress of survivors
@@ -27,7 +42,7 @@ class RunResult:
 
 
 def build_party(party_spec):
-    """party_spec: sequence of (class_name, [4 skill names]), rank 1 first."""
+    """party_spec: sequence of (class_name, [3 skill names]), rank 1 first."""
     return [Hero(HERO_CLASSES[cls], skills) for cls, skills in party_spec]
 
 
@@ -36,32 +51,31 @@ def build_encounter(rng, slot):
     return [Enemy(ENEMY_TYPES[n]) for n in template]
 
 
-def recovery_phase(heroes, rng, policy_params, log=None):
-    """Post-victory breather: emulates stalling — a few free support casts."""
-    from .policy import _support_value  # local import to avoid cycle
-
+def rest_phase(heroes, log=None):
+    """Camp after clearing a room: spend rest points on hp or stress."""
     for h in heroes:
         h.battle_reset()
-    battle = Battle(heroes, [], rng, hero_policy=None, log=log)
-    for _ in range(RECOVERY_CASTS):
-        best, best_score = None, 4.0  # only worthwhile casts
-        for h in battle.alive_heroes():
-            for skill in h.skills:
-                if skill.target_type not in ("ally", "party", "self"):
-                    continue
-                if skill.heal is None and skill.stress_heal is None:
-                    continue
-                for tl in battle.legal_targets(h, skill):
-                    score = _support_value(battle, h, skill, tl, policy_params)
-                    if score > best_score:
-                        best, best_score = (h, skill, tl), score
+    alive = [h for h in heroes if h.alive]
+    for _ in range(REST_POINTS):
+        best, best_score, best_kind = None, 1.0, None
+        for h in alive:
+            missing = h.max_hp - h.hp
+            heal_score = min(missing, REST_HEAL_HP) * 1.5 + (20 if h.hp == 0 else 0)
+            if heal_score > best_score:
+                best, best_score, best_kind = h, heal_score, "hp"
+            stress_score = min(h.stress, REST_HEAL_STRESS) * 3.0
+            if h.stress >= 8 and not h.resolve_tested:
+                stress_score += 15
+            if stress_score > best_score:
+                best, best_score, best_kind = h, stress_score, "stress"
         if best is None:
             break
-        h, skill, tl = best
-        for t in tl:
-            battle.resolve_support(h, skill, t)
-    for h in heroes:
-        h.buffs = [b for b in h.buffs if b[2] >= 90]  # keep virtue/affliction only
+        if best_kind == "hp":
+            best.hp = min(best.max_hp, best.hp + REST_HEAL_HP)
+        else:
+            best.stress = max(0, best.stress - REST_HEAL_STRESS)
+        if log is not None:
+            log.append(f"camp: {best.name} recovers {best_kind}")
 
 
 def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False):
@@ -70,34 +84,52 @@ def run_dungeon(party_spec, policy_params: PolicyParams, seed, keep_log=False):
     policy = make_policy(policy_params)
     result = RunResult()
     log = [] if keep_log else None
+    light = LIGHT_START
 
     for slot in range(len(ENCOUNTER_TABLE)):
-        for h in heroes:
-            h.battle_reset()
-        alive = [h for h in heroes if h.alive]
-        if not alive:
-            break
-        if log is not None:
-            log.append(f"--- Encounter {slot + 1} ---")
-        enemies = build_encounter(rng, slot)
-        battle = Battle(alive, enemies, rng, policy, log=log)
-        won = battle.run()
-        result.rounds += battle.round
-        result.afflictions += battle.stats["afflictions"]
-        result.heart_attacks += battle.stats["heart_attacks"]
-        heroes = [h for h in heroes if h.alive]
-        if not won:
+        cleared = False
+        while not cleared:
+            alive = [h for h in heroes if h.alive]
+            if not alive:
+                break
+            for h in alive:
+                h.battle_reset()
+            if log is not None:
+                log.append(f"--- Room {slot + 1} (light {light}) ---")
+            # each attempt faces a full monster group (reinforcements)
+            enemies = build_encounter(rng, slot)
+            battle = Battle(alive, enemies, rng, policy, log=log)
+            cleared = battle.run()
+            result.rounds += battle.round
+            result.afflictions += battle.stats["afflictions"]
+            result.heart_attacks += battle.stats["heart_attacks"]
+            heroes = [h for h in heroes if h.alive]
+            if not cleared:
+                if not battle.alive_heroes():
+                    break  # party wiped
+                # forced retreat after 4 rounds: stress + light cost
+                result.retreats += 1
+                light -= 1
+                if log is not None:
+                    log.append("retreat! the room refills with monsters")
+                for h in battle.alive_heroes():
+                    battle.add_stress(h, RETREAT_STRESS)
+                heroes = [h for h in heroes if h.alive]
+                if light <= 0:
+                    break  # the light is gone; quest fails
+        if not cleared:
             break
         result.encounters_cleared += 1
         if slot < len(ENCOUNTER_TABLE) - 1:
-            recovery_phase(heroes, rng, policy_params, log=log)
+            rest_phase(heroes, log=log)
 
     survivors = [h for h in heroes if h.alive]
     result.win = result.encounters_cleared == len(ENCOUNTER_TABLE) and bool(survivors)
     result.deaths = 4 - len(survivors)
     result.survivors = len(survivors)
+    result.light_remaining = max(0, light)
     result.end_stress = (
-        sum(h.stress for h in survivors) / len(survivors) if survivors else 200.0
+        sum(h.stress for h in survivors) / len(survivors) if survivors else 10.0
     )
     if log is not None:
         result.log = log

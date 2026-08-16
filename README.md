@@ -6,7 +6,7 @@ party/skill strategies against each other and ranks them statistically.
 
 * **8 hero classes** (Crusader, Highwayman, Plague Doctor, Vestal,
   Hellion, Occultist, Bounty Hunter, Grave Robber), each with a 6–7 skill
-  kit from which every strategy picks 4 per hero.
+  kit from which every strategy picks 3 per hero (the official loadout rule).
 * **12 enemy types** (skeletons, cultists, brigands, Madman, Ghoul and
   Necromancer climax fights) with per-type AI preferences and resists —
   including bleed-immune skeletons.

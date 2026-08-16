@@ -1,4 +1,16 @@
-"""Battle resolution engine."""
+"""Battle resolution engine.
+
+Implements the board game's battle rules (see docs/RULES_AUDIT.md):
+* Rooms last at most ROOM_ROUNDS rounds; an uncleared room means retreat.
+* Initiative is an alternating card deck — one card per living combatant,
+  hero-faced or monster-faced; a reveal activates that side's front-most
+  not-yet-activated combatant. Speed does not affect turn order.
+* To-hit is a d10 roll-under: hit iff d10 < (skill ACC + mods − dodge),
+  with the effective target number clamped to 1..9.
+* A hero turn may combine a one-step move with a skill use (two actions).
+* Stress is a 0–10 track; filling it tests resolve once, filling it again
+  causes a heart attack.
+"""
 
 from __future__ import annotations
 
@@ -6,12 +18,12 @@ import random
 
 from .models import Combatant, Enemy, Hero, Skill
 
-MAX_ROUNDS = 40
-STRESS_VIRTUE_CHANCE = 25  # % on resolve test
-STRESS_CAP = 200
-CRIT_STRESS_SELF_HEAL = 3   # hero landing a crit
-CRIT_STRESS_ON_VICTIM = 8   # hero being crit
-DEATHS_DOOR_STRESS = 10     # stress on reaching death's door
+ROOM_ROUNDS = 4  # official: after four rounds the heroes must retreat
+STRESS_CAP = 10
+STRESS_VIRTUE_CHANCE = 25  # % on resolve test (source-material carry-over)
+CRIT_STRESS_ON_VICTIM = 1
+DEATHS_DOOR_STRESS = 1
+DEATH_STRESS = 1  # each ally, when a hero dies
 
 
 def clamp(v, lo, hi):
@@ -22,7 +34,7 @@ class Action:
     __slots__ = ("kind", "skill", "targets", "move")
 
     def __init__(self, kind, skill=None, targets=(), move=0):
-        self.kind = kind  # 'skill' | 'move' | 'pass'
+        self.kind = kind  # 'skill' | 'move' | 'move_skill' | 'pass'
         self.skill = skill
         self.targets = list(targets)
         self.move = move
@@ -69,47 +81,42 @@ class Battle:
     def add_stress(self, hero: Hero, amount):
         if not hero.alive or amount <= 0:
             return
-        before = hero.stress
         hero.stress = min(STRESS_CAP, hero.stress + amount)
-        if before < 100 <= hero.stress and not hero.resolve_tested:
-            hero.resolve_tested = True
-            if self.rng.uniform(0, 100) < STRESS_VIRTUE_CHANCE:
-                hero.virtuous = True
-                hero.stress = 45
-                hero.add_buff("acc", 10, 9999)
-                hero.add_buff("dmg_mult", 0.15, 9999)
-                self.say(f"{hero.name} is VIRTUOUS")
-            else:
-                hero.afflicted = True
-                hero.add_buff("acc", -5, 9999)
-                hero.add_buff("dodge", -5, 9999)
-                self.stats["afflictions"] += 1
-                self.say(f"{hero.name} is AFFLICTED")
         if hero.stress >= STRESS_CAP:
-            self.stats["heart_attacks"] += 1
-            hero.stress = 170
-            if hero.at_deaths_door:
-                self.kill_hero(hero, "heart attack")
+            if not hero.resolve_tested:
+                hero.resolve_tested = True
+                if self.rng.uniform(0, 100) < STRESS_VIRTUE_CHANCE:
+                    hero.virtuous = True
+                    hero.stress = 4
+                    hero.add_buff("acc", 1, 9999)
+                    hero.add_buff("dmg_mult", 0.15, 9999)
+                    self.say(f"{hero.name} is VIRTUOUS")
+                else:
+                    hero.afflicted = True
+                    hero.stress = 7
+                    hero.add_buff("acc", -1, 9999)
+                    hero.add_buff("dodge", -1, 9999)
+                    self.stats["afflictions"] += 1
+                    self.say(f"{hero.name} is AFFLICTED")
             else:
-                hero.hp = 0
-                self.add_stress_on_deaths_door(hero)
-                self.say(f"{hero.name} suffers a HEART ATTACK -> death's door")
+                # the track filled again: heart attack
+                self.stats["heart_attacks"] += 1
+                hero.stress = 8
+                if hero.at_deaths_door:
+                    self.kill_hero(hero, "heart attack")
+                else:
+                    hero.hp = 0
+                    self.say(f"{hero.name} suffers a HEART ATTACK -> death's door")
 
     def relieve_stress(self, hero: Hero, amount):
         hero.stress = max(0, hero.stress - amount)
-
-    def add_stress_on_deaths_door(self, hero):
-        # party sees a comrade fall to death's door
-        for h in self.alive_heroes():
-            if h is not hero:
-                self.add_stress(h, 4)
 
     def kill_hero(self, hero: Hero, cause):
         hero.alive = False
         hero.hp = 0
         self.say(f"{hero.name} DIES ({cause})")
         for h in self.alive_heroes():
-            self.add_stress(h, 10)
+            self.add_stress(h, DEATH_STRESS)
         if hero in self.heroes:
             self.heroes.remove(hero)
 
@@ -117,7 +124,7 @@ class Battle:
         if not hero.alive:
             return
         if hero.at_deaths_door:
-            # any damage at death's door forces a death blow check
+            # damage at death's door forces a death's-door die roll
             if self.rng.uniform(0, 100) >= hero.resists.deathblow:
                 self.kill_hero(hero, f"death blow ({cause})")
             return
@@ -125,7 +132,6 @@ class Battle:
         if hero.hp <= 0:
             hero.hp = 0
             self.add_stress(hero, DEATHS_DOOR_STRESS)
-            self.add_stress_on_deaths_door(hero)
             self.say(f"{hero.name} is at DEATH'S DOOR")
 
     def damage_enemy(self, enemy: Enemy, dmg):
@@ -158,6 +164,10 @@ class Battle:
             side.insert(j, c)
 
     # -- attack resolution -------------------------------------------------
+    def hit_target_number(self, actor, skill: Skill, target):
+        """Effective d10 target number, clamped so 1..9 (always a chance)."""
+        return clamp(skill.acc + actor.stat("acc") - target.stat("dodge"), 1, 9)
+
     def roll_damage(self, actor, skill: Skill, target):
         if skill.dmg_range is not None:  # enemy attack
             from .tuning import ENEMY_DMG_MULT
@@ -180,8 +190,8 @@ class Battle:
         """One attack roll against one target. Returns 'miss'|'hit'|'crit'|'dead'."""
         if not target.alive:
             return "dead"
-        hit_chance = clamp(skill.acc + actor.stat("acc") - target.stat("dodge"), 5, 95)
-        if self.rng.uniform(0, 100) >= hit_chance:
+        tn = self.hit_target_number(actor, skill, target)
+        if self.rng.randrange(10) >= tn:
             self.say(f"{actor.name} {skill.name} misses {target.name}")
             return "miss"
 
@@ -198,12 +208,9 @@ class Battle:
             dmg *= 1.0 - clamp(target.stat("prot"), 0, 90) / 100.0
             dmg = max(1, round(dmg))
             self.apply_damage(target, dmg, cause=skill.name)
-            if crit:
-                if actor.is_hero:
-                    self.relieve_stress(actor, CRIT_STRESS_SELF_HEAL)
-                if target.is_hero and target.alive:
-                    self.stats["crits_taken"] += 1
-                    self.add_stress(target, CRIT_STRESS_ON_VICTIM)
+            if crit and target.is_hero and target.alive:
+                self.stats["crits_taken"] += 1
+                self.add_stress(target, CRIT_STRESS_ON_VICTIM)
             self.say(f"{actor.name} {skill.name} {'CRITS' if crit else 'hits'} "
                      f"{target.name} for {dmg}")
 
@@ -213,9 +220,9 @@ class Battle:
         if skill.stress_dmg is not None and target.is_hero:
             from .tuning import ENEMY_STRESS_MULT
 
-            amt = round(self.rng.randint(*skill.stress_dmg) * ENEMY_STRESS_MULT)
+            amt = max(1, round(self.rng.randint(*skill.stress_dmg) * ENEMY_STRESS_MULT))
             if crit:
-                amt = round(amt * 1.5)
+                amt += 1
             self.add_stress(target, amt)
             self.say(f"{target.name} suffers {amt} stress")
 
@@ -270,16 +277,10 @@ class Battle:
         for b in skill.target_buffs:
             target.add_buff(b.stat, b.amount, b.duration)
 
-    def execute(self, actor, action: Action):
-        if action.kind == "pass":
-            return
-        if action.kind == "move":
-            self.move_combatant(actor, action.move)
-            return
-        skill = action.skill
+    def _resolve_skill(self, actor, skill, targets):
         uses = actor.skill_uses.get(skill.name, 0)
         actor.skill_uses[skill.name] = uses + 1
-        for target in list(action.targets):
+        for target in list(targets):
             if skill.target_type == "enemy":
                 self.resolve_attack(actor, skill, target)
             else:
@@ -290,6 +291,31 @@ class Battle:
             actor.marked = max(actor.marked, skill.mark)
         if skill.self_move:
             self.move_combatant(actor, skill.self_move)
+
+    def execute(self, actor, action: Action):
+        if action.kind == "pass":
+            return
+        if action.kind == "move":
+            self.move_combatant(actor, action.move)
+            return
+        if action.kind == "move_skill":
+            # two actions: step, then strike from the new position
+            self.move_combatant(actor, action.move)
+            skill = action.skill
+            if self.rank_of(actor) not in skill.launch and skill.target_type != "self":
+                return  # the step didn't reach a legal launch rank; action fizzles
+            wanted = [t for t in action.targets if t.alive]
+            options = self.legal_targets(actor, skill)
+            if not options:
+                return
+            chosen = None
+            for tl in options:
+                if wanted and set(map(id, tl)) == set(map(id, wanted)):
+                    chosen = tl
+                    break
+            self._resolve_skill(actor, skill, chosen if chosen else options[0])
+            return
+        self._resolve_skill(actor, action.skill, action.targets)
 
     # -- legality ----------------------------------------------------------
     def legal_targets(self, actor, skill: Skill):
@@ -311,10 +337,14 @@ class Battle:
             return [pool]
         return [[f] for f in pool]
 
-    def legal_actions(self, actor):
+    def legal_actions(self, actor, from_rank=None):
+        """Legal skill actions. ``from_rank`` evaluates legality as if the
+        actor stood in that rank (used to plan move+skill turns); target
+        lists are computed against current positions."""
+        rank = from_rank if from_rank is not None else self.rank_of(actor)
         acts = []
         for skill in (actor.skills if actor.is_hero else actor.etype.skills):
-            if self.rank_of(actor) not in skill.launch and skill.target_type != "self":
+            if rank not in skill.launch and skill.target_type != "self":
                 continue
             if skill.limit and actor.skill_uses.get(skill.name, 0) >= skill.limit:
                 continue
@@ -323,28 +353,43 @@ class Battle:
         return acts
 
     # -- enemy AI ----------------------------------------------------------
-    def enemy_choose(self, enemy: Enemy):
-        legal = self.legal_actions(enemy)
-        if not legal:
-            return Action("move", move=-1)
-        # weight actions by their skill's configured weight
+    def _enemy_weighted_pick(self, enemy, actions, move=0):
         wmap = {s.name: w for s, w in zip(enemy.etype.skills, enemy.etype.weights)}
         prefer = enemy.etype.prefer
         weights = []
-        for a in legal:
+        for a in actions:
             w = wmap.get(a.skill.name, 0.1)
             if len(a.targets) == 1 and a.targets[0].is_hero:
                 t = a.targets[0]
                 if prefer == "back":
                     w *= 1.0 + 0.5 * (self.rank_of(t) - 1)
                 elif prefer == "stress":
-                    w *= 1.0 + t.stress / 60.0
+                    w *= 1.0 + t.stress / 4.0
                 elif prefer == "weak":
                     w *= 1.0 + 2.0 * (1.0 - t.hp / t.max_hp)
                 if t.marked > 0:
                     w *= 1.6
             weights.append(max(w, 0.01))
-        return self.rng.choices(legal, weights=weights, k=1)[0]
+        a = self.rng.choices(actions, weights=weights, k=1)[0]
+        if move:
+            return Action("move_skill", skill=a.skill, targets=a.targets, move=move)
+        return a
+
+    def enemy_choose(self, enemy: Enemy):
+        legal = self.legal_actions(enemy)
+        if legal:
+            return self._enemy_weighted_pick(enemy, legal)
+        # official monsters move into range, then act: try acting after a step
+        rank = self.rank_of(enemy)
+        n = len(self.alive_enemies())
+        for delta in (-1, -2, 1):
+            new_rank = clamp(rank + delta, 1, n)
+            if new_rank == rank:
+                continue
+            acts = self.legal_actions(enemy, from_rank=new_rank)
+            if acts:
+                return self._enemy_weighted_pick(enemy, acts, move=delta)
+        return Action("move", move=-1)
 
     # -- round loop --------------------------------------------------------
     def tick_dots(self, c):
@@ -362,7 +407,7 @@ class Battle:
         if hero.afflicted and self.rng.uniform(0, 100) < 20:
             for h in self.alive_heroes():
                 if h is not hero:
-                    self.add_stress(h, 2)
+                    self.add_stress(h, 1)
             self.say(f"{hero.name} acts out (afflicted)")
             return True
         return False
@@ -395,14 +440,22 @@ class Battle:
                 c.marked -= 1
 
     def run(self):
-        while not self.over() and self.round < MAX_ROUNDS:
+        """Fight until one side falls or the room clock runs out.
+
+        Returns True if the room was cleared; False means retreat (or wipe —
+        check alive_heroes())."""
+        while not self.over() and self.round < ROOM_ROUNDS:
             self.round += 1
-            order = sorted(
-                self.alive_heroes() + self.alive_enemies(),
-                key=lambda c: c.stat("spd") + self.rng.uniform(1, 8),
-                reverse=True,
-            )
-            for actor in order:
+            # initiative deck: one card per living combatant, shuffled
+            deck = ["H"] * len(self.alive_heroes()) + ["M"] * len(self.alive_enemies())
+            self.rng.shuffle(deck)
+            acted = set()
+            for card in deck:
+                side = self.alive_heroes() if card == "H" else self.alive_enemies()
+                actor = next((c for c in side if id(c) not in acted), None)
+                if actor is None:
+                    continue  # that side's cards outnumber its survivors
+                acted.add(id(actor))
                 self.take_turn(actor)
                 if self.over():
                     break

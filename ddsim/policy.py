@@ -1,9 +1,10 @@
 """Heuristic hero AI, parameterized by a Strategy's knobs.
 
-The policy enumerates every legal (skill, target) pair, scores each with
-simple expected-value heuristics, and plays the best. Strategy knobs shift
-those scores (targeting focus, heal thresholds, stun affinity), so different
-strategies genuinely play differently with the same engine.
+The policy enumerates every legal (skill, target) pair — from the hero's
+current position AND from adjacent positions reachable with the turn's move
+action — scores each with expected-value heuristics, and plays the best.
+Strategy knobs shift those scores (targeting focus, heal thresholds, stun
+affinity), so different strategies genuinely play differently.
 """
 
 from __future__ import annotations
@@ -17,7 +18,7 @@ from .combat import Action, Battle, clamp
 class PolicyParams:
     focus: str = "threat"  # threat | stress_first | backline | lowest_hp
     heal_threshold: float = 0.6  # heal allies below this fraction of max hp
-    stress_heal_at: int = 50  # consider stress heals above this stress
+    stress_heal_at: int = 5  # consider stress heals at or above this stress
     stun_weight: float = 1.0
     kill_bonus: float = 14.0
 
@@ -41,7 +42,7 @@ def _target_priority(battle: Battle, enemy, params: PolicyParams):
 def _expected_attack_value(battle: Battle, hero, skill, targets, params: PolicyParams):
     total = 0.0
     for t in targets:
-        hit = clamp(skill.acc + hero.stat("acc") - t.stat("dodge"), 5, 95) / 100.0
+        hit = clamp(skill.acc + hero.stat("acc") - t.stat("dodge"), 1, 9) / 10.0
         if skill.dmg_mod is not None:
             lo, hi = hero.dmg
             avg = (lo + hi) / 2 * skill.dmg_mod
@@ -98,8 +99,8 @@ def _support_value(battle: Battle, hero, skill, targets, params: PolicyParams):
         if skill.stress_heal is not None:
             if t.stress >= params.stress_heal_at:
                 avg = sum(skill.stress_heal) / 2
-                val = min(t.stress, avg) * 1.0
-                if t.stress >= 85 and not t.resolve_tested:
+                val = min(t.stress, avg) * 6.0
+                if t.stress >= 8 and not t.resolve_tested:
                     val += 25.0  # prevent an imminent resolve check
                 total += val
         for b in skill.target_buffs:
@@ -112,24 +113,49 @@ def _support_value(battle: Battle, hero, skill, targets, params: PolicyParams):
     return total
 
 
+def _score(battle, hero, action, params):
+    sk = action.skill
+    if sk.target_type == "enemy":
+        score = _expected_attack_value(battle, hero, sk, action.targets, params)
+    else:
+        score = _support_value(battle, hero, sk, action.targets, params)
+    # small penalty for wasteful self-moves that break formation
+    if sk.self_move and sk.target_type != "enemy":
+        score -= 2.0
+    return score
+
+
 def choose_action(battle: Battle, hero, params: PolicyParams):
     best, best_score = None, -1.0
     for action in battle.legal_actions(hero):
-        sk = action.skill
-        if sk.target_type == "enemy":
-            score = _expected_attack_value(battle, hero, sk, action.targets, params)
-        else:
-            score = _support_value(battle, hero, sk, action.targets, params)
-        # small penalty for wasteful self-moves that break formation
-        if sk.self_move and sk.target_type != "enemy":
-            score -= 2.0
+        score = _score(battle, hero, action, params)
         if score > best_score:
             best, best_score = action, score
+
+    # two actions per turn: consider stepping one rank, then using a skill
+    # that is NOT legal from the current rank (move-then-strike)
+    rank = battle.rank_of(hero)
+    n = len(battle.alive_heroes())
+    current_names = set()
+    for a in battle.legal_actions(hero):
+        current_names.add(a.skill.name)
+    for delta in (-1, 1):
+        new_rank = clamp(rank + delta, 1, n)
+        if new_rank == rank:
+            continue
+        for action in battle.legal_actions(hero, from_rank=new_rank):
+            if action.skill.name in current_names:
+                continue
+            score = _score(battle, hero, action, params) - 1.0  # cost of the step
+            if score > best_score:
+                best = Action("move_skill", skill=action.skill,
+                              targets=action.targets, move=delta)
+                best_score = score
+
     if best is not None and best_score > 0.5:
         return best
     # nothing useful: move toward the ranks our skills want
     desired = _desired_rank(hero)
-    rank = battle.rank_of(hero)
     if rank != desired:
         return Action("move", move=-1 if desired < rank else 1)
     return best if best is not None else Action("pass")
