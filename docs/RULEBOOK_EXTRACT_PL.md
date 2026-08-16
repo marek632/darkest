@@ -164,3 +164,89 @@ każdego stosu i zastosuj. Nie łączy się nowych ze starymi stosami.
 * Karty komnat (efekty specjalne, rozmieszczenie obszarów).
 * Ucieczka po 4. rundzie — konsekwencje mechaniczne.
 * Zasady PvP/bossów, poziomy Lochu, skalowanie.
+
+---
+
+# Uzupełnienie: strony 27–31 i 38–40
+
+## Światło (str. 29) — pełna tabela efektów toru
+
+Efekt poziomu 5 działa tylko na poziomie 5; efekty poziomów 4–0
+**kumulują się** w miarę spadania światła:
+
+| Poziom | Efekt |
+|---|---|
+| 5 (pełne) | Bohaterowie otrzymują +1 do Uniku |
+| 4 | Bohaterowie **i** potwory otrzymują Krytyk +1 |
+| 2 | Ilekroć bohater zwiększa stres, otrzymuje dodatkowo +1 stresu |
+| 0 | Potwory otrzymują +1 do Uniku **i** +1 do Dok |
+
+(Poziomy 3 i 1 nie dodają nowych efektów; przykład w instrukcji
+potwierdza kumulację.)
+
+## U Progu Śmierci (str. 29) — doprecyzowanie
+
+* Bohater z ranami = Wytrzymałość staje się U Progu Śmierci (kość na
+  panel). KAŻDE kolejne otrzymanie ran = 1 rzut kością Progu Śmierci;
+  czaszka = śmierć. **Jeden rzut na jednoczesną paczkę ran** (Stany
+  zadają wszystkie rany naraz — jeden rzut).
+* Uleczenie ≥1 rany zdejmuje stan (kość wraca).
+
+## Stres, Wola, cnoty i udręki (str. 28) — dokładne wartości
+
+* **Test Woli przy stresie 10: K10 — 1–2 cnota (20%), 3+ udręka (80%).**
+* Wola sprawdzana **tylko raz na zadanie**; po teście **stres wraca do 0**.
+* Efekty cnót/udręk: **karty** aktywowane na początku tury bohatera w
+  bitwie rzutem K10 (np. udręka „Samolubność": 1–4 zużyj Zapas; cnota
+  „Skupienie": 1–5 Wzmocnienie 2t).
+* **Drugie dojście do 10 przy posiadanej cnocie/udręce = atak serca =
+  ŚMIERĆ** (nie próg śmierci!).
+* Po zadaniu: udręka → negatywny nawyk; cnota → pozytywny nawyk.
+
+## Bossowie (str. 30–31, 38–40)
+
+* **Bitwy z bossami NIE mają limitu 4 rund** — trwają do pokonania bossa
+  (po nim pozostałe potwory znikają). W zadaniu „Ostatnia bitwa" nie
+  można opuścić Lochu; przegrana = koniec kampanii.
+* **Talia Inicjatywy jest budowana proporcjonalnie do liczby akcji**:
+  boss z N akcjami na rundę dostaje N kart inicjatywy potworów
+  (analogicznie potwory specjalne). Zwykła bitwa: 8 kart (4 bohaterów +
+  4 potworów).
+* Potwory dobierane z talii aż do **zapełnienia planszy szyku potworów**
+  (4 pozycje postaw; duże potwory zajmują 2).
+* **Przyzywanie**: przyzwany potwór wchodzi na pierwszą wolną pozycję
+  szyku i na obszar płytki zgodny z postawą; jeśli obszar pełny, bohater
+  musi się przesunąć; przyzwany może działać w rundzie przyzwania;
+  do talii wtasowuje się jego kartę inicjatywy.
+* Skrypty bossów (Ruiny): Nekromanta (przywołuje szkielety), Prorok
+  (4 Strzaskane Ławki — ataki obszarowe „W gruz się obrócisz", 4×K10 na
+  wskazane obszary; Ławki nie zajmują miejsc i nie są celami), Kolekcjoner,
+  Templariusze, Fanatyk (Stos), Gigantyczna Cysta + Biała Komórka
+  (Teleportacja K10). Najmroczniejszy Loch: Powłócząca Przeraza (2 akcje,
+  Negatywne wibracje), Pierwsza Forma Antenata (Odbicia z Gardą,
+  Niedoskonałe Odbicie 10 ran, „Czas leczy rany"), Druga Forma Antenata
+  (teleport K10: 1–3 obszar defensywny / 4–6 zasięgowy / 7–9 wspierający /
+  10 zostaje), Brzemienne Serce (przywołania; bohater raniący je otrzymuje
+  2 Zarazy 3t i leczy się o 2), Serce Ciemności („Nieuchronna zagłada" —
+  zapowiedź działań rzutem K10 na początku bitwy i po każdej akcji).
+* Statystyki z przykładów: Kościany Obrońca — Wytrzymałość 10;
+  Kościany Kusznik — Unik 1, Wytrzymałość ~7; Niedoskonałe Odbicie — 10 ran.
+
+## Choroby i nawyki (str. 27)
+
+Pełne listy efektów chorób (Bulimia, Czarna Śmierć, Depresja, Gorączka
+plamista, Hemofilia, Hipersomnia, Przemęczenie, Suchoty, Syfilis,
+Tasiemiec, Zawroty głowy) i nawyków pozytywnych/negatywnych — warstwa
+kampanii; bohaterowie poziomu 1 zaczynają bez nich (istotne dopiero przy
+symulacji kampanii).
+
+## Nadal brakuje (do ewentualnych zdjęć)
+
+1. **Karty umiejętności czterech bohaterów** (7 × poziom 1 każdy) —
+   wartości Dok/Krytyk/rany/zasięgi/postawy/efekty.
+2. **Karty potworów Ruin** (statystyki: Wytrzymałość, Unik, Szybkość,
+   umiejętności 1/2/3 z regułami celowania).
+3. **Liczba ścianek z czaszką na kości Progu Śmierci** (zdjęcie kości ze
+   wszystkich stron albo informacja właściciela).
+4. **Karty komnat** (efekty specjalne, rozmieszczenie skrzyń/obszarów).
+5. Podział talii inicjatywy w zwykłej bitwie (przyjmujemy 4+4).
