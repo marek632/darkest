@@ -4,67 +4,12 @@
    "party": [
     "Arlekin",
     "Awanturniczka",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 29,
-   "rooms": 89,
-   "deaths": 12
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kuszniczka"
-   ],
-   "wins": 29,
-   "rooms": 88,
-   "deaths": 8
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Oprych"
-   ],
-   "wins": 29,
-   "rooms": 88,
-   "deaths": 16
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Kuszniczka"
-   ],
-   "wins": 28,
-   "rooms": 88,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kuszniczka"
-   ],
-   "wins": 28,
-   "rooms": 88,
-   "deaths": 16
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
     "Okultysta",
     "Oprych"
    ],
-   "wins": 28,
-   "rooms": 88,
-   "deaths": 17
+   "wins": 19,
+   "rooms": 154,
+   "deaths": 44
   },
   {
    "party": [
@@ -73,64 +18,20 @@
     "Kuszniczka",
     "Oprych"
    ],
-   "wins": 28,
-   "rooms": 87,
-   "deaths": 14
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 28,
-   "rooms": 86,
-   "deaths": 14
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kapłanka",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 27,
-   "rooms": 87,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Oprych"
-   ],
-   "wins": 27,
-   "rooms": 87,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 27,
-   "rooms": 87,
-   "deaths": 22
+   "wins": 19,
+   "rooms": 150,
+   "deaths": 40
   },
   {
    "party": [
     "Arlekin",
     "Awanturniczka",
-    "Okultysta",
+    "Kuszniczka",
     "Oprych"
    ],
-   "wins": 27,
-   "rooms": 86,
-   "deaths": 11
+   "wins": 18,
+   "rooms": 155,
+   "deaths": 46
   },
   {
    "party": [
@@ -139,75 +40,9 @@
     "Hiena Cmentarna",
     "Kapłanka"
    ],
-   "wins": 27,
-   "rooms": 86,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Kapłanka",
-    "Kuszniczka"
-   ],
-   "wins": 27,
-   "rooms": 86,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 27,
-   "rooms": 86,
-   "deaths": 18
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Kuszniczka"
-   ],
-   "wins": 27,
-   "rooms": 85,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Oprych"
-   ],
-   "wins": 27,
-   "rooms": 84,
-   "deaths": 10
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Oprych"
-   ],
-   "wins": 27,
-   "rooms": 84,
-   "deaths": 12
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 27,
-   "rooms": 84,
-   "deaths": 13
+   "wins": 18,
+   "rooms": 149,
+   "deaths": 40
   },
   {
    "party": [
@@ -216,20 +51,614 @@
     "Badaczka Zarazy",
     "Oprych"
    ],
-   "wins": 27,
-   "rooms": 82,
-   "deaths": 8
+   "wins": 17,
+   "rooms": 146,
+   "deaths": 40
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Oprych"
+   ],
+   "wins": 17,
+   "rooms": 146,
+   "deaths": 43
   },
   {
    "party": [
     "Awanturniczka",
     "Hiena Cmentarna",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 17,
+   "rooms": 146,
+   "deaths": 46
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 17,
+   "rooms": 137,
+   "deaths": 34
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kuszniczka"
+   ],
+   "wins": 16,
+   "rooms": 149,
+   "deaths": 45
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 16,
+   "rooms": 142,
+   "deaths": 52
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 16,
+   "rooms": 141,
+   "deaths": 41
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Oprych"
+   ],
+   "wins": 15,
+   "rooms": 149,
+   "deaths": 69
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kuszniczka"
+   ],
+   "wins": 15,
+   "rooms": 148,
+   "deaths": 56
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 15,
+   "rooms": 146,
+   "deaths": 50
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 15,
+   "rooms": 144,
+   "deaths": 43
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
     "Okultysta",
     "Oprych"
    ],
-   "wins": 26,
-   "rooms": 85,
-   "deaths": 23
+   "wins": 15,
+   "rooms": 143,
+   "deaths": 56
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 15,
+   "rooms": 142,
+   "deaths": 47
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 15,
+   "rooms": 137,
+   "deaths": 41
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 15,
+   "rooms": 137,
+   "deaths": 52
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 15,
+   "rooms": 137,
+   "deaths": 52
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 15,
+   "rooms": 135,
+   "deaths": 46
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 15,
+   "rooms": 134,
+   "deaths": 47
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 15,
+   "rooms": 130,
+   "deaths": 32
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 14,
+   "rooms": 145,
+   "deaths": 62
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 14,
+   "rooms": 141,
+   "deaths": 56
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 14,
+   "rooms": 138,
+   "deaths": 58
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Oprych"
+   ],
+   "wins": 14,
+   "rooms": 132,
+   "deaths": 57
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 14,
+   "rooms": 130,
+   "deaths": 50
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 13,
+   "rooms": 139,
+   "deaths": 57
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 13,
+   "rooms": 138,
+   "deaths": 46
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 13,
+   "rooms": 137,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka"
+   ],
+   "wins": 13,
+   "rooms": 131,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 13,
+   "rooms": 130,
+   "deaths": 52
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 13,
+   "rooms": 129,
+   "deaths": 38
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 13,
+   "rooms": 127,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 13,
+   "rooms": 119,
+   "deaths": 54
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 13,
+   "rooms": 118,
+   "deaths": 35
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 12,
+   "rooms": 140,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 12,
+   "rooms": 136,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 12,
+   "rooms": 132,
+   "deaths": 42
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Krzyżowiec"
+   ],
+   "wins": 12,
+   "rooms": 131,
+   "deaths": 41
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Okultysta"
+   ],
+   "wins": 12,
+   "rooms": 130,
+   "deaths": 57
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 12,
+   "rooms": 129,
+   "deaths": 55
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 12,
+   "rooms": 128,
+   "deaths": 57
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 12,
+   "rooms": 128,
+   "deaths": 64
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 12,
+   "rooms": 127,
+   "deaths": 43
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 12,
+   "rooms": 126,
+   "deaths": 52
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 12,
+   "rooms": 124,
+   "deaths": 49
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Łowca Nagród"
+   ],
+   "wins": 12,
+   "rooms": 123,
+   "deaths": 56
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 12,
+   "rooms": 121,
+   "deaths": 40
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 11,
+   "rooms": 136,
+   "deaths": 61
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 11,
+   "rooms": 129,
+   "deaths": 53
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 11,
+   "rooms": 129,
+   "deaths": 56
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka"
+   ],
+   "wins": 11,
+   "rooms": 128,
+   "deaths": 38
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 11,
+   "rooms": 126,
+   "deaths": 55
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 11,
+   "rooms": 126,
+   "deaths": 58
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec"
+   ],
+   "wins": 11,
+   "rooms": 125,
+   "deaths": 47
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 11,
+   "rooms": 124,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 11,
+   "rooms": 122,
+   "deaths": 43
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "rooms": 137,
+   "deaths": 49
   },
   {
    "party": [
@@ -238,9 +667,9 @@
     "Badaczka Zarazy",
     "Hiena Cmentarna"
    ],
-   "wins": 26,
-   "rooms": 84,
-   "deaths": 11
+   "wins": 10,
+   "rooms": 137,
+   "deaths": 56
   },
   {
    "party": [
@@ -249,53 +678,9 @@
     "Hiena Cmentarna",
     "Krzyżowiec"
    ],
-   "wins": 26,
-   "rooms": 84,
-   "deaths": 19
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 26,
-   "rooms": 84,
-   "deaths": 21
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 26,
-   "rooms": 83,
-   "deaths": 12
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 26,
-   "rooms": 83,
-   "deaths": 13
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Oprych"
-   ],
-   "wins": 26,
-   "rooms": 83,
-   "deaths": 14
+   "wins": 10,
+   "rooms": 132,
+   "deaths": 61
   },
   {
    "party": [
@@ -304,273 +689,339 @@
     "Kuszniczka",
     "Okultysta"
    ],
-   "wins": 26,
-   "rooms": 83,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 26,
-   "rooms": 82,
-   "deaths": 10
+   "wins": 10,
+   "rooms": 129,
+   "deaths": 52
   },
   {
    "party": [
     "Arlekin",
-    "Awanturniczka",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 26,
-   "rooms": 82,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Oprych"
-   ],
-   "wins": 26,
-   "rooms": 81,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Kapłanka"
-   ],
-   "wins": 26,
-   "rooms": 79,
-   "deaths": 9
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kapłanka",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 26,
-   "rooms": 79,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 25,
-   "rooms": 85,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 25,
-   "rooms": 85,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Okultysta"
-   ],
-   "wins": 25,
-   "rooms": 84,
-   "deaths": 18
-  },
-  {
-   "party": [
-    "Awanturniczka",
     "Hiena Cmentarna",
     "Krzyżowiec",
     "Kuszniczka"
    ],
-   "wins": 25,
-   "rooms": 83,
-   "deaths": 14
+   "wins": 10,
+   "rooms": 129,
+   "deaths": 61
   },
   {
    "party": [
-    "Arlekin",
-    "Krzyżowiec",
+    "Awanturniczka",
+    "Hiena Cmentarna",
     "Okultysta",
     "Oprych"
    ],
-   "wins": 25,
-   "rooms": 83,
-   "deaths": 19
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Kuszniczka"
-   ],
-   "wins": 25,
-   "rooms": 82,
-   "deaths": 10
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Oprych"
-   ],
-   "wins": 25,
-   "rooms": 82,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kuszniczka",
-    "Okultysta"
-   ],
-   "wins": 25,
-   "rooms": 82,
-   "deaths": 19
+   "wins": 10,
+   "rooms": 127,
+   "deaths": 65
   },
   {
    "party": [
     "Arlekin",
     "Kapłanka",
-    "Krzyżowiec",
-    "Oprych"
-   ],
-   "wins": 25,
-   "rooms": 82,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 25,
-   "rooms": 82,
-   "deaths": 22
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 25,
-   "rooms": 81,
-   "deaths": 16
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Kapłanka",
-    "Oprych"
-   ],
-   "wins": 25,
-   "rooms": 81,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Łowca Nagród"
-   ],
-   "wins": 25,
-   "rooms": 81,
-   "deaths": 18
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
     "Oprych",
     "Łowca Nagród"
    ],
-   "wins": 25,
-   "rooms": 81,
-   "deaths": 19
+   "wins": 10,
+   "rooms": 125,
+   "deaths": 57
   },
   {
    "party": [
     "Awanturniczka",
     "Kapłanka",
     "Kuszniczka",
-    "Okultysta"
+    "Oprych"
    ],
-   "wins": 25,
-   "rooms": 81,
-   "deaths": 21
+   "wins": 10,
+   "rooms": 125,
+   "deaths": 60
   },
   {
    "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "rooms": 122,
+   "deaths": 47
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 10,
+   "rooms": 121,
+   "deaths": 50
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "rooms": 120,
+   "deaths": 53
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "rooms": 117,
+   "deaths": 52
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "rooms": 113,
+   "deaths": 44
+  },
+  {
+   "party": [
+    "Arlekin",
     "Hiena Cmentarna",
     "Kapłanka",
-    "Krzyżowiec",
-    "Oprych"
+    "Krzyżowiec"
    ],
-   "wins": 25,
-   "rooms": 81,
+   "wins": 10,
+   "rooms": 112,
+   "deaths": 45
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "rooms": 110,
+   "deaths": 40
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 10,
+   "rooms": 108,
+   "deaths": 39
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "rooms": 106,
+   "deaths": 40
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 10,
+   "rooms": 102,
    "deaths": 27
   },
   {
    "party": [
     "Awanturniczka",
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Oprych"
-   ],
-   "wins": 25,
-   "rooms": 80,
-   "deaths": 11
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
+    "Hiena Cmentarna",
     "Kuszniczka",
     "Oprych"
    ],
-   "wins": 25,
-   "rooms": 80,
-   "deaths": 23
+   "wins": 9,
+   "rooms": 127,
+   "deaths": 61
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 9,
+   "rooms": 125,
+   "deaths": 55
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 9,
+   "rooms": 122,
+   "deaths": 49
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 9,
+   "rooms": 121,
+   "deaths": 55
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 9,
+   "rooms": 121,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 9,
+   "rooms": 121,
+   "deaths": 61
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 9,
+   "rooms": 120,
+   "deaths": 49
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Łowca Nagród"
+   ],
+   "wins": 9,
+   "rooms": 118,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 9,
+   "rooms": 117,
+   "deaths": 50
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 9,
+   "rooms": 117,
+   "deaths": 56
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 9,
+   "rooms": 116,
+   "deaths": 58
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 9,
+   "rooms": 115,
+   "deaths": 62
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 9,
+   "rooms": 113,
+   "deaths": 58
   },
   {
    "party": [
     "Awanturniczka",
     "Badaczka Zarazy",
-    "Kapłanka",
-    "Kuszniczka"
+    "Krzyżowiec",
+    "Okultysta"
    ],
-   "wins": 25,
-   "rooms": 78,
-   "deaths": 13
+   "wins": 9,
+   "rooms": 112,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 9,
+   "rooms": 110,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Okultysta"
+   ],
+   "wins": 9,
+   "rooms": 108,
+   "deaths": 54
   },
   {
    "party": [
@@ -579,130 +1030,9 @@
     "Kuszniczka",
     "Łowca Nagród"
    ],
-   "wins": 24,
-   "rooms": 83,
-   "deaths": 16
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 24,
-   "rooms": 82,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Okultysta"
-   ],
-   "wins": 24,
-   "rooms": 82,
-   "deaths": 21
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 24,
-   "rooms": 82,
-   "deaths": 30
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Oprych"
-   ],
-   "wins": 24,
-   "rooms": 81,
-   "deaths": 18
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Oprych"
-   ],
-   "wins": 24,
-   "rooms": 81,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 24,
-   "rooms": 81,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Okultysta"
-   ],
-   "wins": 24,
-   "rooms": 80,
-   "deaths": 12
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Oprych"
-   ],
-   "wins": 24,
-   "rooms": 80,
-   "deaths": 21
-  },
-  {
-   "party": [
-    "Kapłanka",
-    "Krzyżowiec",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 24,
-   "rooms": 80,
-   "deaths": 30
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Kapłanka",
-    "Okultysta"
-   ],
-   "wins": 24,
-   "rooms": 78,
-   "deaths": 13
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Kuszniczka"
-   ],
-   "wins": 24,
-   "rooms": 78,
-   "deaths": 14
+   "wins": 8,
+   "rooms": 127,
+   "deaths": 54
   },
   {
    "party": [
@@ -711,196 +1041,53 @@
     "Hiena Cmentarna",
     "Kapłanka"
    ],
-   "wins": 24,
-   "rooms": 78,
-   "deaths": 14
+   "wins": 8,
+   "rooms": 126,
+   "deaths": 55
   },
   {
    "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 24,
-   "rooms": 78,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
     "Hiena Cmentarna",
-    "Kapłanka"
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
    ],
-   "wins": 24,
-   "rooms": 78,
-   "deaths": 21
+   "wins": 8,
+   "rooms": 122,
+   "deaths": 69
   },
   {
    "party": [
-    "Arlekin",
     "Awanturniczka",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 8,
+   "rooms": 120,
+   "deaths": 66
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
     "Krzyżowiec",
     "Kuszniczka"
    ],
-   "wins": 24,
-   "rooms": 77,
-   "deaths": 10
+   "wins": 8,
+   "rooms": 119,
+   "deaths": 50
   },
   {
    "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Krzyżowiec"
-   ],
-   "wins": 24,
-   "rooms": 76,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Łowca Nagród"
-   ],
-   "wins": 24,
-   "rooms": 76,
-   "deaths": 18
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Kapłanka",
     "Krzyżowiec",
-    "Oprych"
-   ],
-   "wins": 24,
-   "rooms": 75,
-   "deaths": 27
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 23,
-   "rooms": 82,
-   "deaths": 22
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 23,
-   "rooms": 81,
-   "deaths": 19
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Okultysta"
-   ],
-   "wins": 23,
-   "rooms": 81,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 23,
-   "rooms": 81,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Krzyżowiec"
-   ],
-   "wins": 23,
-   "rooms": 80,
-   "deaths": 19
-  },
-  {
-   "party": [
-    "Awanturniczka",
     "Kuszniczka",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 23,
-   "rooms": 80,
-   "deaths": 24
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Krzyżowiec",
     "Oprych",
     "Łowca Nagród"
    ],
-   "wins": 23,
-   "rooms": 80,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kuszniczka",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 23,
-   "rooms": 80,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 23,
-   "rooms": 79,
-   "deaths": 14
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 23,
-   "rooms": 79,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 23,
-   "rooms": 79,
-   "deaths": 19
+   "wins": 8,
+   "rooms": 117,
+   "deaths": 58
   },
   {
    "party": [
@@ -909,130 +1096,86 @@
     "Hiena Cmentarna",
     "Krzyżowiec"
    ],
-   "wins": 23,
-   "rooms": 79,
-   "deaths": 20
+   "wins": 8,
+   "rooms": 116,
+   "deaths": 57
   },
   {
    "party": [
     "Arlekin",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Okultysta"
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Łowca Nagród"
    ],
-   "wins": 23,
-   "rooms": 78,
-   "deaths": 14
+   "wins": 8,
+   "rooms": 107,
+   "deaths": 50
   },
   {
    "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Łowca Nagród"
+   ],
+   "wins": 8,
+   "rooms": 104,
+   "deaths": 47
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
     "Hiena Cmentarna",
+    "Okultysta"
+   ],
+   "wins": 7,
+   "rooms": 125,
+   "deaths": 60
+  },
+  {
+   "party": [
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 7,
+   "rooms": 119,
+   "deaths": 75
+  },
+  {
+   "party": [
     "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 7,
+   "rooms": 117,
+   "deaths": 72
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 7,
+   "rooms": 114,
+   "deaths": 56
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
     "Kuszniczka",
     "Oprych"
    ],
-   "wins": 23,
-   "rooms": 78,
-   "deaths": 31
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Kuszniczka"
-   ],
-   "wins": 23,
-   "rooms": 77,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kapłanka",
-    "Kuszniczka",
-    "Okultysta"
-   ],
-   "wins": 23,
-   "rooms": 77,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 23,
-   "rooms": 76,
-   "deaths": 21
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Okultysta",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 22,
-   "rooms": 80,
-   "deaths": 25
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Okultysta"
-   ],
-   "wins": 22,
-   "rooms": 79,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 22,
-   "rooms": 78,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 22,
-   "rooms": 78,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Okultysta"
-   ],
-   "wins": 22,
-   "rooms": 77,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 22,
-   "rooms": 75,
-   "deaths": 23
+   "wins": 7,
+   "rooms": 114,
+   "deaths": 64
   },
   {
    "party": [
@@ -1041,97 +1184,31 @@
     "Kapłanka",
     "Krzyżowiec"
    ],
-   "wins": 22,
-   "rooms": 74,
-   "deaths": 17
+   "wins": 7,
+   "rooms": 113,
+   "deaths": 51
   },
   {
    "party": [
     "Arlekin",
     "Kapłanka",
-    "Krzyżowiec",
-    "Kuszniczka"
-   ],
-   "wins": 22,
-   "rooms": 74,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Kapłanka",
-    "Krzyżowiec",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 22,
-   "rooms": 74,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Krzyżowiec",
     "Kuszniczka",
     "Łowca Nagród"
    ],
-   "wins": 22,
-   "rooms": 72,
-   "deaths": 21
+   "wins": 7,
+   "rooms": 112,
+   "deaths": 58
   },
   {
    "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Kuszniczka",
-    "Okultysta"
-   ],
-   "wins": 21,
-   "rooms": 79,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Arlekin",
     "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Oprych"
-   ],
-   "wins": 21,
-   "rooms": 79,
-   "deaths": 28
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
     "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 21,
-   "rooms": 77,
-   "deaths": 21
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kapłanka",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 21,
-   "rooms": 77,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Arlekin",
     "Okultysta",
-    "Oprych",
-    "Łowca Nagród"
+    "Oprych"
    ],
-   "wins": 21,
-   "rooms": 76,
-   "deaths": 19
+   "wins": 7,
+   "rooms": 110,
+   "deaths": 75
   },
   {
    "party": [
@@ -1140,240 +1217,207 @@
     "Krzyżowiec",
     "Kuszniczka"
    ],
-   "wins": 21,
-   "rooms": 76,
-   "deaths": 21
+   "wins": 7,
+   "rooms": 108,
+   "deaths": 50
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 7,
+   "rooms": 107,
+   "deaths": 48
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 7,
+   "rooms": 106,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kuszniczka"
+   ],
+   "wins": 7,
+   "rooms": 102,
+   "deaths": 60
   },
   {
    "party": [
     "Arlekin",
     "Hiena Cmentarna",
-    "Kuszniczka",
-    "Okultysta"
+    "Krzyżowiec",
+    "Łowca Nagród"
    ],
-   "wins": 21,
-   "rooms": 76,
-   "deaths": 24
+   "wins": 7,
+   "rooms": 99,
+   "deaths": 49
   },
   {
    "party": [
+    "Arlekin",
     "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Okultysta",
-    "Oprych"
+    "Kapłanka",
+    "Kuszniczka"
    ],
-   "wins": 21,
-   "rooms": 76,
+   "wins": 7,
+   "rooms": 97,
+   "deaths": 48
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 7,
+   "rooms": 96,
+   "deaths": 46
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 7,
+   "rooms": 94,
    "deaths": 34
   },
   {
    "party": [
-    "Badaczka Zarazy",
+    "Arlekin",
+    "Kapłanka",
     "Krzyżowiec",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 21,
-   "rooms": 76,
-   "deaths": 42
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kuszniczka",
-    "Oprych",
     "Łowca Nagród"
    ],
-   "wins": 21,
-   "rooms": 75,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Krzyżowiec"
-   ],
-   "wins": 21,
-   "rooms": 75,
-   "deaths": 28
-  },
-  {
-   "party": [
-    "Kapłanka",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 21,
-   "rooms": 75,
-   "deaths": 33
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 21,
-   "rooms": 73,
-   "deaths": 23
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 21,
-   "rooms": 73,
-   "deaths": 24
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kuszniczka",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 21,
-   "rooms": 73,
-   "deaths": 25
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 21,
-   "rooms": 73,
-   "deaths": 31
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 21,
-   "rooms": 72,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Krzyżowiec"
-   ],
-   "wins": 21,
-   "rooms": 72,
-   "deaths": 18
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Okultysta"
-   ],
-   "wins": 21,
-   "rooms": 72,
-   "deaths": 22
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "wins": 21,
-   "rooms": 71,
-   "deaths": 31
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Oprych"
-   ],
-   "wins": 21,
-   "rooms": 71,
-   "deaths": 33
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Kapłanka",
-    "Krzyżowiec"
-   ],
-   "wins": 21,
-   "rooms": 70,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Kuszniczka",
-    "Okultysta"
-   ],
-   "wins": 20,
-   "rooms": 78,
-   "deaths": 23
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 20,
-   "rooms": 76,
-   "deaths": 30
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 20,
-   "rooms": 76,
+   "wins": 7,
+   "rooms": 91,
    "deaths": 35
   },
   {
    "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
     "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 6,
+   "rooms": 120,
+   "deaths": 72
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 6,
+   "rooms": 115,
+   "deaths": 60
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 6,
+   "rooms": 114,
+   "deaths": 65
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka",
     "Okultysta"
    ],
-   "wins": 20,
-   "rooms": 75,
-   "deaths": 29
+   "wins": 6,
+   "rooms": 110,
+   "deaths": 63
   },
   {
    "party": [
     "Badaczka Zarazy",
-    "Hiena Cmentarna",
     "Krzyżowiec",
+    "Okultysta",
     "Oprych"
    ],
-   "wins": 20,
-   "rooms": 75,
+   "wins": 6,
+   "rooms": 110,
+   "deaths": 68
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 6,
+   "rooms": 108,
+   "deaths": 44
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 6,
+   "rooms": 107,
    "deaths": 42
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 6,
+   "rooms": 107,
+   "deaths": 53
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 6,
+   "rooms": 107,
+   "deaths": 55
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 6,
+   "rooms": 106,
+   "deaths": 74
   },
   {
    "party": [
@@ -1382,64 +1426,9 @@
     "Kuszniczka",
     "Oprych"
    ],
-   "wins": 20,
-   "rooms": 74,
-   "deaths": 33
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Oprych"
-   ],
-   "wins": 20,
-   "rooms": 73,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 20,
-   "rooms": 73,
-   "deaths": 24
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 20,
-   "rooms": 73,
-   "deaths": 35
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 20,
-   "rooms": 72,
-   "deaths": 19
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 20,
-   "rooms": 72,
-   "deaths": 23
+   "wins": 6,
+   "rooms": 105,
+   "deaths": 75
   },
   {
    "party": [
@@ -1448,31 +1437,141 @@
     "Krzyżowiec",
     "Kuszniczka"
    ],
-   "wins": 20,
-   "rooms": 72,
-   "deaths": 23
+   "wins": 6,
+   "rooms": 103,
+   "deaths": 60
   },
   {
    "party": [
+    "Badaczka Zarazy",
     "Hiena Cmentarna",
-    "Kuszniczka",
-    "Okultysta",
+    "Krzyżowiec",
     "Oprych"
    ],
-   "wins": 20,
-   "rooms": 72,
-   "deaths": 33
+   "wins": 6,
+   "rooms": 103,
+   "deaths": 73
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 6,
+   "rooms": 102,
+   "deaths": 55
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 6,
+   "rooms": 100,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 6,
+   "rooms": 99,
+   "deaths": 48
   },
   {
    "party": [
     "Badaczka Zarazy",
     "Kapłanka",
-    "Oprych",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 6,
+   "rooms": 97,
+   "deaths": 63
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kuszniczka",
     "Łowca Nagród"
    ],
-   "wins": 20,
-   "rooms": 72,
-   "deaths": 36
+   "wins": 6,
+   "rooms": 95,
+   "deaths": 44
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 6,
+   "rooms": 87,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka"
+   ],
+   "wins": 5,
+   "rooms": 113,
+   "deaths": 60
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 5,
+   "rooms": 106,
+   "deaths": 75
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 5,
+   "rooms": 106,
+   "deaths": 76
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Okultysta"
+   ],
+   "wins": 5,
+   "rooms": 103,
+   "deaths": 63
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 5,
+   "rooms": 103,
+   "deaths": 70
   },
   {
    "party": [
@@ -1481,931 +1580,892 @@
     "Oprych",
     "Łowca Nagród"
    ],
-   "wins": 20,
-   "rooms": 71,
-   "deaths": 21
+   "wins": 5,
+   "rooms": 101,
+   "deaths": 61
   },
   {
    "party": [
-    "Badaczka Zarazy",
-    "Okultysta",
-    "Oprych",
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kuszniczka",
     "Łowca Nagród"
    ],
-   "wins": 20,
-   "rooms": 71,
-   "deaths": 35
+   "wins": 5,
+   "rooms": 99,
+   "deaths": 67
   },
   {
    "party": [
     "Hiena Cmentarna",
+    "Krzyżowiec",
     "Okultysta",
-    "Oprych",
+    "Oprych"
+   ],
+   "wins": 5,
+   "rooms": 99,
+   "deaths": 68
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kuszniczka",
+    "Okultysta",
     "Łowca Nagród"
    ],
-   "wins": 20,
-   "rooms": 70,
-   "deaths": 28
+   "wins": 5,
+   "rooms": 98,
+   "deaths": 51
   },
   {
    "party": [
     "Awanturniczka",
     "Badaczka Zarazy",
-    "Kapłanka",
-    "Łowca Nagród"
-   ],
-   "wins": 20,
-   "rooms": 69,
-   "deaths": 18
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kapłanka",
     "Okultysta",
     "Łowca Nagród"
    ],
-   "wins": 20,
-   "rooms": 69,
-   "deaths": 21
+   "wins": 5,
+   "rooms": 98,
+   "deaths": 53
   },
   {
    "party": [
     "Arlekin",
-    "Awanturniczka",
-    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Okultysta",
     "Łowca Nagród"
    ],
-   "wins": 20,
-   "rooms": 67,
-   "deaths": 18
+   "wins": 5,
+   "rooms": 95,
+   "deaths": 51
   },
   {
    "party": [
     "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 5,
+   "rooms": 95,
+   "deaths": 56
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 5,
+   "rooms": 94,
+   "deaths": 62
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 5,
+   "rooms": 90,
+   "deaths": 47
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 5,
+   "rooms": 89,
+   "deaths": 40
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 5,
+   "rooms": 88,
+   "deaths": 65
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 119,
+   "deaths": 63
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 4,
+   "rooms": 106,
+   "deaths": 74
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 4,
+   "rooms": 105,
+   "deaths": 71
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 4,
+   "rooms": 103,
+   "deaths": 81
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
     "Kapłanka",
     "Okultysta",
     "Oprych"
    ],
-   "wins": 19,
-   "rooms": 76,
+   "wins": 4,
+   "rooms": 102,
+   "deaths": 73
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 4,
+   "rooms": 100,
+   "deaths": 53
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 96,
+   "deaths": 46
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 95,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 92,
+   "deaths": 58
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 4,
+   "rooms": 92,
+   "deaths": 79
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 88,
+   "deaths": 64
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 87,
+   "deaths": 62
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 84,
+   "deaths": 47
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 84,
+   "deaths": 67
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "rooms": 82,
+   "deaths": 57
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 4,
+   "rooms": 81,
+   "deaths": 69
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 4,
+   "rooms": 80,
    "deaths": 39
   },
   {
    "party": [
     "Arlekin",
     "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Kuszniczka"
-   ],
-   "wins": 19,
-   "rooms": 72,
-   "deaths": 14
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
     "Okultysta",
     "Łowca Nagród"
    ],
-   "wins": 19,
-   "rooms": 72,
-   "deaths": 25
+   "wins": 4,
+   "rooms": 71,
+   "deaths": 52
   },
   {
    "party": [
     "Arlekin",
-    "Kuszniczka",
-    "Okultysta",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
     "Łowca Nagród"
    ],
-   "wins": 19,
-   "rooms": 71,
-   "deaths": 29
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Kuszniczka",
-    "Okultysta"
-   ],
-   "wins": 19,
-   "rooms": 71,
-   "deaths": 35
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Łowca Nagród"
-   ],
-   "wins": 19,
-   "rooms": 70,
-   "deaths": 24
+   "wins": 3,
+   "rooms": 99,
+   "deaths": 58
   },
   {
    "party": [
     "Badaczka Zarazy",
+    "Hiena Cmentarna",
     "Kuszniczka",
-    "Okultysta",
     "Oprych"
    ],
-   "wins": 19,
-   "rooms": 70,
-   "deaths": 35
+   "wins": 3,
+   "rooms": 97,
+   "deaths": 77
   },
   {
    "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Kuszniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Oprych",
     "Łowca Nagród"
    ],
-   "wins": 19,
-   "rooms": 69,
-   "deaths": 28
+   "wins": 3,
+   "rooms": 95,
+   "deaths": 72
   },
   {
    "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
     "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 3,
+   "rooms": 93,
+   "deaths": 72
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
     "Okultysta",
     "Oprych",
     "Łowca Nagród"
    ],
-   "wins": 19,
-   "rooms": 69,
-   "deaths": 36
+   "wins": 3,
+   "rooms": 89,
+   "deaths": 62
   },
   {
    "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Kapłanka",
-    "Łowca Nagród"
-   ],
-   "wins": 19,
-   "rooms": 68,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 19,
-   "rooms": 68,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Okultysta"
-   ],
-   "wins": 19,
-   "rooms": 68,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Łowca Nagród"
-   ],
-   "wins": 19,
-   "rooms": 68,
-   "deaths": 21
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Krzyżowiec",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 19,
-   "rooms": 68,
-   "deaths": 22
-  },
-  {
-   "party": [
-    "Awanturniczka",
     "Hiena Cmentarna",
     "Kapłanka",
-    "Łowca Nagród"
-   ],
-   "wins": 18,
-   "rooms": 73,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Krzyżowiec",
     "Kuszniczka",
-    "Okultysta"
+    "Łowca Nagród"
    ],
-   "wins": 18,
-   "rooms": 73,
-   "deaths": 37
+   "wins": 3,
+   "rooms": 80,
+   "deaths": 51
   },
   {
    "party": [
-    "Arlekin",
     "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kuszniczka"
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
    ],
-   "wins": 18,
+   "wins": 3,
    "rooms": 71,
-   "deaths": 28
+   "deaths": 55
   },
   {
    "party": [
+    "Arlekin",
     "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Oprych",
+    "Krzyżowiec",
     "Łowca Nagród"
    ],
-   "wins": 18,
+   "wins": 3,
    "rooms": 69,
-   "deaths": 38
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 18,
-   "rooms": 68,
-   "deaths": 31
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 18,
-   "rooms": 67,
-   "deaths": 32
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 18,
-   "rooms": 65,
-   "deaths": 20
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 18,
-   "rooms": 64,
-   "deaths": 19
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Krzyżowiec"
-   ],
-   "wins": 17,
-   "rooms": 69,
-   "deaths": 24
-  },
-  {
-   "party": [
-    "Kapłanka",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Okultysta"
-   ],
-   "wins": 17,
-   "rooms": 69,
-   "deaths": 32
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Łowca Nagród"
-   ],
-   "wins": 17,
-   "rooms": 68,
-   "deaths": 15
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kuszniczka",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 17,
-   "rooms": 68,
-   "deaths": 29
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Kuszniczka"
-   ],
-   "wins": 17,
-   "rooms": 68,
-   "deaths": 32
-  },
-  {
-   "party": [
-    "Kapłanka",
-    "Kuszniczka",
-    "Okultysta",
-    "Oprych"
-   ],
-   "wins": 17,
-   "rooms": 68,
-   "deaths": 46
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Okultysta"
-   ],
-   "wins": 17,
-   "rooms": 67,
-   "deaths": 28
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 17,
-   "rooms": 63,
-   "deaths": 17
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 17,
-   "rooms": 61,
-   "deaths": 12
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Okultysta"
-   ],
-   "wins": 17,
-   "rooms": 61,
-   "deaths": 13
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 17,
-   "rooms": 60,
-   "deaths": 33
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 17,
-   "rooms": 58,
-   "deaths": 23
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Kuszniczka"
-   ],
-   "wins": 16,
-   "rooms": 66,
-   "deaths": 27
-  },
-  {
-   "party": [
-    "Kapłanka",
-    "Okultysta",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 16,
-   "rooms": 66,
-   "deaths": 30
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 16,
-   "rooms": 64,
-   "deaths": 18
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 16,
-   "rooms": 63,
-   "deaths": 21
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Kuszniczka",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 16,
-   "rooms": 63,
    "deaths": 34
   },
   {
    "party": [
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Kuszniczka"
-   ],
-   "wins": 16,
-   "rooms": 62,
-   "deaths": 22
-  },
-  {
-   "party": [
     "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Kuszniczka"
-   ],
-   "wins": 16,
-   "rooms": 62,
-   "deaths": 29
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Kapłanka",
+    "Krzyżowiec",
     "Kuszniczka",
     "Łowca Nagród"
    ],
-   "wins": 16,
-   "rooms": 60,
-   "deaths": 30
+   "wins": 3,
+   "rooms": 69,
+   "deaths": 53
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 3,
+   "rooms": 53,
+   "deaths": 39
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "rooms": 91,
+   "deaths": 68
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 2,
+   "rooms": 89,
+   "deaths": 77
+  },
+  {
+   "party": [
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "rooms": 87,
+   "deaths": 69
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 2,
+   "rooms": 87,
+   "deaths": 71
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "rooms": 84,
+   "deaths": 70
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 2,
+   "rooms": 83,
+   "deaths": 48
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "rooms": 73,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "rooms": 67,
+   "deaths": 59
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "rooms": 66,
+   "deaths": 63
   },
   {
    "party": [
     "Badaczka Zarazy",
     "Hiena Cmentarna",
-    "Kuszniczka",
-    "Okultysta"
+    "Kapłanka",
+    "Krzyżowiec"
    ],
-   "wins": 15,
+   "wins": 2,
    "rooms": 63,
+   "deaths": 43
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "rooms": 59,
+   "deaths": 48
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "rooms": 50,
    "deaths": 37
   },
   {
    "party": [
     "Kapłanka",
-    "Krzyżowiec",
     "Kuszniczka",
+    "Okultysta",
     "Łowca Nagród"
    ],
-   "wins": 15,
-   "rooms": 57,
-   "deaths": 28
+   "wins": 2,
+   "rooms": 49,
+   "deaths": 52
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 1,
+   "rooms": 93,
+   "deaths": 72
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 1,
+   "rooms": 82,
+   "deaths": 66
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 1,
+   "rooms": 72,
+   "deaths": 60
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 1,
+   "rooms": 64,
+   "deaths": 58
   },
   {
    "party": [
     "Hiena Cmentarna",
     "Kapłanka",
-    "Krzyżowiec",
-    "Okultysta"
+    "Okultysta",
+    "Łowca Nagród"
    ],
-   "wins": 14,
-   "rooms": 62,
-   "deaths": 29
+   "wins": 1,
+   "rooms": 61,
+   "deaths": 51
   },
   {
    "party": [
-    "Kapłanka",
-    "Kuszniczka",
-    "Oprych",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Okultysta",
     "Łowca Nagród"
    ],
-   "wins": 14,
-   "rooms": 61,
+   "wins": 1,
+   "rooms": 60,
+   "deaths": 50
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 1,
+   "rooms": 58,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 1,
+   "rooms": 57,
+   "deaths": 47
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 1,
+   "rooms": 41,
    "deaths": 43
   },
   {
    "party": [
     "Badaczka Zarazy",
-    "Kapłanka",
+    "Hiena Cmentarna",
     "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 0,
+   "rooms": 68,
+   "deaths": 71
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
     "Okultysta"
    ],
-   "wins": 14,
+   "wins": 0,
    "rooms": 59,
-   "deaths": 32
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 14,
-   "rooms": 53,
-   "deaths": 13
+   "deaths": 49
   },
   {
    "party": [
     "Hiena Cmentarna",
-    "Kapłanka",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 14,
-   "rooms": 49,
-   "deaths": 31
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
     "Krzyżowiec",
-    "Okultysta",
+    "Kuszniczka",
     "Łowca Nagród"
    ],
-   "wins": 13,
+   "wins": 0,
    "rooms": 55,
-   "deaths": 44
+   "deaths": 47
   },
   {
    "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 13,
-   "rooms": 54,
-   "deaths": 30
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
     "Kapłanka",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 13,
-   "rooms": 50,
-   "deaths": 27
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Kapłanka",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 13,
-   "rooms": 50,
-   "deaths": 37
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Łowca Nagród"
-   ],
-   "wins": 13,
-   "rooms": 48,
-   "deaths": 31
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 12,
-   "rooms": 51,
-   "deaths": 30
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
     "Krzyżowiec",
     "Okultysta",
     "Łowca Nagród"
    ],
-   "wins": 12,
-   "rooms": 45,
-   "deaths": 28
+   "wins": 0,
+   "rooms": 42,
+   "deaths": 43
   },
   {
    "party": [
     "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 11,
-   "rooms": 57,
-   "deaths": 44
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Okultysta"
-   ],
-   "wins": 11,
-   "rooms": 53,
-   "deaths": 35
-  },
-  {
-   "party": [
-    "Krzyżowiec",
     "Kuszniczka",
     "Okultysta",
     "Łowca Nagród"
    ],
-   "wins": 11,
-   "rooms": 52,
-   "deaths": 35
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Kuszniczka",
-    "Oprych",
-    "Łowca Nagród"
-   ],
-   "wins": 11,
-   "rooms": 51,
-   "deaths": 34
+   "wins": 0,
+   "rooms": 40,
+   "deaths": 53
   },
   {
    "party": [
     "Badaczka Zarazy",
     "Hiena Cmentarna",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 11,
-   "rooms": 49,
-   "deaths": 29
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Kuszniczka",
-    "Łowca Nagród"
-   ],
-   "wins": 11,
-   "rooms": 45,
-   "deaths": 28
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Krzyżowiec"
-   ],
-   "wins": 9,
-   "rooms": 51,
-   "deaths": 26
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Kapłanka",
     "Krzyżowiec",
     "Łowca Nagród"
    ],
-   "wins": 9,
-   "rooms": 43,
-   "deaths": 27
-  },
-  {
-   "party": [
-    "Kapłanka",
-    "Kuszniczka",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 8,
+   "wins": 0,
    "rooms": 39,
-   "deaths": 36
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Kuszniczka",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 8,
-   "rooms": 35,
-   "deaths": 31
-  },
-  {
-   "party": [
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 8,
-   "rooms": 34,
-   "deaths": 19
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Krzyżowiec",
-    "Łowca Nagród"
-   ],
-   "wins": 7,
-   "rooms": 33,
-   "deaths": 25
-  },
-  {
-   "party": [
-    "Kapłanka",
-    "Krzyżowiec",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 6,
-   "rooms": 38,
-   "deaths": 33
-  },
-  {
-   "party": [
-    "Badaczka Zarazy",
-    "Kuszniczka",
-    "Okultysta",
-    "Łowca Nagród"
-   ],
-   "wins": 6,
-   "rooms": 36,
-   "deaths": 42
+   "deaths": 35
   }
  ],
  "finalists": [
   {
    "party": [
+    "Arlekin",
     "Awanturniczka",
     "Badaczka Zarazy",
-    "Okultysta",
-    "Oprych"
-   ],
-   "loadouts": {
-    "Awanturniczka": [
-     "Każdy krwawi",
-     "Okrutne cięcie",
-     "Żelazny łabędź"
-    ],
-    "Badaczka Zarazy": [
-     "Nacięcie",
-     "Podmuch zamętu",
-     "Sole trzeźwiące"
-    ],
-    "Okultysta": [
-     "Artyleria otchłani",
-     "Cięcie ofiarne",
-     "Klątwa osłabienia"
-    ],
-    "Oprych": [
-     "Doskok",
-     "Puszczenie krwi",
-     "Wystrzał"
-    ]
-   },
-   "climb_score": [
-    24,
-    72,
-    -1
-   ],
-   "valid": {
-    "wins": 296,
-    "n": 300,
-    "ci": [
-     0.9662239391535502,
-     0.9948031223153205
-    ],
-    "deaths": 79
-   },
-   "valid_default": {
-    "wins": 285,
-    "deaths": 91
-   }
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
     "Oprych"
    ],
    "loadouts": {
     "Arlekin": [
      "Solówka",
      "Ukłon",
-     "Żniwa"
+     "Urwany wątek"
+    ],
+    "Awanturniczka": [
+     "Okrutne cięcie",
+     "Szerokie cięcie",
+     "Żelazny łabędź"
     ],
     "Badaczka Zarazy": [
+     "Gaz oślepiający",
      "Nacięcie",
-     "Panaceum",
      "Trujący podmuch"
-    ],
-    "Hiena Cmentarna": [
-     "Rzut sztyletem",
-     "Wypad",
-     "Zatrute strzałki"
     ],
     "Oprych": [
      "Doskok",
-     "Puszczenie krwi",
+     "Strzał z bliska",
      "Wystrzał"
     ]
    },
    "climb_score": [
-    24,
-    72,
-    -2
+    30,
+    180,
+    -25
    ],
-   "valid": {
-    "wins": 294,
+   "valid_hard": {
+    "wins": 267,
     "n": 300,
     "ci": [
-     0.9570598132699448,
-     0.9908024939322289
+     0.8495429318702987,
+     0.9205951927314675
     ],
-    "deaths": 114
+    "deaths": 337
    },
-   "valid_default": {
-    "wins": 292,
-    "deaths": 113
+   "valid_hard_default": {
+    "wins": 250,
+    "deaths": 330
+   },
+   "valid_std": {
+    "wins": 300,
+    "deaths": 72
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka"
+   ],
+   "loadouts": {
+    "Arlekin": [
+     "Heroiczna ballada",
+     "Ukłon",
+     "Żniwa"
+    ],
+    "Awanturniczka": [
+     "Barbarzyński ryk",
+     "Każdy krwawi",
+     "Żelazny łabędź"
+    ],
+    "Hiena Cmentarna": [
+     "Nawałnica sztyletów",
+     "Rozłupanie czaszki",
+     "Rzut sztyletem"
+    ],
+    "Kapłanka": [
+     "Boskie pocieszenie",
+     "Boża łaska",
+     "Osąd"
+    ]
+   },
+   "climb_score": [
+    29,
+    179,
+    -19
+   ],
+   "valid_hard": {
+    "wins": 257,
+    "n": 300,
+    "ci": [
+     0.8124985303950185,
+     0.8918158228732633
+    ],
+    "deaths": 293
+   },
+   "valid_hard_default": {
+    "wins": 269,
+    "deaths": 233
+   },
+   "valid_std": {
+    "wins": 298,
+    "deaths": 66
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "loadouts": {
+    "Arlekin": [
+     "Pchnięcie sztyletem",
+     "Ukłon",
+     "Żniwa"
+    ],
+    "Awanturniczka": [
+     "Okrutne cięcie",
+     "Szerokie cięcie",
+     "Żelazny łabędź"
+    ],
+    "Okultysta": [
+     "Artyleria otchłani",
+     "Macki otchłani",
+     "Przekleństwo"
+    ],
+    "Oprych": [
+     "Doskok",
+     "Siekańce",
+     "Wystrzał"
+    ]
+   },
+   "climb_score": [
+    29,
+    179,
+    -16
+   ],
+   "valid_hard": {
+    "wins": 249,
+    "n": 300,
+    "ci": [
+     0.7833848085580865,
+     0.8682705276434078
+    ],
+    "deaths": 278
+   },
+   "valid_hard_default": {
+    "wins": 257,
+    "deaths": 312
+   },
+   "valid_std": {
+    "wins": 300,
+    "deaths": 50
    }
   },
   {
@@ -2417,8 +2477,8 @@
    ],
    "loadouts": {
     "Arlekin": [
-     "Heroiczna ballada",
-     "Inspirująca nuta",
+     "Pchnięcie sztyletem",
+     "Ukłon",
      "Żniwa"
     ],
     "Awanturniczka": [
@@ -2427,9 +2487,61 @@
      "Żelazny łabędź"
     ],
     "Kuszniczka": [
-     "Bandażowanie",
-     "Bolas",
+     "Flara",
+     "Priorytetowy cel",
      "Snajperska precyzja"
+    ],
+    "Oprych": [
+     "Doskok",
+     "Puszczenie krwi",
+     "Wystrzał"
+    ]
+   },
+   "climb_score": [
+    29,
+    178,
+    -21
+   ],
+   "valid_hard": {
+    "wins": 249,
+    "n": 300,
+    "ci": [
+     0.7833848085580865,
+     0.8682705276434078
+    ],
+    "deaths": 266
+   },
+   "valid_hard_default": {
+    "wins": 242,
+    "deaths": 289
+   },
+   "valid_std": {
+    "wins": 300,
+    "deaths": 53
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Oprych"
+   ],
+   "loadouts": {
+    "Arlekin": [
+     "Inspirująca nuta",
+     "Ukłon",
+     "Żniwa"
+    ],
+    "Awanturniczka": [
+     "Barbarzyński ryk",
+     "Rozlew krwi",
+     "Żelazny łabędź"
+    ],
+    "Hiena Cmentarna": [
+     "Nawałnica sztyletów",
+     "Rzut sztyletem",
+     "Wypad"
     ],
     "Oprych": [
      "Doskok",
@@ -2438,22 +2550,78 @@
     ]
    },
    "climb_score": [
-    24,
-    72,
-    -1
+    30,
+    180,
+    -22
    ],
-   "valid": {
-    "wins": 293,
+   "valid_hard": {
+    "wins": 247,
     "n": 300,
     "ci": [
-     0.952627445667121,
-     0.9886524844017043
+     0.7761666509606149,
+     0.8623239309741828
     ],
-    "deaths": 79
+    "deaths": 375
    },
-   "valid_default": {
-    "wins": 293,
-    "deaths": 75
+   "valid_hard_default": {
+    "wins": 267,
+    "deaths": 262
+   },
+   "valid_std": {
+    "wins": 298,
+    "deaths": 69
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "loadouts": {
+    "Arlekin": [
+     "Ukłon",
+     "Urwany wątek",
+     "Żniwa"
+    ],
+    "Kapłanka": [
+     "Boskie pocieszenie",
+     "Gwiazda poranna",
+     "Oślepiająca światłość"
+    ],
+    "Kuszniczka": [
+     "Bolas",
+     "Flara",
+     "Na oślep"
+    ],
+    "Oprych": [
+     "Doskok",
+     "Strzał z bliska",
+     "Wystrzał"
+    ]
+   },
+   "climb_score": [
+    29,
+    177,
+    -29
+   ],
+   "valid_hard": {
+    "wins": 246,
+    "n": 300,
+    "ci": [
+     0.7725658602716683,
+     0.8593423445297808
+    ],
+    "deaths": 390
+   },
+   "valid_hard_default": {
+    "wins": 151,
+    "deaths": 301
+   },
+   "valid_std": {
+    "wins": 298,
+    "deaths": 112
    }
   },
   {
@@ -2472,10 +2640,10 @@
     "Kapłanka": [
      "Boskie pocieszenie",
      "Boża łaska",
-     "Osąd"
+     "Oślepiająca światłość"
     ],
     "Krzyżowiec": [
-     "Pierwsza pomoc",
+     "Bastion wiary",
      "Święta lanca",
      "Żarliwe oskarżenie"
     ],
@@ -2486,262 +2654,26 @@
     ]
    },
    "climb_score": [
-    24,
-    72,
-    -2
+    28,
+    177,
+    -32
    ],
-   "valid": {
-    "wins": 292,
+   "valid_hard": {
+    "wins": 237,
     "n": 300,
     "ci": [
-     0.9482704597024538,
-     0.9864270932330232
+     0.7403879054849664,
+     0.832278905116347
     ],
-    "deaths": 89
+    "deaths": 361
    },
-   "valid_default": {
-    "wins": 292,
-    "deaths": 50
-   }
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Badaczka Zarazy",
-    "Hiena Cmentarna",
-    "Kuszniczka"
-   ],
-   "loadouts": {
-    "Awanturniczka": [
-     "Każdy krwawi",
-     "Przypływ adrenaliny",
-     "Żelazny łabędź"
-    ],
-    "Badaczka Zarazy": [
-     "Granat zarazy",
-     "Nacięcie",
-     "Podmuch zamętu"
-    ],
-    "Hiena Cmentarna": [
-     "Rzut sztyletem",
-     "Wypad",
-     "Zatrute strzałki"
-    ],
-    "Kuszniczka": [
-     "Bandażowanie",
-     "Priorytetowy cel",
-     "Snajperska precyzja"
-    ]
+   "valid_hard_default": {
+    "wins": 241,
+    "deaths": 236
    },
-   "climb_score": [
-    24,
-    72,
-    -1
-   ],
-   "valid": {
-    "wins": 288,
-    "n": 300,
-    "ci": [
-     0.9313951365400219,
-     0.9769729078620613
-    ],
-    "deaths": 69
-   },
-   "valid_default": {
-    "wins": 284,
-    "deaths": 93
-   }
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kuszniczka"
-   ],
-   "loadouts": {
-    "Arlekin": [
-     "Pchnięcie sztyletem",
-     "Ukłon",
-     "Żniwa"
-    ],
-    "Awanturniczka": [
-     "Barbarzyński ryk",
-     "Przypływ adrenaliny",
-     "Żelazny łabędź"
-    ],
-    "Hiena Cmentarna": [
-     "Rzut sztyletem",
-     "Wypad",
-     "Zatrute strzałki"
-    ],
-    "Kuszniczka": [
-     "Bandażowanie",
-     "Priorytetowy cel",
-     "Snajperska precyzja"
-    ]
-   },
-   "climb_score": [
-    24,
-    72,
-    -1
-   ],
-   "valid": {
-    "wins": 287,
-    "n": 300,
-    "ci": [
-     0.927281870871939,
-     0.9745037963967957
-    ],
-    "deaths": 81
-   },
-   "valid_default": {
-    "wins": 296,
-    "deaths": 65
-   }
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Kapłanka",
-    "Okultysta",
-    "Oprych"
-   ],
-   "loadouts": {
-    "Awanturniczka": [
-     "Każdy krwawi",
-     "Rozlew krwi",
-     "Żelazny łabędź"
-    ],
-    "Kapłanka": [
-     "Boskie pocieszenie",
-     "Boża łaska",
-     "Osąd"
-    ],
-    "Okultysta": [
-     "Artyleria otchłani",
-     "Cięcie ofiarne",
-     "Macki otchłani"
-    ],
-    "Oprych": [
-     "Doskok",
-     "Puszczenie krwi",
-     "Wystrzał"
-    ]
-   },
-   "climb_score": [
-    24,
-    72,
-    -2
-   ],
-   "valid": {
-    "wins": 281,
-    "n": 300,
-    "ci": [
-     0.9032079605174259,
-     0.9590834439512181
-    ],
-    "deaths": 135
-   },
-   "valid_default": {
-    "wins": 278,
-    "deaths": 78
-   }
-  },
-  {
-   "party": [
-    "Arlekin",
-    "Kapłanka",
-    "Kuszniczka",
-    "Oprych"
-   ],
-   "loadouts": {
-    "Arlekin": [
-     "Heroiczna ballada",
-     "Solówka",
-     "Ukłon"
-    ],
-    "Kapłanka": [
-     "Osąd",
-     "Oświecenie",
-     "Ręka światłości"
-    ],
-    "Kuszniczka": [
-     "Bandażowanie",
-     "Bolas",
-     "Ogień zaporowy"
-    ],
-    "Oprych": [
-     "Doskok",
-     "Strzał z bliska",
-     "Wystrzał"
-    ]
-   },
-   "climb_score": [
-    24,
-    72,
-    -2
-   ],
-   "valid": {
-    "wins": 279,
-    "n": 300,
-    "ci": [
-     0.8953632441625534,
-     0.953763406039394
-    ],
-    "deaths": 168
-   },
-   "valid_default": {
-    "wins": 246,
-    "deaths": 124
-   }
-  },
-  {
-   "party": [
-    "Awanturniczka",
-    "Hiena Cmentarna",
-    "Kapłanka",
-    "Kuszniczka"
-   ],
-   "loadouts": {
-    "Awanturniczka": [
-     "Barbarzyński ryk",
-     "Okrutne cięcie",
-     "Szerokie cięcie"
-    ],
-    "Hiena Cmentarna": [
-     "Rzut sztyletem",
-     "Wypad",
-     "Zatrute strzałki"
-    ],
-    "Kapłanka": [
-     "Boskie pocieszenie",
-     "Gwiazda poranna",
-     "Osąd"
-    ],
-    "Kuszniczka": [
-     "Bandażowanie",
-     "Priorytetowy cel",
-     "Snajperska precyzja"
-    ]
-   },
-   "climb_score": [
-    24,
-    72,
-    0
-   ],
-   "valid": {
-    "wins": 262,
-    "n": 300,
-    "ci": [
-     0.8309179640519985,
-     0.9063082748830255
-    ],
-    "deaths": 109
-   },
-   "valid_default": {
-    "wins": 278,
-    "deaths": 73
+   "valid_std": {
+    "wins": 293,
+    "deaths": 84
    }
   }
  ]
