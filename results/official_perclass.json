@@ -1,0 +1,3522 @@
+{
+ "Arlekin": [
+  {
+   "loadout": [
+    "Pchnięcie sztyletem",
+    "Ukłon",
+    "Urwany wątek"
+   ],
+   "wins": 31,
+   "rooms": 225,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Pchnięcie sztyletem",
+    "Solówka",
+    "Ukłon"
+   ],
+   "wins": 30,
+   "rooms": 226,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Pchnięcie sztyletem",
+    "Urwany wątek"
+   ],
+   "wins": 29,
+   "rooms": 218,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Pchnięcie sztyletem",
+    "Solówka"
+   ],
+   "wins": 28,
+   "rooms": 220,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Pchnięcie sztyletem",
+    "Ukłon",
+    "Żniwa"
+   ],
+   "wins": 28,
+   "rooms": 220,
+   "deaths": 47
+  },
+  {
+   "loadout": [
+    "Pchnięcie sztyletem",
+    "Urwany wątek",
+    "Żniwa"
+   ],
+   "wins": 28,
+   "rooms": 218,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Pchnięcie sztyletem",
+    "Żniwa"
+   ],
+   "wins": 28,
+   "rooms": 216,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Pchnięcie sztyletem",
+    "Solówka"
+   ],
+   "wins": 27,
+   "rooms": 221,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Pchnięcie sztyletem",
+    "Ukłon"
+   ],
+   "wins": 27,
+   "rooms": 219,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Ukłon",
+    "Urwany wątek",
+    "Żniwa"
+   ],
+   "wins": 27,
+   "rooms": 215,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Solówka",
+    "Urwany wątek",
+    "Żniwa"
+   ],
+   "wins": 27,
+   "rooms": 212,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Solówka",
+    "Urwany wątek"
+   ],
+   "wins": 27,
+   "rooms": 208,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Pchnięcie sztyletem",
+    "Solówka",
+    "Żniwa"
+   ],
+   "wins": 26,
+   "rooms": 221,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Pchnięcie sztyletem",
+    "Solówka",
+    "Urwany wątek"
+   ],
+   "wins": 26,
+   "rooms": 217,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Solówka",
+    "Ukłon",
+    "Urwany wątek"
+   ],
+   "wins": 25,
+   "rooms": 213,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Solówka",
+    "Urwany wątek"
+   ],
+   "wins": 25,
+   "rooms": 210,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Pchnięcie sztyletem",
+    "Żniwa"
+   ],
+   "wins": 25,
+   "rooms": 207,
+   "deaths": 45
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Ukłon",
+    "Urwany wątek"
+   ],
+   "wins": 24,
+   "rooms": 201,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Solówka",
+    "Ukłon",
+    "Żniwa"
+   ],
+   "wins": 24,
+   "rooms": 198,
+   "deaths": 44
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Urwany wątek",
+    "Żniwa"
+   ],
+   "wins": 23,
+   "rooms": 210,
+   "deaths": 51
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Ukłon",
+    "Urwany wątek"
+   ],
+   "wins": 22,
+   "rooms": 205,
+   "deaths": 52
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Inspirująca nuta",
+    "Pchnięcie sztyletem"
+   ],
+   "wins": 22,
+   "rooms": 204,
+   "deaths": 53
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Inspirująca nuta",
+    "Solówka"
+   ],
+   "wins": 21,
+   "rooms": 190,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Pchnięcie sztyletem",
+    "Ukłon"
+   ],
+   "wins": 20,
+   "rooms": 203,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Pchnięcie sztyletem",
+    "Urwany wątek"
+   ],
+   "wins": 20,
+   "rooms": 202,
+   "deaths": 48
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Solówka",
+    "Ukłon"
+   ],
+   "wins": 20,
+   "rooms": 186,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Solówka",
+    "Żniwa"
+   ],
+   "wins": 19,
+   "rooms": 174,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Solówka",
+    "Ukłon"
+   ],
+   "wins": 18,
+   "rooms": 184,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Inspirująca nuta",
+    "Urwany wątek"
+   ],
+   "wins": 15,
+   "rooms": 164,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Urwany wątek",
+    "Żniwa"
+   ],
+   "wins": 14,
+   "rooms": 165,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Ukłon",
+    "Żniwa"
+   ],
+   "wins": 13,
+   "rooms": 170,
+   "deaths": 44
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Solówka",
+    "Żniwa"
+   ],
+   "wins": 13,
+   "rooms": 168,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Inspirująca nuta",
+    "Żniwa"
+   ],
+   "wins": 12,
+   "rooms": 154,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Heroiczna ballada",
+    "Inspirująca nuta",
+    "Ukłon"
+   ],
+   "wins": 12,
+   "rooms": 151,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Inspirująca nuta",
+    "Ukłon",
+    "Żniwa"
+   ],
+   "wins": 10,
+   "rooms": 155,
+   "deaths": 34
+  }
+ ],
+ "Awanturniczka": [
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Okrutne cięcie",
+    "Żelazny łabędź"
+   ],
+   "wins": 30,
+   "rooms": 222,
+   "deaths": 46
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Każdy krwawi",
+    "Żelazny łabędź"
+   ],
+   "wins": 29,
+   "rooms": 218,
+   "deaths": 49
+  },
+  {
+   "loadout": [
+    "Rozlew krwi",
+    "Szerokie cięcie",
+    "Żelazny łabędź"
+   ],
+   "wins": 29,
+   "rooms": 215,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Okrutne cięcie",
+    "Szerokie cięcie",
+    "Żelazny łabędź"
+   ],
+   "wins": 27,
+   "rooms": 214,
+   "deaths": 46
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Okrutne cięcie",
+    "Żelazny łabędź"
+   ],
+   "wins": 27,
+   "rooms": 212,
+   "deaths": 46
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Szerokie cięcie",
+    "Żelazny łabędź"
+   ],
+   "wins": 27,
+   "rooms": 210,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Rozlew krwi",
+    "Żelazny łabędź"
+   ],
+   "wins": 26,
+   "rooms": 209,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Szerokie cięcie",
+    "Żelazny łabędź"
+   ],
+   "wins": 26,
+   "rooms": 207,
+   "deaths": 47
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Okrutne cięcie",
+    "Rozlew krwi"
+   ],
+   "wins": 26,
+   "rooms": 206,
+   "deaths": 46
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Każdy krwawi",
+    "Okrutne cięcie"
+   ],
+   "wins": 25,
+   "rooms": 210,
+   "deaths": 51
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Rozlew krwi",
+    "Żelazny łabędź"
+   ],
+   "wins": 25,
+   "rooms": 205,
+   "deaths": 56
+  },
+  {
+   "loadout": [
+    "Okrutne cięcie",
+    "Rozlew krwi",
+    "Szerokie cięcie"
+   ],
+   "wins": 24,
+   "rooms": 199,
+   "deaths": 47
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Rozlew krwi",
+    "Szerokie cięcie"
+   ],
+   "wins": 23,
+   "rooms": 207,
+   "deaths": 65
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Okrutne cięcie",
+    "Szerokie cięcie"
+   ],
+   "wins": 23,
+   "rooms": 205,
+   "deaths": 44
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Okrutne cięcie",
+    "Szerokie cięcie"
+   ],
+   "wins": 23,
+   "rooms": 202,
+   "deaths": 48
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Każdy krwawi",
+    "Rozlew krwi"
+   ],
+   "wins": 22,
+   "rooms": 203,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Każdy krwawi",
+    "Szerokie cięcie"
+   ],
+   "wins": 20,
+   "rooms": 186,
+   "deaths": 50
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Okrutne cięcie",
+    "Rozlew krwi"
+   ],
+   "wins": 20,
+   "rooms": 184,
+   "deaths": 50
+  },
+  {
+   "loadout": [
+    "Okrutne cięcie",
+    "Rozlew krwi",
+    "Żelazny łabędź"
+   ],
+   "wins": 20,
+   "rooms": 183,
+   "deaths": 49
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Rozlew krwi",
+    "Szerokie cięcie"
+   ],
+   "wins": 17,
+   "rooms": 201,
+   "deaths": 53
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Przypływ adrenaliny",
+    "Rozlew krwi"
+   ],
+   "wins": 13,
+   "rooms": 149,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Okrutne cięcie",
+    "Przypływ adrenaliny"
+   ],
+   "wins": 13,
+   "rooms": 145,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Okrutne cięcie",
+    "Przypływ adrenaliny",
+    "Żelazny łabędź"
+   ],
+   "wins": 13,
+   "rooms": 145,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Przypływ adrenaliny",
+    "Szerokie cięcie"
+   ],
+   "wins": 13,
+   "rooms": 145,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Przypływ adrenaliny",
+    "Żelazny łabędź"
+   ],
+   "wins": 13,
+   "rooms": 141,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Przypływ adrenaliny",
+    "Rozlew krwi",
+    "Żelazny łabędź"
+   ],
+   "wins": 12,
+   "rooms": 143,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Przypływ adrenaliny",
+    "Rozlew krwi"
+   ],
+   "wins": 11,
+   "rooms": 147,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Okrutne cięcie",
+    "Przypływ adrenaliny",
+    "Szerokie cięcie"
+   ],
+   "wins": 11,
+   "rooms": 141,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Okrutne cięcie",
+    "Przypływ adrenaliny"
+   ],
+   "wins": 11,
+   "rooms": 139,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Przypływ adrenaliny",
+    "Szerokie cięcie",
+    "Żelazny łabędź"
+   ],
+   "wins": 11,
+   "rooms": 135,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Okrutne cięcie",
+    "Przypływ adrenaliny",
+    "Rozlew krwi"
+   ],
+   "wins": 10,
+   "rooms": 140,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Przypływ adrenaliny",
+    "Rozlew krwi",
+    "Szerokie cięcie"
+   ],
+   "wins": 10,
+   "rooms": 137,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Barbarzyński ryk",
+    "Każdy krwawi",
+    "Przypływ adrenaliny"
+   ],
+   "wins": 10,
+   "rooms": 131,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Przypływ adrenaliny",
+    "Żelazny łabędź"
+   ],
+   "wins": 9,
+   "rooms": 132,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Każdy krwawi",
+    "Przypływ adrenaliny",
+    "Szerokie cięcie"
+   ],
+   "wins": 8,
+   "rooms": 128,
+   "deaths": 32
+  }
+ ],
+ "Badaczka Zarazy": [
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Nacięcie",
+    "Trujący podmuch"
+   ],
+   "wins": 35,
+   "rooms": 229,
+   "deaths": 21
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Podmuch zamętu",
+    "Trujący podmuch"
+   ],
+   "wins": 35,
+   "rooms": 228,
+   "deaths": 19
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Nacięcie",
+    "Sole trzeźwiące"
+   ],
+   "wins": 34,
+   "rooms": 231,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Panaceum",
+    "Trujący podmuch"
+   ],
+   "wins": 33,
+   "rooms": 223,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Nacięcie",
+    "Podmuch zamętu"
+   ],
+   "wins": 32,
+   "rooms": 226,
+   "deaths": 22
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Nacięcie",
+    "Panaceum"
+   ],
+   "wins": 32,
+   "rooms": 225,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Podmuch zamętu",
+    "Trujący podmuch"
+   ],
+   "wins": 32,
+   "rooms": 222,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Sole trzeźwiące",
+    "Trujący podmuch"
+   ],
+   "wins": 32,
+   "rooms": 221,
+   "deaths": 22
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Nacięcie",
+    "Trujący podmuch"
+   ],
+   "wins": 31,
+   "rooms": 223,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Granat zarazy",
+    "Trujący podmuch"
+   ],
+   "wins": 31,
+   "rooms": 220,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Panaceum",
+    "Trujący podmuch"
+   ],
+   "wins": 31,
+   "rooms": 217,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Panaceum",
+    "Sole trzeźwiące"
+   ],
+   "wins": 30,
+   "rooms": 221,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Podmuch zamętu",
+    "Sole trzeźwiące"
+   ],
+   "wins": 29,
+   "rooms": 217,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Sole trzeźwiące",
+    "Trujący podmuch"
+   ],
+   "wins": 29,
+   "rooms": 216,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Nacięcie",
+    "Panaceum",
+    "Trujący podmuch"
+   ],
+   "wins": 29,
+   "rooms": 216,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Nacięcie",
+    "Panaceum",
+    "Sole trzeźwiące"
+   ],
+   "wins": 29,
+   "rooms": 215,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Nacięcie",
+    "Podmuch zamętu",
+    "Sole trzeźwiące"
+   ],
+   "wins": 28,
+   "rooms": 217,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Nacięcie",
+    "Podmuch zamętu",
+    "Trujący podmuch"
+   ],
+   "wins": 28,
+   "rooms": 213,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Granat zarazy",
+    "Panaceum"
+   ],
+   "wins": 28,
+   "rooms": 211,
+   "deaths": 23
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Nacięcie",
+    "Panaceum"
+   ],
+   "wins": 28,
+   "rooms": 211,
+   "deaths": 24
+  },
+  {
+   "loadout": [
+    "Granat zarazy",
+    "Panaceum",
+    "Podmuch zamętu"
+   ],
+   "wins": 27,
+   "rooms": 216,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Nacięcie",
+    "Sole trzeźwiące",
+    "Trujący podmuch"
+   ],
+   "wins": 27,
+   "rooms": 212,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Nacięcie",
+    "Sole trzeźwiące"
+   ],
+   "wins": 27,
+   "rooms": 208,
+   "deaths": 24
+  },
+  {
+   "loadout": [
+    "Panaceum",
+    "Sole trzeźwiące",
+    "Trujący podmuch"
+   ],
+   "wins": 27,
+   "rooms": 204,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Nacięcie",
+    "Panaceum",
+    "Podmuch zamętu"
+   ],
+   "wins": 26,
+   "rooms": 209,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Nacięcie",
+    "Podmuch zamętu"
+   ],
+   "wins": 26,
+   "rooms": 208,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Panaceum",
+    "Podmuch zamętu"
+   ],
+   "wins": 26,
+   "rooms": 207,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Podmuch zamętu",
+    "Sole trzeźwiące"
+   ],
+   "wins": 26,
+   "rooms": 206,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Granat zarazy",
+    "Nacięcie"
+   ],
+   "wins": 26,
+   "rooms": 205,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Granat zarazy",
+    "Podmuch zamętu"
+   ],
+   "wins": 25,
+   "rooms": 204,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Granat zarazy",
+    "Sole trzeźwiące"
+   ],
+   "wins": 25,
+   "rooms": 203,
+   "deaths": 23
+  },
+  {
+   "loadout": [
+    "Podmuch zamętu",
+    "Sole trzeźwiące",
+    "Trujący podmuch"
+   ],
+   "wins": 23,
+   "rooms": 207,
+   "deaths": 48
+  },
+  {
+   "loadout": [
+    "Gaz oślepiający",
+    "Panaceum",
+    "Sole trzeźwiące"
+   ],
+   "wins": 23,
+   "rooms": 201,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Panaceum",
+    "Podmuch zamętu",
+    "Sole trzeźwiące"
+   ],
+   "wins": 22,
+   "rooms": 203,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Panaceum",
+    "Podmuch zamętu",
+    "Trujący podmuch"
+   ],
+   "wins": 22,
+   "rooms": 201,
+   "deaths": 41
+  }
+ ],
+ "Hiena Cmentarna": [
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Rozłupanie czaszki",
+    "Wypad"
+   ],
+   "wins": 35,
+   "rooms": 230,
+   "deaths": 23
+  },
+  {
+   "loadout": [
+    "Rozłupanie czaszki",
+    "Zatrute strzałki",
+    "Środki dopingujące"
+   ],
+   "wins": 34,
+   "rooms": 229,
+   "deaths": 24
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Wypad",
+    "Środki dopingujące"
+   ],
+   "wins": 34,
+   "rooms": 229,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Rozłupanie czaszki",
+    "Zatrute strzałki"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 22
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Wypad",
+    "Zatrute strzałki"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Zatrute strzałki",
+    "Środki dopingujące"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Rozłupanie czaszki",
+    "Rzut sztyletem",
+    "Zatrute strzałki"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Rozłupanie czaszki",
+    "Rzut sztyletem",
+    "Wypad"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Rozłupanie czaszki",
+    "Wypad"
+   ],
+   "wins": 33,
+   "rooms": 232,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Zatrute strzałki",
+    "Środki dopingujące"
+   ],
+   "wins": 33,
+   "rooms": 228,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Rozłupanie czaszki",
+    "Wypad",
+    "Środki dopingujące"
+   ],
+   "wins": 33,
+   "rooms": 228,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Odsunięcie w cień",
+    "Wypad"
+   ],
+   "wins": 33,
+   "rooms": 228,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Odsunięcie w cień",
+    "Zatrute strzałki"
+   ],
+   "wins": 33,
+   "rooms": 227,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Wypad",
+    "Środki dopingujące"
+   ],
+   "wins": 33,
+   "rooms": 226,
+   "deaths": 21
+  },
+  {
+   "loadout": [
+    "Rozłupanie czaszki",
+    "Wypad",
+    "Zatrute strzałki"
+   ],
+   "wins": 33,
+   "rooms": 226,
+   "deaths": 21
+  },
+  {
+   "loadout": [
+    "Wypad",
+    "Zatrute strzałki",
+    "Środki dopingujące"
+   ],
+   "wins": 33,
+   "rooms": 226,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Rozłupanie czaszki",
+    "Rzut sztyletem"
+   ],
+   "wins": 33,
+   "rooms": 226,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Rozłupanie czaszki",
+    "Rzut sztyletem"
+   ],
+   "wins": 33,
+   "rooms": 226,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Rozłupanie czaszki",
+    "Środki dopingujące"
+   ],
+   "wins": 32,
+   "rooms": 229,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Rozłupanie czaszki",
+    "Zatrute strzałki"
+   ],
+   "wins": 32,
+   "rooms": 226,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Rozłupanie czaszki",
+    "Rzut sztyletem",
+    "Środki dopingujące"
+   ],
+   "wins": 32,
+   "rooms": 223,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Wypad",
+    "Zatrute strzałki"
+   ],
+   "wins": 31,
+   "rooms": 224,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Odsunięcie w cień",
+    "Rzut sztyletem"
+   ],
+   "wins": 31,
+   "rooms": 220,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Rzut sztyletem",
+    "Zatrute strzałki"
+   ],
+   "wins": 31,
+   "rooms": 220,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Rzut sztyletem",
+    "Wypad"
+   ],
+   "wins": 31,
+   "rooms": 220,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Rzut sztyletem",
+    "Wypad",
+    "Zatrute strzałki"
+   ],
+   "wins": 31,
+   "rooms": 220,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Rzut sztyletem",
+    "Wypad"
+   ],
+   "wins": 31,
+   "rooms": 220,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Rzut sztyletem",
+    "Zatrute strzałki"
+   ],
+   "wins": 31,
+   "rooms": 220,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Rzut sztyletem",
+    "Środki dopingujące"
+   ],
+   "wins": 31,
+   "rooms": 219,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Rzut sztyletem",
+    "Zatrute strzałki",
+    "Środki dopingujące"
+   ],
+   "wins": 31,
+   "rooms": 219,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Odsunięcie w cień",
+    "Środki dopingujące"
+   ],
+   "wins": 30,
+   "rooms": 218,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Rzut sztyletem",
+    "Wypad",
+    "Środki dopingujące"
+   ],
+   "wins": 30,
+   "rooms": 217,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Odsunięcie w cień",
+    "Rozłupanie czaszki"
+   ],
+   "wins": 29,
+   "rooms": 219,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Nawałnica sztyletów",
+    "Rzut sztyletem",
+    "Środki dopingujące"
+   ],
+   "wins": 29,
+   "rooms": 216,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Odsunięcie w cień",
+    "Rozłupanie czaszki",
+    "Środki dopingujące"
+   ],
+   "wins": 28,
+   "rooms": 215,
+   "deaths": 29
+  }
+ ],
+ "Kapłanka": [
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Oślepiająca światłość",
+    "Ręka światłości"
+   ],
+   "wins": 37,
+   "rooms": 236,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Gwiazda poranna",
+    "Oślepiająca światłość"
+   ],
+   "wins": 37,
+   "rooms": 236,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Gwiazda poranna",
+    "Osąd",
+    "Oślepiająca światłość"
+   ],
+   "wins": 37,
+   "rooms": 235,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Boża łaska",
+    "Oślepiająca światłość"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Osąd",
+    "Oślepiająca światłość"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Gwiazda poranna",
+    "Osąd",
+    "Oświecenie"
+   ],
+   "wins": 36,
+   "rooms": 236,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Gwiazda poranna",
+    "Osąd",
+    "Ręka światłości"
+   ],
+   "wins": 36,
+   "rooms": 235,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Osąd",
+    "Oślepiająca światłość",
+    "Ręka światłości"
+   ],
+   "wins": 36,
+   "rooms": 235,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Oślepiająca światłość",
+    "Oświecenie"
+   ],
+   "wins": 36,
+   "rooms": 235,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Oświecenie",
+    "Ręka światłości"
+   ],
+   "wins": 36,
+   "rooms": 235,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Osąd",
+    "Oświecenie",
+    "Ręka światłości"
+   ],
+   "wins": 36,
+   "rooms": 235,
+   "deaths": 44
+  },
+  {
+   "loadout": [
+    "Osąd",
+    "Oślepiająca światłość",
+    "Oświecenie"
+   ],
+   "wins": 36,
+   "rooms": 234,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Gwiazda poranna",
+    "Oślepiająca światłość",
+    "Oświecenie"
+   ],
+   "wins": 36,
+   "rooms": 234,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Oślepiająca światłość",
+    "Oświecenie"
+   ],
+   "wins": 36,
+   "rooms": 233,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Oświecenie",
+    "Ręka światłości"
+   ],
+   "wins": 36,
+   "rooms": 233,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Gwiazda poranna",
+    "Osąd"
+   ],
+   "wins": 36,
+   "rooms": 233,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Osąd",
+    "Oślepiająca światłość"
+   ],
+   "wins": 35,
+   "rooms": 234,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Gwiazda poranna",
+    "Oświecenie"
+   ],
+   "wins": 35,
+   "rooms": 232,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Gwiazda poranna",
+    "Oślepiająca światłość",
+    "Ręka światłości"
+   ],
+   "wins": 35,
+   "rooms": 231,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Oślepiająca światłość",
+    "Ręka światłości"
+   ],
+   "wins": 35,
+   "rooms": 230,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Gwiazda poranna",
+    "Oświecenie",
+    "Ręka światłości"
+   ],
+   "wins": 35,
+   "rooms": 229,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Gwiazda poranna",
+    "Ręka światłości"
+   ],
+   "wins": 35,
+   "rooms": 226,
+   "deaths": 23
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Osąd",
+    "Oświecenie"
+   ],
+   "wins": 34,
+   "rooms": 232,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Oślepiająca światłość",
+    "Oświecenie",
+    "Ręka światłości"
+   ],
+   "wins": 34,
+   "rooms": 232,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Gwiazda poranna",
+    "Oświecenie"
+   ],
+   "wins": 34,
+   "rooms": 231,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Gwiazda poranna",
+    "Osąd"
+   ],
+   "wins": 34,
+   "rooms": 231,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Osąd",
+    "Ręka światłości"
+   ],
+   "wins": 34,
+   "rooms": 231,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Boża łaska",
+    "Oświecenie"
+   ],
+   "wins": 34,
+   "rooms": 230,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Boża łaska",
+    "Osąd"
+   ],
+   "wins": 33,
+   "rooms": 232,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Osąd",
+    "Ręka światłości"
+   ],
+   "wins": 33,
+   "rooms": 230,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Gwiazda poranna",
+    "Oślepiająca światłość"
+   ],
+   "wins": 33,
+   "rooms": 227,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Osąd",
+    "Oświecenie"
+   ],
+   "wins": 32,
+   "rooms": 229,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Boża łaska",
+    "Gwiazda poranna"
+   ],
+   "wins": 32,
+   "rooms": 226,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Boskie pocieszenie",
+    "Boża łaska",
+    "Ręka światłości"
+   ],
+   "wins": 30,
+   "rooms": 225,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Boża łaska",
+    "Gwiazda poranna",
+    "Ręka światłości"
+   ],
+   "wins": 27,
+   "rooms": 207,
+   "deaths": 39
+  }
+ ],
+ "Krzyżowiec": [
+  {
+   "loadout": [
+    "Kara boska",
+    "Święta lanca",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 36,
+   "rooms": 234,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Pierwsza pomoc",
+    "Święta lanca"
+   ],
+   "wins": 36,
+   "rooms": 231,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Pierwsza pomoc",
+    "Święta lanca"
+   ],
+   "wins": 35,
+   "rooms": 233,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Święta lanca",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 35,
+   "rooms": 233,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Kara boska",
+    "Pierwsza pomoc",
+    "Święta lanca"
+   ],
+   "wins": 35,
+   "rooms": 233,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Kara boska",
+    "Święta lanca"
+   ],
+   "wins": 35,
+   "rooms": 230,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Kara boska",
+    "Ogłuszający cios",
+    "Święta lanca"
+   ],
+   "wins": 34,
+   "rooms": 230,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Ogłuszający cios",
+    "Pierwsza pomoc",
+    "Święta lanca"
+   ],
+   "wins": 34,
+   "rooms": 230,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Ogłuszający cios",
+    "Święta lanca",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 34,
+   "rooms": 229,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Święta lanca",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Pierwsza pomoc",
+    "Święta lanca",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Ogłuszający cios",
+    "Święta lanca"
+   ],
+   "wins": 33,
+   "rooms": 230,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Ogłuszający cios",
+    "Święta lanca"
+   ],
+   "wins": 33,
+   "rooms": 226,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Kara boska",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 33,
+   "rooms": 223,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Pierwsza pomoc",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 32,
+   "rooms": 229,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Kara boska",
+    "Święta lanca"
+   ],
+   "wins": 32,
+   "rooms": 228,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Kara boska",
+    "Pierwsza pomoc",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 32,
+   "rooms": 227,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Inspirujący okrzyk",
+    "Święta lanca"
+   ],
+   "wins": 32,
+   "rooms": 225,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Ogłuszający cios",
+    "Pierwsza pomoc",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 31,
+   "rooms": 227,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Pierwsza pomoc",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 31,
+   "rooms": 220,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Kara boska",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 31,
+   "rooms": 216,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Kara boska",
+    "Ogłuszający cios",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 30,
+   "rooms": 222,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Ogłuszający cios",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 27,
+   "rooms": 214,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Inspirujący okrzyk",
+    "Pierwsza pomoc"
+   ],
+   "wins": 27,
+   "rooms": 207,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Kara boska",
+    "Ogłuszający cios",
+    "Pierwsza pomoc"
+   ],
+   "wins": 27,
+   "rooms": 207,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Inspirujący okrzyk",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 26,
+   "rooms": 204,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Ogłuszający cios",
+    "Pierwsza pomoc"
+   ],
+   "wins": 24,
+   "rooms": 205,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Ogłuszający cios",
+    "Żarliwe oskarżenie"
+   ],
+   "wins": 24,
+   "rooms": 201,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Kara boska",
+    "Pierwsza pomoc"
+   ],
+   "wins": 24,
+   "rooms": 200,
+   "deaths": 49
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Kara boska",
+    "Pierwsza pomoc"
+   ],
+   "wins": 23,
+   "rooms": 202,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Ogłuszający cios",
+    "Pierwsza pomoc"
+   ],
+   "wins": 22,
+   "rooms": 206,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Inspirujący okrzyk",
+    "Kara boska",
+    "Ogłuszający cios"
+   ],
+   "wins": 22,
+   "rooms": 199,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Inspirujący okrzyk",
+    "Kara boska"
+   ],
+   "wins": 21,
+   "rooms": 196,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Inspirujący okrzyk",
+    "Ogłuszający cios"
+   ],
+   "wins": 18,
+   "rooms": 193,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Bastion wiary",
+    "Kara boska",
+    "Ogłuszający cios"
+   ],
+   "wins": 17,
+   "rooms": 190,
+   "deaths": 41
+  }
+ ],
+ "Kuszniczka": [
+  {
+   "loadout": [
+    "Bolas",
+    "Na oślep",
+    "Snajperska precyzja"
+   ],
+   "wins": 40,
+   "rooms": 240,
+   "deaths": 17
+  },
+  {
+   "loadout": [
+    "Na oślep",
+    "Ogień zaporowy",
+    "Snajperska precyzja"
+   ],
+   "wins": 38,
+   "rooms": 235,
+   "deaths": 22
+  },
+  {
+   "loadout": [
+    "Na oślep",
+    "Priorytetowy cel",
+    "Snajperska precyzja"
+   ],
+   "wins": 38,
+   "rooms": 235,
+   "deaths": 23
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Priorytetowy cel",
+    "Snajperska precyzja"
+   ],
+   "wins": 38,
+   "rooms": 235,
+   "deaths": 24
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Ogień zaporowy",
+    "Snajperska precyzja"
+   ],
+   "wins": 38,
+   "rooms": 235,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Bolas",
+    "Snajperska precyzja"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Ogień zaporowy",
+    "Priorytetowy cel",
+    "Snajperska precyzja"
+   ],
+   "wins": 37,
+   "rooms": 232,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Flara",
+    "Na oślep",
+    "Snajperska precyzja"
+   ],
+   "wins": 36,
+   "rooms": 230,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Flara",
+    "Ogień zaporowy",
+    "Snajperska precyzja"
+   ],
+   "wins": 36,
+   "rooms": 229,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Flara",
+    "Snajperska precyzja"
+   ],
+   "wins": 35,
+   "rooms": 229,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Ogień zaporowy",
+    "Snajperska precyzja"
+   ],
+   "wins": 34,
+   "rooms": 230,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Na oślep",
+    "Snajperska precyzja"
+   ],
+   "wins": 34,
+   "rooms": 229,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Flara",
+    "Snajperska precyzja"
+   ],
+   "wins": 32,
+   "rooms": 220,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Flara",
+    "Ogień zaporowy"
+   ],
+   "wins": 31,
+   "rooms": 222,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Priorytetowy cel",
+    "Snajperska precyzja"
+   ],
+   "wins": 31,
+   "rooms": 221,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Flara",
+    "Priorytetowy cel",
+    "Snajperska precyzja"
+   ],
+   "wins": 31,
+   "rooms": 216,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Na oślep",
+    "Ogień zaporowy"
+   ],
+   "wins": 30,
+   "rooms": 223,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Flara",
+    "Na oślep",
+    "Priorytetowy cel"
+   ],
+   "wins": 30,
+   "rooms": 221,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Bolas",
+    "Ogień zaporowy"
+   ],
+   "wins": 30,
+   "rooms": 218,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Ogień zaporowy",
+    "Priorytetowy cel"
+   ],
+   "wins": 30,
+   "rooms": 217,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Na oślep",
+    "Priorytetowy cel"
+   ],
+   "wins": 29,
+   "rooms": 221,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Flara",
+    "Na oślep",
+    "Ogień zaporowy"
+   ],
+   "wins": 29,
+   "rooms": 221,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Flara",
+    "Ogień zaporowy"
+   ],
+   "wins": 29,
+   "rooms": 219,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Na oślep",
+    "Ogień zaporowy",
+    "Priorytetowy cel"
+   ],
+   "wins": 29,
+   "rooms": 217,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Flara",
+    "Na oślep"
+   ],
+   "wins": 29,
+   "rooms": 215,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Flara",
+    "Na oślep"
+   ],
+   "wins": 28,
+   "rooms": 219,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Na oślep",
+    "Priorytetowy cel"
+   ],
+   "wins": 28,
+   "rooms": 214,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Na oślep",
+    "Ogień zaporowy"
+   ],
+   "wins": 28,
+   "rooms": 214,
+   "deaths": 44
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Ogień zaporowy",
+    "Priorytetowy cel"
+   ],
+   "wins": 27,
+   "rooms": 218,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Bolas",
+    "Na oślep"
+   ],
+   "wins": 26,
+   "rooms": 216,
+   "deaths": 50
+  },
+  {
+   "loadout": [
+    "Flara",
+    "Ogień zaporowy",
+    "Priorytetowy cel"
+   ],
+   "wins": 25,
+   "rooms": 217,
+   "deaths": 46
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Bolas",
+    "Priorytetowy cel"
+   ],
+   "wins": 21,
+   "rooms": 195,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Flara",
+    "Priorytetowy cel"
+   ],
+   "wins": 21,
+   "rooms": 189,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Bolas",
+    "Flara",
+    "Priorytetowy cel"
+   ],
+   "wins": 18,
+   "rooms": 194,
+   "deaths": 48
+  },
+  {
+   "loadout": [
+    "Bandażowanie",
+    "Bolas",
+    "Flara"
+   ],
+   "wins": 18,
+   "rooms": 192,
+   "deaths": 43
+  }
+ ],
+ "Okultysta": [
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Przekleństwo",
+    "Uścisk demona"
+   ],
+   "wins": 35,
+   "rooms": 230,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Macki otchłani",
+    "Przekleństwo"
+   ],
+   "wins": 34,
+   "rooms": 229,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Cięcie ofiarne",
+    "Przekleństwo"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Cięcie ofiarne",
+    "Klątwa osłabienia"
+   ],
+   "wins": 33,
+   "rooms": 230,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Klątwa osłabienia",
+    "Przekleństwo"
+   ],
+   "wins": 33,
+   "rooms": 230,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Mroczna rekonstrukcja",
+    "Uścisk demona"
+   ],
+   "wins": 33,
+   "rooms": 228,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Klątwa osłabienia",
+    "Mroczna rekonstrukcja"
+   ],
+   "wins": 33,
+   "rooms": 228,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Mroczna rekonstrukcja",
+    "Przekleństwo"
+   ],
+   "wins": 33,
+   "rooms": 223,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Klątwa osłabienia",
+    "Przekleństwo"
+   ],
+   "wins": 32,
+   "rooms": 222,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Macki otchłani",
+    "Przekleństwo",
+    "Uścisk demona"
+   ],
+   "wins": 32,
+   "rooms": 222,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Klątwa osłabienia",
+    "Przekleństwo",
+    "Uścisk demona"
+   ],
+   "wins": 31,
+   "rooms": 225,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Cięcie ofiarne",
+    "Macki otchłani"
+   ],
+   "wins": 31,
+   "rooms": 223,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Klątwa osłabienia",
+    "Macki otchłani"
+   ],
+   "wins": 31,
+   "rooms": 222,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Klątwa osłabienia",
+    "Mroczna rekonstrukcja"
+   ],
+   "wins": 31,
+   "rooms": 221,
+   "deaths": 33
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Macki otchłani",
+    "Uścisk demona"
+   ],
+   "wins": 30,
+   "rooms": 224,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Cięcie ofiarne",
+    "Uścisk demona"
+   ],
+   "wins": 30,
+   "rooms": 221,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Cięcie ofiarne",
+    "Mroczna rekonstrukcja"
+   ],
+   "wins": 30,
+   "rooms": 220,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Klątwa osłabienia",
+    "Mroczna rekonstrukcja",
+    "Przekleństwo"
+   ],
+   "wins": 30,
+   "rooms": 220,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Klątwa osłabienia",
+    "Macki otchłani",
+    "Mroczna rekonstrukcja"
+   ],
+   "wins": 30,
+   "rooms": 220,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Mroczna rekonstrukcja",
+    "Przekleństwo",
+    "Uścisk demona"
+   ],
+   "wins": 30,
+   "rooms": 219,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Mroczna rekonstrukcja",
+    "Uścisk demona"
+   ],
+   "wins": 30,
+   "rooms": 219,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Klątwa osłabienia",
+    "Uścisk demona"
+   ],
+   "wins": 29,
+   "rooms": 225,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Klątwa osłabienia",
+    "Macki otchłani"
+   ],
+   "wins": 29,
+   "rooms": 225,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Klątwa osłabienia",
+    "Mroczna rekonstrukcja",
+    "Uścisk demona"
+   ],
+   "wins": 29,
+   "rooms": 223,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Klątwa osłabienia",
+    "Uścisk demona"
+   ],
+   "wins": 29,
+   "rooms": 222,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Macki otchłani",
+    "Przekleństwo"
+   ],
+   "wins": 29,
+   "rooms": 221,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Klątwa osłabienia",
+    "Macki otchłani",
+    "Przekleństwo"
+   ],
+   "wins": 29,
+   "rooms": 220,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Mroczna rekonstrukcja",
+    "Przekleństwo"
+   ],
+   "wins": 29,
+   "rooms": 220,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Macki otchłani",
+    "Mroczna rekonstrukcja"
+   ],
+   "wins": 29,
+   "rooms": 219,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Przekleństwo",
+    "Uścisk demona"
+   ],
+   "wins": 29,
+   "rooms": 215,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Artyleria otchłani",
+    "Macki otchłani",
+    "Uścisk demona"
+   ],
+   "wins": 28,
+   "rooms": 215,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Macki otchłani",
+    "Mroczna rekonstrukcja",
+    "Przekleństwo"
+   ],
+   "wins": 27,
+   "rooms": 216,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Klątwa osłabienia",
+    "Macki otchłani",
+    "Uścisk demona"
+   ],
+   "wins": 26,
+   "rooms": 221,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Macki otchłani",
+    "Mroczna rekonstrukcja",
+    "Uścisk demona"
+   ],
+   "wins": 25,
+   "rooms": 213,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Cięcie ofiarne",
+    "Macki otchłani",
+    "Mroczna rekonstrukcja"
+   ],
+   "wins": 22,
+   "rooms": 197,
+   "deaths": 39
+  }
+ ],
+ "Oprych": [
+  {
+   "loadout": [
+    "Doskok",
+    "Strzał naprowadzający",
+    "Wystrzał"
+   ],
+   "wins": 39,
+   "rooms": 238,
+   "deaths": 18
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Strzał z bliska",
+    "Wystrzał"
+   ],
+   "wins": 39,
+   "rooms": 236,
+   "deaths": 19
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Puszczenie krwi",
+    "Wystrzał"
+   ],
+   "wins": 37,
+   "rooms": 237,
+   "deaths": 23
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Strzał z bliska",
+    "Wystrzał"
+   ],
+   "wins": 37,
+   "rooms": 235,
+   "deaths": 24
+  },
+  {
+   "loadout": [
+    "Siekańce",
+    "Strzał z bliska",
+    "Wystrzał"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 24
+  },
+  {
+   "loadout": [
+    "Strzał naprowadzający",
+    "Strzał z bliska",
+    "Wystrzał"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 24
+  },
+  {
+   "loadout": [
+    "Puszczenie krwi",
+    "Strzał z bliska",
+    "Wystrzał"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 25
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Siekańce",
+    "Wystrzał"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Siekańce",
+    "Strzał naprowadzający",
+    "Wystrzał"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Ohydne cięcie",
+    "Wystrzał"
+   ],
+   "wins": 36,
+   "rooms": 235,
+   "deaths": 20
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Siekańce",
+    "Wystrzał"
+   ],
+   "wins": 36,
+   "rooms": 235,
+   "deaths": 21
+  },
+  {
+   "loadout": [
+    "Puszczenie krwi",
+    "Siekańce",
+    "Wystrzał"
+   ],
+   "wins": 36,
+   "rooms": 235,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Puszczenie krwi",
+    "Wystrzał"
+   ],
+   "wins": 36,
+   "rooms": 234,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Puszczenie krwi",
+    "Strzał naprowadzający",
+    "Wystrzał"
+   ],
+   "wins": 36,
+   "rooms": 234,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Strzał naprowadzający",
+    "Wystrzał"
+   ],
+   "wins": 36,
+   "rooms": 229,
+   "deaths": 24
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Puszczenie krwi",
+    "Strzał z bliska"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 32
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Puszczenie krwi",
+    "Siekańce"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Ohydne cięcie",
+    "Puszczenie krwi"
+   ],
+   "wins": 34,
+   "rooms": 228,
+   "deaths": 45
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Siekańce",
+    "Strzał z bliska"
+   ],
+   "wins": 33,
+   "rooms": 227,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Ohydne cięcie",
+    "Strzał z bliska"
+   ],
+   "wins": 33,
+   "rooms": 225,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Ohydne cięcie",
+    "Siekańce"
+   ],
+   "wins": 32,
+   "rooms": 224,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Puszczenie krwi",
+    "Strzał naprowadzający"
+   ],
+   "wins": 31,
+   "rooms": 226,
+   "deaths": 39
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Strzał naprowadzający",
+    "Strzał z bliska"
+   ],
+   "wins": 31,
+   "rooms": 224,
+   "deaths": 38
+  },
+  {
+   "loadout": [
+    "Puszczenie krwi",
+    "Strzał naprowadzający",
+    "Strzał z bliska"
+   ],
+   "wins": 31,
+   "rooms": 223,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Siekańce",
+    "Strzał naprowadzający",
+    "Strzał z bliska"
+   ],
+   "wins": 31,
+   "rooms": 222,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Puszczenie krwi",
+    "Siekańce",
+    "Strzał z bliska"
+   ],
+   "wins": 30,
+   "rooms": 224,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Strzał naprowadzający",
+    "Strzał z bliska"
+   ],
+   "wins": 30,
+   "rooms": 224,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Siekańce",
+    "Strzał naprowadzający"
+   ],
+   "wins": 30,
+   "rooms": 219,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Puszczenie krwi",
+    "Strzał z bliska"
+   ],
+   "wins": 30,
+   "rooms": 219,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Siekańce",
+    "Strzał z bliska"
+   ],
+   "wins": 30,
+   "rooms": 218,
+   "deaths": 40
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Puszczenie krwi",
+    "Strzał naprowadzający"
+   ],
+   "wins": 29,
+   "rooms": 223,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Siekańce",
+    "Strzał naprowadzający"
+   ],
+   "wins": 29,
+   "rooms": 221,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Ohydne cięcie",
+    "Puszczenie krwi",
+    "Siekańce"
+   ],
+   "wins": 29,
+   "rooms": 221,
+   "deaths": 44
+  },
+  {
+   "loadout": [
+    "Doskok",
+    "Ohydne cięcie",
+    "Strzał naprowadzający"
+   ],
+   "wins": 28,
+   "rooms": 218,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Puszczenie krwi",
+    "Siekańce",
+    "Strzał naprowadzający"
+   ],
+   "wins": 27,
+   "rooms": 217,
+   "deaths": 49
+  }
+ ],
+ "Łowca Nagród": [
+  {
+   "loadout": [
+    "Do mnie",
+    "Egzekucja",
+    "Wykonanie wyroku"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Egzekucja",
+    "Podbródkowy"
+   ],
+   "wins": 37,
+   "rooms": 234,
+   "deaths": 28
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Granat błyskowy",
+    "Podbródkowy"
+   ],
+   "wins": 36,
+   "rooms": 233,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Egzekucja",
+    "Wyrok śmierci"
+   ],
+   "wins": 35,
+   "rooms": 232,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Podbródkowy",
+    "Wykonanie wyroku"
+   ],
+   "wins": 34,
+   "rooms": 230,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Egzekucja",
+    "Granat błyskowy"
+   ],
+   "wins": 33,
+   "rooms": 224,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Podbródkowy",
+    "Wykonanie wyroku"
+   ],
+   "wins": 32,
+   "rooms": 224,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Granat błyskowy",
+    "Wyrok śmierci"
+   ],
+   "wins": 32,
+   "rooms": 223,
+   "deaths": 26
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Granat błyskowy",
+    "Wykonanie wyroku"
+   ],
+   "wins": 31,
+   "rooms": 224,
+   "deaths": 30
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Wykonanie wyroku",
+    "Wyrok śmierci"
+   ],
+   "wins": 31,
+   "rooms": 223,
+   "deaths": 34
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Wykonanie wyroku",
+    "Wyrok śmierci"
+   ],
+   "wins": 29,
+   "rooms": 220,
+   "deaths": 53
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Kolczatki",
+    "Podbródkowy"
+   ],
+   "wins": 28,
+   "rooms": 224,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Egzekucja",
+    "Kolczatki"
+   ],
+   "wins": 28,
+   "rooms": 222,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Granat błyskowy",
+    "Kolczatki"
+   ],
+   "wins": 28,
+   "rooms": 222,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Granat błyskowy",
+    "Wykonanie wyroku"
+   ],
+   "wins": 28,
+   "rooms": 221,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Granat błyskowy",
+    "Podbródkowy",
+    "Wykonanie wyroku"
+   ],
+   "wins": 28,
+   "rooms": 220,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Podbródkowy",
+    "Wyrok śmierci"
+   ],
+   "wins": 28,
+   "rooms": 220,
+   "deaths": 50
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Kolczatki",
+    "Wyrok śmierci"
+   ],
+   "wins": 27,
+   "rooms": 221,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Egzekucja",
+    "Kolczatki",
+    "Wykonanie wyroku"
+   ],
+   "wins": 27,
+   "rooms": 220,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Granat błyskowy",
+    "Podbródkowy"
+   ],
+   "wins": 27,
+   "rooms": 215,
+   "deaths": 31
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Podbródkowy",
+    "Wyrok śmierci"
+   ],
+   "wins": 27,
+   "rooms": 208,
+   "deaths": 29
+  },
+  {
+   "loadout": [
+    "Granat błyskowy",
+    "Wykonanie wyroku",
+    "Wyrok śmierci"
+   ],
+   "wins": 27,
+   "rooms": 207,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Kolczatki",
+    "Podbródkowy",
+    "Wykonanie wyroku"
+   ],
+   "wins": 26,
+   "rooms": 215,
+   "deaths": 47
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Kolczatki",
+    "Wykonanie wyroku"
+   ],
+   "wins": 26,
+   "rooms": 214,
+   "deaths": 49
+  },
+  {
+   "loadout": [
+    "Kolczatki",
+    "Podbródkowy",
+    "Wyrok śmierci"
+   ],
+   "wins": 25,
+   "rooms": 211,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Granat błyskowy",
+    "Wyrok śmierci"
+   ],
+   "wins": 25,
+   "rooms": 207,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Granat błyskowy",
+    "Podbródkowy",
+    "Wyrok śmierci"
+   ],
+   "wins": 24,
+   "rooms": 212,
+   "deaths": 27
+  },
+  {
+   "loadout": [
+    "Kolczatki",
+    "Wykonanie wyroku",
+    "Wyrok śmierci"
+   ],
+   "wins": 24,
+   "rooms": 212,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Granat błyskowy",
+    "Kolczatki",
+    "Wyrok śmierci"
+   ],
+   "wins": 24,
+   "rooms": 208,
+   "deaths": 41
+  },
+  {
+   "loadout": [
+    "Granat błyskowy",
+    "Kolczatki",
+    "Wykonanie wyroku"
+   ],
+   "wins": 24,
+   "rooms": 206,
+   "deaths": 43
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Kolczatki",
+    "Podbródkowy"
+   ],
+   "wins": 23,
+   "rooms": 211,
+   "deaths": 42
+  },
+  {
+   "loadout": [
+    "Granat błyskowy",
+    "Kolczatki",
+    "Podbródkowy"
+   ],
+   "wins": 23,
+   "rooms": 203,
+   "deaths": 35
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Kolczatki",
+    "Wyrok śmierci"
+   ],
+   "wins": 23,
+   "rooms": 196,
+   "deaths": 36
+  },
+  {
+   "loadout": [
+    "Do mnie",
+    "Granat błyskowy",
+    "Kolczatki"
+   ],
+   "wins": 22,
+   "rooms": 198,
+   "deaths": 37
+  },
+  {
+   "loadout": [
+    "Podbródkowy",
+    "Wykonanie wyroku",
+    "Wyrok śmierci"
+   ],
+   "wins": 21,
+   "rooms": 201,
+   "deaths": 46
+  }
+ ]
+}
