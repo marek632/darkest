@@ -21,6 +21,18 @@ N_ROOMS = 3
 REST_POINTS = 4
 LIGHT_START = 5
 
+# Pula do przeszukiwania składów: 10 klas (bez Wynaturzenia).
+PARTY_POOL = tuple(sorted(n for n in HERO_CLASSES if n != "Wynaturzenie"))
+
+
+def sample_party(rng):
+    """Unordered composition: 4 distinct classes, canonical (sorted) order.
+
+    Permutations are not distinguished — heroes can rearrange the
+    formation in play, so slot order is not part of the strategy space.
+    """
+    return tuple(sorted(rng.sample(PARTY_POOL, 4)))
+
 
 @dataclass
 class QuestResult:

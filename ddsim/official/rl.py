@@ -166,9 +166,10 @@ def action_features(battle, hero, act, tok_of, area_tok_of):
 
 
 class DDNet2(nn.Module):
-    def __init__(self, d=64, heads=4, layers=2, ff=128):
+    def __init__(self, d=64, heads=4, layers=2, ff=128, unified=False):
         super().__init__()
         self.d = d
+        self.unified = unified
         self.type_emb = nn.Embedding(N_TYPES, d)
         self.skill_emb = nn.Embedding(N_SKILLS, d)
         self.stance_emb = nn.Embedding(N_STANCES, d)
@@ -183,10 +184,11 @@ class DDNet2(nn.Module):
         self.encoder = nn.TransformerEncoder(layer, layers)
         self.value_head = nn.Sequential(
             nn.Linear(d, 64), nn.ReLU(), nn.Linear(64, 1))
+        names = ["<all>"] if unified else sorted(HERO_CLASSES)
         self.policy_heads = nn.ModuleDict({
             cls: nn.Sequential(
                 nn.Linear(4 * d, 128), nn.ReLU(), nn.Linear(128, 1))
-            for cls in sorted(HERO_CLASSES)})
+            for cls in names})
 
     def encode(self, st):
         ent = (self.type_emb(st["type_ids"])
@@ -209,7 +211,7 @@ class DDNet2(nn.Module):
         t = tokens[0]
         actor = t[actor_tok]
         state = t[0]
-        head = self.policy_heads[cls_name]
+        head = self.policy_heads["<all>" if self.unified else cls_name]
         rows = []
         for sid, nums, tgt_idx in actions_enc:
             a_emb = self.skill_emb.weight[sid] + self.act_proj(nums)

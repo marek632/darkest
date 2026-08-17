@@ -15,7 +15,7 @@ import time
 import torch
 
 from ..stats import two_proportion_z, wilson_ci
-from .quest import run_quest
+from .quest import run_quest, sample_party
 from .rl import DDNet2, RLAgent, make_rl_policy
 
 TRAIN_SEED_BASE = 710_000_000
@@ -28,6 +28,12 @@ def episode(net, party, seed, boss=None):
     result = run_quest(party, seed, policy=agent.policy,
                        on_event=agent.on_event, boss=boss)
     return agent.finish(), result
+
+
+def party_for_seed(seed, mixed):
+    if not mixed:
+        return None  # BOX_PARTY
+    return sample_party(random.Random(seed * 2654435761 % (2 ** 31)))
 
 
 def batch_loss(trajs, ent_coef):
@@ -51,15 +57,17 @@ def batch_loss(trajs, ent_coef):
     return policy_loss + 0.5 * value_loss - ent_coef * entropy, entropy
 
 
-def evaluate(net, party, n_runs, seed_base=EVAL_SEED_BASE, boss=None):
+def evaluate(net, party, n_runs, seed_base=EVAL_SEED_BASE, boss=None,
+             mixed=False):
     rl_policy = make_rl_policy(net, greedy=True)
     rl_w = he_w = 0
     rl_d = he_d = 0.0
     for i in range(n_runs):
-        r = run_quest(party, seed_base + i, policy=rl_policy, boss=boss)
+        p = party_for_seed(seed_base + i, mixed) if mixed else party
+        r = run_quest(p, seed_base + i, policy=rl_policy, boss=boss)
         rl_w += int(r.win)
         rl_d += r.deaths
-        h = run_quest(party, seed_base + i, boss=boss)
+        h = run_quest(p, seed_base + i, boss=boss)
         he_w += int(h.win)
         he_d += h.deaths
     return {"rl": rl_w, "he": he_w, "n": n_runs,
@@ -92,6 +100,10 @@ def main():
     ap.add_argument("--eval-only", action="store_true")
     ap.add_argument("--boss", default=None)
     ap.add_argument("--seed", type=int, default=7)
+    ap.add_argument("--mixed", action="store_true",
+                    help="losowy skład 4/10 klas w każdym epizodzie")
+    ap.add_argument("--unified", action="store_true",
+                    help="jedna wspólna głowa polityki dla wszystkich klas")
     args = ap.parse_args()
 
     torch.manual_seed(args.seed)
@@ -99,14 +111,15 @@ def main():
     torch.set_num_threads(os.cpu_count() or 4)
 
     party = None  # BOX_PARTY default
-    net = DDNet2()
+    net = DDNet2(unified=args.unified)
     n_par = sum(p.numel() for p in net.parameters())
     print(f"model parameters: {n_par}")
     if args.load:
         net.load_state_dict(torch.load(args.load, weights_only=True))
         print(f"loaded {args.load}")
     if args.eval_only:
-        report(evaluate(net, party, args.eval_runs, boss=args.boss))
+        report(evaluate(net, party, args.eval_runs, boss=args.boss,
+                        mixed=args.mixed))
         return
 
     opt = torch.optim.Adam(net.parameters(), lr=args.lr)
@@ -117,8 +130,9 @@ def main():
         trajs = []
         wins = 0
         for b in range(args.batch):
-            traj, result = episode(net, party, TRAIN_SEED_BASE + ep_done + b,
-                                   boss=args.boss)
+            seed = TRAIN_SEED_BASE + ep_done + b
+            traj, result = episode(net, party_for_seed(seed, args.mixed),
+                                   seed, boss=args.boss)
             if traj.logps:
                 trajs.append(traj)
             wins += int(result.win)
@@ -145,7 +159,8 @@ def main():
         os.makedirs(os.path.dirname(args.save), exist_ok=True)
         torch.save(net.state_dict(), args.save)
         print(f"saved {args.save}")
-    report(evaluate(net, party, args.eval_runs, boss=args.boss))
+    report(evaluate(net, party, args.eval_runs, boss=args.boss,
+                    mixed=args.mixed))
 
 
 if __name__ == "__main__":

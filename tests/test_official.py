@@ -304,3 +304,25 @@ class FakeRandomBelow(FakeRng):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestGeneralist(unittest.TestCase):
+    def test_sample_party_sorted_and_no_wynaturzenie(self):
+        from ddsim.official.quest import PARTY_POOL, sample_party
+        self.assertEqual(len(PARTY_POOL), 10)
+        self.assertNotIn("Wynaturzenie", PARTY_POOL)
+        p = sample_party(random.Random(1))
+        self.assertEqual(list(p), sorted(p))
+        self.assertEqual(len(set(p)), 4)
+
+    def test_unified_head_runs_for_any_class(self):
+        import torch
+        from ddsim.official.rl import DDNet2, RLAgent
+        net = DDNet2(unified=True)
+        self.assertIn("<all>", net.policy_heads)
+        b = battle(heroes=make_party(
+            ["Arlekin", "Badaczka Zarazy", "Hiena Cmentarna", "Kuszniczka"]))
+        agent = RLAgent(net, greedy=True, record=False)
+        with torch.no_grad():
+            act = agent.policy(b, b.heroes[0])
+        self.assertIn(act.kind, ("skill", "move", "swap", "pass"))
