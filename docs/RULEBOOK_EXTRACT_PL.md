@@ -284,7 +284,11 @@ samo-odepchnięciem; stress-dealerzy celują w najbardziej zestresowanego
 poziomu II (Kapitan) to 33 Wytrzymałości i 11–17 ran na cios; kontra-
 naznaczonym premie są małe (+1/+2 ran).
 
-**Nadal brakuje:** kart umiejętności bohaterów (najważniejsze), paneli
-bohaterów (Wytrzymałość/Szybkość/Unik czwórki), Uniku potworów (gdzie
-jest nadrukowany? na zdjęciach nieczytelny — instrukcja podaje „Kusznik
-ma Unik 1"), przykładowej karty komnaty.
+**Nadal brakuje:** przykładowej karty komnaty; stron 21–26.
+
+**KOREKTA (po otrzymaniu paneli bohaterów):** kolumna „Szyb." w tabeli
+powyżej to w rzeczywistości **Unik** (złota postrzępiona ikona na
+kartach; zgadza się z „Kusznik ma Unik 1"). Szybkość potworów pozostaje
+nieznana. Karty umiejętności wszystkich 11 bohaterów, ich panele
+(Unik/Wytrzymałość/Szybkość/Odporność) i 6 bossów — spisane w
+`docs/CARDS_PL.md`; silnik na tych danych: `ddsim/official/`.
