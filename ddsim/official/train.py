@@ -15,7 +15,7 @@ import time
 import torch
 
 from ..stats import two_proportion_z, wilson_ci
-from .quest import run_quest, sample_party
+from .quest import run_quest, sample_party, sample_party_loadouts
 from .rl import DDNet2, RLAgent, make_rl_policy
 
 TRAIN_SEED_BASE = 710_000_000
@@ -30,10 +30,13 @@ def episode(net, party, seed, boss=None):
     return agent.finish(), result
 
 
-def party_for_seed(seed, mixed):
+def party_for_seed(seed, mixed, skills=False):
     if not mixed:
         return None  # BOX_PARTY
-    return sample_party(random.Random(seed * 2654435761 % (2 ** 31)))
+    rng = random.Random(seed * 2654435761 % (2 ** 31))
+    if skills:
+        return sample_party_loadouts(rng)
+    return sample_party(rng)
 
 
 def batch_loss(trajs, ent_coef):
@@ -58,12 +61,12 @@ def batch_loss(trajs, ent_coef):
 
 
 def evaluate(net, party, n_runs, seed_base=EVAL_SEED_BASE, boss=None,
-             mixed=False):
+             mixed=False, skills=False):
     rl_policy = make_rl_policy(net, greedy=True)
     rl_w = he_w = 0
     rl_d = he_d = 0.0
     for i in range(n_runs):
-        p = party_for_seed(seed_base + i, mixed) if mixed else party
+        p = party_for_seed(seed_base + i, mixed, skills) if mixed else party
         r = run_quest(p, seed_base + i, policy=rl_policy, boss=boss)
         rl_w += int(r.win)
         rl_d += r.deaths
@@ -102,9 +105,13 @@ def main():
     ap.add_argument("--seed", type=int, default=7)
     ap.add_argument("--mixed", action="store_true",
                     help="losowy skład 4/10 klas w każdym epizodzie")
+    ap.add_argument("--skills", action="store_true",
+                    help="losowe zestawy 3/7 umiejętności (implikuje --mixed)")
     ap.add_argument("--unified", action="store_true",
                     help="jedna wspólna głowa polityki dla wszystkich klas")
     args = ap.parse_args()
+    if args.skills:
+        args.mixed = True
 
     torch.manual_seed(args.seed)
     random.seed(args.seed)
@@ -119,7 +126,7 @@ def main():
         print(f"loaded {args.load}")
     if args.eval_only:
         report(evaluate(net, party, args.eval_runs, boss=args.boss,
-                        mixed=args.mixed))
+                        mixed=args.mixed, skills=args.skills))
         return
 
     opt = torch.optim.Adam(net.parameters(), lr=args.lr)
@@ -131,8 +138,9 @@ def main():
         wins = 0
         for b in range(args.batch):
             seed = TRAIN_SEED_BASE + ep_done + b
-            traj, result = episode(net, party_for_seed(seed, args.mixed),
-                                   seed, boss=args.boss)
+            traj, result = episode(
+                net, party_for_seed(seed, args.mixed, args.skills),
+                seed, boss=args.boss)
             if traj.logps:
                 trajs.append(traj)
             wins += int(result.win)
@@ -160,7 +168,7 @@ def main():
         torch.save(net.state_dict(), args.save)
         print(f"saved {args.save}")
     report(evaluate(net, party, args.eval_runs, boss=args.boss,
-                    mixed=args.mixed))
+                    mixed=args.mixed, skills=args.skills))
 
 
 if __name__ == "__main__":

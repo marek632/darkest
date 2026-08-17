@@ -34,6 +34,22 @@ def sample_party(rng):
     return tuple(sorted(rng.sample(PARTY_POOL, 4)))
 
 
+def _class_loadouts(name):
+    import itertools
+    pool = sorted(s for s in HERO_CLASSES[name].skills
+                  if not s.startswith("Transformacja"))
+    return tuple(itertools.combinations(pool, 3))
+
+
+# All C(7,3)=35 loadouts per class in the search pool.
+LOADOUTS = {n: _class_loadouts(n) for n in PARTY_POOL}
+
+
+def sample_party_loadouts(rng):
+    """Random composition AND random 3-of-7 loadout per hero."""
+    return [(n, rng.choice(LOADOUTS[n])) for n in sample_party(rng)]
+
+
 @dataclass
 class QuestResult:
     win: bool
