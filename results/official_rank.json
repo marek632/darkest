@@ -1,0 +1,2896 @@
+{
+ "screen": [
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 0,
+   "valid": {
+    "wins": 193,
+    "n": 200,
+    "deaths": 39,
+    "ci": [
+     0.9295285391333187,
+     0.9829446753626429
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 1,
+   "valid": {
+    "wins": 200,
+    "n": 200,
+    "deaths": 44,
+    "ci": [
+     0.9811539940816791,
+     1.0
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 1,
+   "valid": {
+    "wins": 199,
+    "n": 200,
+    "deaths": 48,
+    "ci": [
+     0.9722256001302286,
+     0.999116854010634
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 1,
+   "valid": {
+    "wins": 191,
+    "n": 200,
+    "deaths": 74,
+    "ci": [
+     0.9167024063390322,
+     0.9761477282752958
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 1,
+   "valid": {
+    "wins": 193,
+    "n": 200,
+    "deaths": 37,
+    "ci": [
+     0.9295285391333187,
+     0.9829446753626429
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 198,
+    "n": 200,
+    "deaths": 47,
+    "ci": [
+     0.9642775148038205,
+     0.9972533993962251
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 197,
+    "n": 200,
+    "deaths": 51,
+    "ci": [
+     0.9568335194437211,
+     0.9948858548155076
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 199,
+    "n": 200,
+    "deaths": 48,
+    "ci": [
+     0.9722256001302286,
+     0.999116854010634
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 195,
+    "n": 200,
+    "deaths": 49,
+    "ci": [
+     0.9428208558483829,
+     0.9892754385292123
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 178,
+    "n": 200,
+    "deaths": 75,
+    "ci": [
+     0.8390720169908702,
+     0.9262280983928396
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 196,
+    "n": 200,
+    "deaths": 46,
+    "ci": [
+     0.9497121344948062,
+     0.9921956998236058
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 193,
+    "n": 200,
+    "deaths": 54,
+    "ci": [
+     0.9295285391333187,
+     0.9829446753626429
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 196,
+    "n": 200,
+    "deaths": 30,
+    "ci": [
+     0.9497121344948062,
+     0.9921956998236058
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 3,
+   "valid": {
+    "wins": 200,
+    "n": 200,
+    "deaths": 47,
+    "ci": [
+     0.9811539940816791,
+     1.0
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 3,
+   "valid": {
+    "wins": 193,
+    "n": 200,
+    "deaths": 42,
+    "ci": [
+     0.9295285391333187,
+     0.9829446753626429
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 200,
+    "n": 200,
+    "deaths": 52,
+    "ci": [
+     0.9811539940816791,
+     1.0
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 199,
+    "n": 200,
+    "deaths": 46,
+    "ci": [
+     0.9722256001302286,
+     0.999116854010634
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 198,
+    "n": 200,
+    "deaths": 43,
+    "ci": [
+     0.9642775148038205,
+     0.9972533993962251
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 200,
+    "n": 200,
+    "deaths": 40,
+    "ci": [
+     0.9811539940816791,
+     1.0
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 188,
+    "n": 200,
+    "deaths": 66,
+    "ci": [
+     0.8980673646931491,
+     0.9653481500987285
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 6
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 6
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 9
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 9
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 9
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 9
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 11
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 21
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 3
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 3
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 3
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 4
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 6
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Łowca Nagród"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 11
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Łowca Nagród"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 29,
+   "n": 30,
+   "deaths": 14
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 6
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 6
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 6
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 6
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Okultysta"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 9
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 11
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 11
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 28,
+   "n": 30,
+   "deaths": 16
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 3
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 5
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 6
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 9
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 9
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kuszniczka"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 13
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kuszniczka"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 15
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 18
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 21
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 25
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 29
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 27,
+   "n": 30,
+   "deaths": 31
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 11
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 11
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Łowca Nagród"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Okultysta"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 14
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 14
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 15
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 16
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 22
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 24
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 26,
+   "n": 30,
+   "deaths": 27
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 10
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 16
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 22
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 23
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 23
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 23
+  },
+  {
+   "party": [
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 25
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 25,
+   "n": 30,
+   "deaths": 31
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 24,
+   "n": 30,
+   "deaths": 9
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 24,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 24,
+   "n": 30,
+   "deaths": 14
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 24,
+   "n": 30,
+   "deaths": 16
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 24,
+   "n": 30,
+   "deaths": 22
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 23,
+   "n": 30,
+   "deaths": 7
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 23,
+   "n": 30,
+   "deaths": 15
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 23,
+   "n": 30,
+   "deaths": 18
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 23,
+   "n": 30,
+   "deaths": 23
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 23,
+   "n": 30,
+   "deaths": 24
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 23,
+   "n": 30,
+   "deaths": 26
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 22,
+   "n": 30,
+   "deaths": 14
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Łowca Nagród"
+   ],
+   "wins": 22,
+   "n": 30,
+   "deaths": 20
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 22,
+   "n": 30,
+   "deaths": 29
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 21,
+   "n": 30,
+   "deaths": 18
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 21,
+   "n": 30,
+   "deaths": 23
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 21,
+   "n": 30,
+   "deaths": 34
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 21,
+   "n": 30,
+   "deaths": 35
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 20,
+   "n": 30,
+   "deaths": 21
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 20,
+   "n": 30,
+   "deaths": 26
+  },
+  {
+   "party": [
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 20,
+   "n": 30,
+   "deaths": 38
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 20,
+   "n": 30,
+   "deaths": 42
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 19,
+   "n": 30,
+   "deaths": 8
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 19,
+   "n": 30,
+   "deaths": 26
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 19,
+   "n": 30,
+   "deaths": 28
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 19,
+   "n": 30,
+   "deaths": 38
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 19,
+   "n": 30,
+   "deaths": 42
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 18,
+   "n": 30,
+   "deaths": 12
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 18,
+   "n": 30,
+   "deaths": 21
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 18,
+   "n": 30,
+   "deaths": 36
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 17,
+   "n": 30,
+   "deaths": 28
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 17,
+   "n": 30,
+   "deaths": 35
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 17,
+   "n": 30,
+   "deaths": 40
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 16,
+   "n": 30,
+   "deaths": 14
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 16,
+   "n": 30,
+   "deaths": 34
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 16,
+   "n": 30,
+   "deaths": 35
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 16,
+   "n": 30,
+   "deaths": 36
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 16,
+   "n": 30,
+   "deaths": 43
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 16,
+   "n": 30,
+   "deaths": 44
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 16,
+   "n": 30,
+   "deaths": 46
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 15,
+   "n": 30,
+   "deaths": 27
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 14,
+   "n": 30,
+   "deaths": 41
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 13,
+   "n": 30,
+   "deaths": 16
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 13,
+   "n": 30,
+   "deaths": 18
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Kuszniczka",
+    "Oprych"
+   ],
+   "wins": 13,
+   "n": 30,
+   "deaths": 37
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 13,
+   "n": 30,
+   "deaths": 44
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 12,
+   "n": 30,
+   "deaths": 36
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 12,
+   "n": 30,
+   "deaths": 41
+  },
+  {
+   "party": [
+    "Kuszniczka",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 12,
+   "n": 30,
+   "deaths": 46
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 11,
+   "n": 30,
+   "deaths": 29
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 11,
+   "n": 30,
+   "deaths": 36
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 11,
+   "n": 30,
+   "deaths": 48
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 10,
+   "n": 30,
+   "deaths": 31
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "n": 30,
+   "deaths": 34
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 10,
+   "n": 30,
+   "deaths": 53
+  },
+  {
+   "party": [
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 9,
+   "n": 30,
+   "deaths": 44
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 9,
+   "n": 30,
+   "deaths": 51
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Kapłanka",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 8,
+   "n": 30,
+   "deaths": 16
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 8,
+   "n": 30,
+   "deaths": 32
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 8,
+   "n": 30,
+   "deaths": 35
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Łowca Nagród"
+   ],
+   "wins": 8,
+   "n": 30,
+   "deaths": 42
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 8,
+   "n": 30,
+   "deaths": 49
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 7,
+   "n": 30,
+   "deaths": 43
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 7,
+   "n": 30,
+   "deaths": 46
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 6,
+   "n": 30,
+   "deaths": 33
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 5,
+   "n": 30,
+   "deaths": 33
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 5,
+   "n": 30,
+   "deaths": 43
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 4,
+   "n": 30,
+   "deaths": 29
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 3,
+   "n": 30,
+   "deaths": 34
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 3,
+   "n": 30,
+   "deaths": 40
+  },
+  {
+   "party": [
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "n": 30,
+   "deaths": 33
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Oprych",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "n": 30,
+   "deaths": 38
+  },
+  {
+   "party": [
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 2,
+   "n": 30,
+   "deaths": 50
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 1,
+   "n": 30,
+   "deaths": 28
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Krzyżowiec",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 1,
+   "n": 30,
+   "deaths": 32
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 0,
+   "n": 30,
+   "deaths": 18
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Kuszniczka",
+    "Łowca Nagród"
+   ],
+   "wins": 0,
+   "n": 30,
+   "deaths": 19
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 0,
+   "n": 30,
+   "deaths": 19
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Łowca Nagród"
+   ],
+   "wins": 0,
+   "n": 30,
+   "deaths": 21
+  },
+  {
+   "party": [
+    "Badaczka Zarazy",
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta"
+   ],
+   "wins": 0,
+   "n": 30,
+   "deaths": 23
+  },
+  {
+   "party": [
+    "Kapłanka",
+    "Kuszniczka",
+    "Okultysta",
+    "Łowca Nagród"
+   ],
+   "wins": 0,
+   "n": 30,
+   "deaths": 30
+  }
+ ],
+ "top": [
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 1,
+   "valid": {
+    "wins": 200,
+    "n": 200,
+    "deaths": 44,
+    "ci": [
+     0.9811539940816791,
+     1.0
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 3,
+   "valid": {
+    "wins": 200,
+    "n": 200,
+    "deaths": 47,
+    "ci": [
+     0.9811539940816791,
+     1.0
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Hiena Cmentarna"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 200,
+    "n": 200,
+    "deaths": 52,
+    "ci": [
+     0.9811539940816791,
+     1.0
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 200,
+    "n": 200,
+    "deaths": 40,
+    "ci": [
+     0.9811539940816791,
+     1.0
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 1,
+   "valid": {
+    "wins": 199,
+    "n": 200,
+    "deaths": 48,
+    "ci": [
+     0.9722256001302286,
+     0.999116854010634
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 199,
+    "n": 200,
+    "deaths": 48,
+    "ci": [
+     0.9722256001302286,
+     0.999116854010634
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 199,
+    "n": 200,
+    "deaths": 46,
+    "ci": [
+     0.9722256001302286,
+     0.999116854010634
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 198,
+    "n": 200,
+    "deaths": 47,
+    "ci": [
+     0.9642775148038205,
+     0.9972533993962251
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 198,
+    "n": 200,
+    "deaths": 43,
+    "ci": [
+     0.9642775148038205,
+     0.9972533993962251
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Kapłanka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 197,
+    "n": 200,
+    "deaths": 51,
+    "ci": [
+     0.9568335194437211,
+     0.9948858548155076
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Badaczka Zarazy",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 196,
+    "n": 200,
+    "deaths": 46,
+    "ci": [
+     0.9497121344948062,
+     0.9921956998236058
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Krzyżowiec",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 196,
+    "n": 200,
+    "deaths": 30,
+    "ci": [
+     0.9497121344948062,
+     0.9921956998236058
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Awanturniczka",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 195,
+    "n": 200,
+    "deaths": 49,
+    "ci": [
+     0.9428208558483829,
+     0.9892754385292123
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 0,
+   "valid": {
+    "wins": 193,
+    "n": 200,
+    "deaths": 39,
+    "ci": [
+     0.9295285391333187,
+     0.9829446753626429
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Krzyżowiec",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 1,
+   "valid": {
+    "wins": 193,
+    "n": 200,
+    "deaths": 37,
+    "ci": [
+     0.9295285391333187,
+     0.9829446753626429
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Hiena Cmentarna",
+    "Okultysta",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 193,
+    "n": 200,
+    "deaths": 54,
+    "ci": [
+     0.9295285391333187,
+     0.9829446753626429
+    ]
+   }
+  },
+  {
+   "party": [
+    "Awanturniczka",
+    "Kapłanka",
+    "Krzyżowiec",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 3,
+   "valid": {
+    "wins": 193,
+    "n": 200,
+    "deaths": 42,
+    "ci": [
+     0.9295285391333187,
+     0.9829446753626429
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Oprych"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 1,
+   "valid": {
+    "wins": 191,
+    "n": 200,
+    "deaths": 74,
+    "ci": [
+     0.9167024063390322,
+     0.9761477282752958
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Okultysta"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 4,
+   "valid": {
+    "wins": 188,
+    "n": 200,
+    "deaths": 66,
+    "ci": [
+     0.8980673646931491,
+     0.9653481500987285
+    ]
+   }
+  },
+  {
+   "party": [
+    "Arlekin",
+    "Hiena Cmentarna",
+    "Kapłanka",
+    "Kuszniczka"
+   ],
+   "wins": 30,
+   "n": 30,
+   "deaths": 2,
+   "valid": {
+    "wins": 178,
+    "n": 200,
+    "deaths": 75,
+    "ci": [
+     0.8390720169908702,
+     0.9262280983928396
+    ]
+   }
+  }
+ ]
+}
